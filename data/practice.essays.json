@@ -1,0 +1,483 @@
+[
+ {
+  "id": "e-data-innovation",
+  "kind": "essay",
+  "lectures": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "basedOn": "L2:21",
+  "wordLimit": 400,
+  "totalMarks": 20,
+  "title": "Data innovation and the business case (Individual assignment 1)",
+  "prompt": "Looking at the business goals of your organisation, critically examine how data innovation can be used to support this strategy. Determine the nature of resources required to support this initiative and which stakeholders would be required to support this initiative. Highlight the benefits involved so as to make a strong business case for management approval. (Maximum 400 words)",
+  "conceptIds": [
+   "data-strategy",
+   "mit-iws",
+   "strategy-document",
+   "financial-value-of-data",
+   "data-valuation",
+   "dg-structure"
+  ],
+  "modelAnswer": "*Illustrative organisation: a Singapore retail bank. Replace with your own organisation's goals and data.*\n\n**Business goals and challenges.** The bank wants to grow revenue and lower cost-to-serve while facing cross-border price competition, more informed customers, rising regulation (PDPA, ESG) and pressure to digitise to survive [L2:3]. A data strategy supports these goals because it is about leveraging data to create business value, and data is a competitive advantage that needs a strategy to stay that way [L2:7].\n\n**How data innovation supports the strategy.** The MIT framework gives three routes [L2:16]:\n- *Improving*: use operational data to streamline processes and reduce overheads.\n- *Wrapping*: bundle analytics features into existing products to raise their value proposition.\n- *Selling*: convert data directly into revenue. This must follow a disciplined process: stock-take, assess the data, assess potential for sharing, select a valuation approach, value, then share [L2:17].\n\nCritically, innovation only works on trusted data. A strategy must address *data content* (the precise meaning of data linked to business reality, and the discipline to ensure data quality) as well as technology [L2:8]. The slides warn that poor data brings regulatory fines and reputational loss [L1:10, L1:11]. The strategy should also state its key constraints, such as limited resources and legacy systems [L2:10].\n\n**Resources required.** The strategy document should set out a resource plan, funding approach, IT and cross-functional collaboration, a governance framework, a data quality approach and an execution roadmap [L2:12]. The critical data used should be identified as CDEs for heightened control [L4:7] and documented in a business glossary and data dictionary [L5:12]. Capability must be built through a competency framework from basic to expert. Data access should be fast: the sample strategy statement targets approval of data requests in under a week [L2:14].\n\n**Stakeholders.** Executive management must visibly endorse the strategy [L2:13]. The Board provides strategic direction and funding [L3:12]. The Data Governance Committee deliberates, approves and escalates [L3:13], and the CDO and DMO implement and enforce [L3:14]. Data owners are accountable, and business data stewards responsible, for data quality [L4:5]. Finance selects the valuation approach for the data [L2:18].\n\n**Benefits (business case).** Improved data increases revenue (competitive pricing, demographics-based sales), reduces costs (streamlined processes, workforce productivity) and builds social capital that can be converted into economic capital [L2:4]. The oOh!/DataSpark case shows data insights optimising campaign planning and segmenting audiences [L2:5]. Where cash flows can be quantified, the income approach values the initiative by incremental revenue or reduced cost [L2:20].\n\n**Recommendation.** Seek approval with measurable targets and a roadmap. Treat the strategy as a living artifact that is routinely revisited and evolves as priorities change [L2:10, L2:13].",
+  "markingGuide": [
+   {
+    "criterion": "Links data innovation to the organisation's goals and to today's business challenges",
+    "marks": 3,
+    "mustInclude": "Specific goals; at least two challenges (competition, informed customers, regulation, digitisation, too much data); data strategy = leveraging data for business value",
+    "cites": [
+     "L2:3",
+     "L2:7"
+    ]
+   },
+   {
+    "criterion": "Applies a monetisation framework with concrete use cases",
+    "marks": 4,
+    "mustInclude": "Improve / Wrap / Sell distinguished (indirect vs direct value), each tied to a use case; critical point that innovation needs trusted data",
+    "cites": [
+     "L2:16",
+     "L2:17"
+    ]
+   },
+   {
+    "criterion": "Identifies the nature of resources",
+    "marks": 4,
+    "mustInclude": "Funding, people/resource plan, IT collaboration, roadmap, governance and DQ approach, capability building",
+    "cites": [
+     "L2:12",
+     "L2:14",
+     "L4:7"
+    ]
+   },
+   {
+    "criterion": "Identifies stakeholders and their roles",
+    "marks": 4,
+    "mustInclude": "Executive endorsement, Board, DGC, CDO/DMO, data owners and stewards, Finance (valuation)",
+    "cites": [
+     "L2:13",
+     "L3:12",
+     "L3:13",
+     "L3:14",
+     "L4:5",
+     "L2:18"
+    ]
+   },
+   {
+    "criterion": "Makes a quantified business case",
+    "marks": 4,
+    "mustInclude": "Revenue, cost and social-capital benefits; how value would be measured (e.g. income approach)",
+    "cites": [
+     "L2:4",
+     "L2:20"
+    ]
+   },
+   {
+    "criterion": "Structure, critical tone and word limit",
+    "marks": 1,
+    "mustInclude": "Clear argument within 400 words; evaluative, not just descriptive",
+    "cites": []
+   }
+  ]
+ },
+ {
+  "id": "e-data-culture",
+  "kind": "essay",
+  "lectures": [
+   2,
+   4,
+   5,
+   6
+  ],
+  "basedOn": "L4:16",
+  "wordLimit": 400,
+  "totalMarks": 20,
+  "title": "Assessing data culture (Individual assignment 2)",
+  "prompt": "Using the building blocks of data culture, assess what is the current state of data culture within your organisation, stating what is effective and what is not. Suggest improvements to enhance the data culture within your organisation. (Maximum 400 words)",
+  "conceptIds": [
+   "data-culture",
+   "data-owner",
+   "data-stewards",
+   "dg-framework",
+   "dq-root-causes"
+  ],
+  "modelAnswer": "*Illustrative organisation: a Singapore bank. The assessment findings are examples of what you might observe; replace them with evidence from your own organisation.*\n\n**Framework.** Data culture is a social norm of using data to drive strategy, decisions and innovation [L4:4]. Its building blocks fall into three layers [L4:15]:\n- tone at the top (KPIs and rewards, corporate values, senior communications, long-term sustainability)\n- embedding into operations (decision making, data-enabled processes, capability building, success stories, worker empowerment)\n- enablers (frameworks, policies, procedures, upgrading tools)\n\n**Assessment.**\n*Tone at the top.*\n- Effective: senior communications promote being data-driven, and the data strategy is endorsed by executives [L2:13].\n- Not effective: KPIs and rewards do not reflect data quality, so staff treat data as Technology's problem rather than the business's. This contradicts the principle that the businesses are accountable for their own data quality [L1:23].\n- Not effective: there is no plan for long-term sustainability once the initial programme ends.\n\n*Embedding into operations.*\n- Effective: management decisions increasingly use dashboards.\n- Not effective: many processes still rely on manual spreadsheets. End User Computing and manual entry are two of the five root causes of DQ issues [L6:6].\n- Not effective: capability building is uneven, few success stories are shared, and staff lack the authority to fix data.\n\n*Enablers.*\n- Effective: some policies exist.\n- Not effective: procedures lack clear ownership, and tools are outdated.\n\n**Improvements.**\n1. *Tone at the top:* build data quality and data use into KPIs and rewards. Make data owners accountable for DQ, consistent with their role [L4:5]. Use senior communications to celebrate success stories.\n2. *Embedding into operations:* replace manual EUC steps with data-enabled processes. Build capability through a tiered competency framework (basic, intermediate, advanced, expert) [L2:14]. Empower workers by appointing business data stewards in each department to enforce standards [L4:5]. Use the data-driven innovation loop to embed data in projects and encourage adoption [L4:14].\n3. *Enablers:* publish data management, data quality and data sharing policies, each with named creators, reviewers and authorisers [L5:6]. Include regular training, ongoing communications and continuous improvement in the DG framework [L5:5]. Upgrade tools, for example metadata tools that support self-service data access [L8:14].\n\n**Prioritisation.** Start with the KPI and ownership changes: they are low-cost and give staff a reason to care. Process and tool changes follow, since they need funding and a roadmap [L2:12]. Track success through adoption measures and shared success stories, which are themselves a building block [L4:15].\n\n**Conclusion.** Culture follows incentives and capability. Start with tone at the top, embed data into everyday processes, then sustain it through policies and tools, measuring adoption over time.",
+  "markingGuide": [
+   {
+    "criterion": "Defines data culture accurately",
+    "marks": 2,
+    "mustInclude": "Social norm of using data to drive strategy, decisions and innovation",
+    "cites": [
+     "L4:4"
+    ]
+   },
+   {
+    "criterion": "Uses all three layers of the building blocks systematically",
+    "marks": 5,
+    "mustInclude": "Tone at the top, embedding into operations, enablers, with named blocks under each",
+    "cites": [
+     "L4:15"
+    ]
+   },
+   {
+    "criterion": "Balanced assessment of what is and isn't effective, with evidence",
+    "marks": 5,
+    "mustInclude": "For each layer, something effective and something not, tied to observable evidence",
+    "cites": []
+   },
+   {
+    "criterion": "Improvements mapped to specific building blocks, actionable and course-linked",
+    "marks": 6,
+    "mustInclude": "E.g. KPIs/rewards, owners and stewards, competency framework, policies, training, tools",
+    "cites": [
+     "L4:5",
+     "L2:14",
+     "L5:5",
+     "L5:6"
+    ]
+   },
+   {
+    "criterion": "Structure and word limit",
+    "marks": 2,
+    "mustInclude": "Clear structure, conclusion, within 400 words",
+    "cites": []
+   }
+  ]
+ },
+ {
+  "id": "e-structured-data",
+  "kind": "essay",
+  "lectures": [
+   1,
+   2,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "basedOn": "L1:7",
+  "wordLimit": 400,
+  "totalMarks": 20,
+  "title": "Maximising the use of structured data (Project question 1)",
+  "prompt": "How may you maximise the use of structured data currently collected within your organisation? In your response, state the industry and geographies the organisation is in, the data collected, ways in which you propose to maximise the use of data and provide a cost-benefit analysis. Determine the data risks involved and any mitigating actions to be taken and by whom. (Answer in about 400 words.)",
+  "conceptIds": [
+   "data-domain",
+   "mit-iws",
+   "financial-value-of-data",
+   "three-lines-of-defence",
+   "cde-criteria",
+   "data-controls",
+   "data-sharing-policy"
+  ],
+  "modelAnswer": "*Illustrative organisation: a retail bank in Singapore. The slides draw their examples from banking; replace with your own industry and geographies.*\n\n**Data collected.** The bank holds structured data across domains [L8:7]:\n- customer (static profile data)\n- product master\n- collaterals\n- risk (raw inputs and computed analytics)\n- finance (finance, regulatory and tax data)\n- HR\n- entity structure\n\n**Ways to maximise use.** Using the MIT framework [L2:16]:\n- *Improve:* streamline processes with data to reduce overheads.\n- *Wrap:* add analytics features to products, e.g. AI-driven insights from transactional data, as banks such as UOB do [L9:6].\n- *Sell or share:* where lawful, share data with partners, following a data sharing policy (scope, principles, legal considerations, sharing models) [L5:9] and the data-for-sale process [L2:17].\n\n**Cost-benefit analysis.**\n- *Benefits:* higher revenue (competitive pricing, demographics-based sales), lower costs (process streamlining, productivity) and social capital that can become economic capital [L2:4]. Strong governance also reduces the risk of regulatory fines [L1:11].\n- *Costs:* the resource plan, funding approach and execution roadmap [L2:12]; governance roles from the DGC to data stewards [L3:11]; and tools such as MDM and DQ tools [L8:13, L7:16].\n- *Measurement:* value the benefit with the income approach where cash flows are quantifiable [L2:20]. A shared dataset's value also depends on drivers such as exclusivity, usage restrictions, and liability and risks [L9:14].\n- *Net view:* the benefits recur once quality data is in place, while most costs are upfront. This supports a phased roadmap that starts with the highest-value CDEs.\n\n**Data risks and mitigations, and by whom.**\n1. *Regulatory and reporting risk.* The CBIRC fined banks for inaccurate or under-reported data [L1:26]. Mitigation: identify CDEs using the regulatory criterion and apply heightened controls and lineage [L4:7, L4:8].\n2. *Privacy and security risk* for customer profiles (PDPA) [L2:3, L4:8]. Mitigation: access limitations under the information security criterion, and a data sharing policy for any external use [L5:9].\n3. *Poor data quality* from manual entry, external data, transformation logic, operational errors and EUC [L6:6]. Mitigation: controls for each DQ dimension [L6:10, L6:11], agreed thresholds, dashboards and remediation [L7:14].\n4. *Inconsistent reference data*, which causes inconsistent metrics [L8:11]. Mitigation: central reference data management, mapping source values to enterprise standards through lookup tables [L8:10].\n5. *Cross-border sharing risk* if data flows to partners in other ASEAN markets. Mitigation: contracts based on the ASEAN Model Contractual Clauses (lawful basis, baseline protection, breach notification) [L9:13].\n\n**Who.** Follow the three lines of defence [L1:23]:\n- *1st line:* business and data owners implement and monitor controls; owners are accountable for DQ [L4:5].\n- *2nd line:* the DMO sets policy and assesses compliance.\n- *3rd line:* Internal Audit provides independent assurance.\n\nThe DGC escalates significant issues to the Board [L3:13].",
+  "markingGuide": [
+   {
+    "criterion": "States industry, geographies and the structured data collected",
+    "marks": 3,
+    "mustInclude": "Clear organisational context; data described by domain",
+    "cites": [
+     "L8:7"
+    ]
+   },
+   {
+    "criterion": "Proposes concrete ways to maximise data use",
+    "marks": 4,
+    "mustInclude": "Improve / Wrap / Sell or equivalent, each with a specific use case; data sharing governed by policy",
+    "cites": [
+     "L2:16",
+     "L5:9"
+    ]
+   },
+   {
+    "criterion": "Cost-benefit analysis",
+    "marks": 4,
+    "mustInclude": "Benefits (revenue, cost, social capital, reduced fines) and costs (resources, funding, governance, tools); how value is measured",
+    "cites": [
+     "L2:4",
+     "L2:12",
+     "L2:20"
+    ]
+   },
+   {
+    "criterion": "Identifies data risks",
+    "marks": 4,
+    "mustInclude": "Regulatory/reporting, privacy/security, DQ root causes, consistency/reference data",
+    "cites": [
+     "L1:26",
+     "L4:8",
+     "L6:6",
+     "L8:11"
+    ]
+   },
+   {
+    "criterion": "Mitigations with clear ownership",
+    "marks": 4,
+    "mustInclude": "Specific controls (CDEs, DQ controls, thresholds, sharing policy) and who does what (three lines of defence, owners, DMO, Internal Audit, DGC)",
+    "cites": [
+     "L1:23",
+     "L4:7",
+     "L6:10",
+     "L7:14"
+    ]
+   },
+   {
+    "criterion": "Structure and length",
+    "marks": 1,
+    "mustInclude": "Logical flow, about 400 words",
+    "cites": []
+   }
+  ]
+ },
+ {
+  "id": "e-quality-for-ai",
+  "kind": "essay",
+  "lectures": [
+   1,
+   2,
+   4,
+   6,
+   7,
+   9
+  ],
+  "basedOn": "L1:7",
+  "wordLimit": 400,
+  "totalMarks": 20,
+  "title": "Good quality data for innovation and AI (Project question 2)",
+  "prompt": "It is said that data is the key enabler of innovation and digitalisation, for example Generative AI. Critically examine the importance of good quality data in supporting these initiatives. Provide clear examples of the type of data that support the type of innovation and the financial values they bring. Determine the roles and responsibilities of various parties to ensure the quality of the data in your selected use case. Also determine the pitfalls of poor quality data, their potential causes, and how they should be remediated. (Answer in about 400 words.)",
+  "conceptIds": [
+   "ai-data-characteristics",
+   "data-for-ai",
+   "data-quality",
+   "dq-dimensions",
+   "data-stakeholders",
+   "dq-root-causes",
+   "dq-remediation",
+   "mas-feat"
+  ],
+  "modelAnswer": "**Why quality matters.** Data is an enabler of AI/ML and Gen AI [L9:5]. A good DQ initiative delivers data that is trusted and fit for its intended purpose [L6:4]. For AI, the slides list the data characteristics that influence outcomes [L9:9]:\n- representativeness (selection, exclusion, reporting or detection bias causes over- or under-representation)\n- accuracy\n- completeness\n- coverage\n- sensitivity\n- accessibility\n\nThese map onto the DQ dimensions of accuracy, completeness, conformity, consistency, coverage, timeliness and uniqueness [L6:7, L6:8]. An AI model inherits every defect in its training data.\n\n**Examples of data and value.**\n- *Personalised insights:* UOB's 'Mighty Insights' analyses customers' transactional data to give tailored suggestions [L9:6], a wrapping use that raises the product's value proposition [L2:16].\n- *Financial crime detection:* OCBC uses AI/ML to fight financial crime [L9:6]. Knowledge graphs find undetected patterns and superficially unconnected individuals for fraud and risk work [L9:8].\n- *Financial value:* revenue growth, cost reduction and social capital [L2:4].\n\n**Roles and responsibilities (use case: transaction-insights model).**\n- *Data owner:* accountable for DQ and sets the standards [L4:5].\n- *Business data stewards:* enforce the standards and are responsible for DQ [L4:5].\n- *Data providers:* ensure the data is available.\n- *Data consumers:* the model team; once they pass outputs downstream, they are also providers [L4:5].\n- *DMO:* sets policy and oversight; *Internal Audit:* independent assurance [L1:23].\n- *Finance:* independent validation and impact analysis of DQ issues [L9:17].\n- *Governance of AI use:* should follow the MAS FEAT principles, which give firms foundational principles for using AIDA in decision-making, help them operationalise its governance, and promote public trust [L9:10].\n\n**Pitfalls and causes.** Poor data leads to wrong outputs and reputational damage. The slides cite medical-imaging AI that may lead to incorrect diagnoses, and regulatory fines for inaccurate reporting [L1:10, L1:26]. The causes are the five root-cause categories [L6:6]:\n- manual entry errors\n- errors in external data\n- program or transformation logic (e.g. inadequate UAT)\n- operational errors (e.g. batch scheduling)\n- EUC errors\n\n**Remediation.**\n1. Profile the data, design rules for each dimension, agree thresholds, measure, and report on dashboards [L7:4, L7:14].\n2. Fix immediate errors tactically, and make strategic fixes to processes and systems so errors stop recurring [L9:2].\n3. Move from reactive rules-based checks towards AI/ML preventive controls: anomaly detection, predictive DQ flags, real-time correction suggestions [L6:15].\n\nBusiness users should agree thresholds based on risk tolerance and regulatory requirements before a model goes live [L7:14].\n\n**Conclusion.** Innovation is only as reliable as its data. Quality must be governed with clear roles before AI is scaled.",
+  "markingGuide": [
+   {
+    "criterion": "Critically explains why data quality matters for AI/innovation",
+    "marks": 4,
+    "mustInclude": "Fit-for-purpose, trusted data; AI-specific characteristics (representativeness/bias, accuracy, completeness, coverage) linked to DQ dimensions",
+    "cites": [
+     "L6:4",
+     "L9:9",
+     "L6:7"
+    ]
+   },
+   {
+    "criterion": "Clear examples of data types and the innovation and financial value they bring",
+    "marks": 4,
+    "mustInclude": "At least two concrete examples (e.g. transactional data for insights, data for financial crime detection) plus revenue/cost/social-capital value",
+    "cites": [
+     "L9:6",
+     "L9:8",
+     "L2:4"
+    ]
+   },
+   {
+    "criterion": "Roles and responsibilities for DQ in the use case",
+    "marks": 4,
+    "mustInclude": "Owner (accountable), steward (responsible), provider/consumer, DMO, Internal Audit, Finance; AI governance (FEAT)",
+    "cites": [
+     "L4:5",
+     "L1:23",
+     "L9:17",
+     "L9:10"
+    ]
+   },
+   {
+    "criterion": "Pitfalls of poor data and their causes",
+    "marks": 4,
+    "mustInclude": "Consequences (wrong outputs, fines, reputation) and the five root-cause categories",
+    "cites": [
+     "L1:10",
+     "L6:6"
+    ]
+   },
+   {
+    "criterion": "Remediation",
+    "marks": 3,
+    "mustInclude": "Measurement cycle; tactical vs strategic fixes; preventive AI/ML controls",
+    "cites": [
+     "L7:14",
+     "L9:2",
+     "L6:15"
+    ]
+   },
+   {
+    "criterion": "Structure and length",
+    "marks": 1,
+    "mustInclude": "Coherent argument, about 400 words",
+    "cites": []
+   }
+  ]
+ },
+ {
+  "id": "e-org-design",
+  "kind": "essay",
+  "lectures": [
+   1,
+   3,
+   4,
+   5
+  ],
+  "basedOn": null,
+  "wordLimit": 400,
+  "totalMarks": 20,
+  "title": "Designing a data governance organisation (mixed topics)",
+  "prompt": "After a regulator found repeated errors in your bank's regulatory submissions, the CEO asks you to recommend a data governance organisation. Recommend a structure (including where the CDO should report and whether to centralise or federate), explain the role of each governance body, and show how accountability for data quality will work. (About 400 words.)",
+  "conceptIds": [
+   "dg-structure",
+   "cdo-reporting-lines",
+   "centralised-model",
+   "federated-model",
+   "dgc",
+   "board-dg",
+   "cdo-dmo",
+   "three-lines-of-defence",
+   "data-owner",
+   "cdao"
+  ],
+  "modelAnswer": "**Context and priority.** Repeated regulatory submission errors are an 'inherent data issue'. The slides advise that in this situation the CDO should focus purely on data governance for a start, rather than analytics and innovation [L3:8]. The consequences of inaction are real: the CBIRC fined banks and disciplined executives for inaccurate reporting [L1:26].\n\n**Reporting line.** Where the CDO reports should follow the reason the role is being created: regulatory compliance, business innovation or data quality risk [L3:8]. Here the driver is regulatory compliance and DQ risk. Singapore banks show CDOs reporting to Strategy & Planning, the CFO or the CRO [L3:6], so a CFO or CRO line fits. The CDO is the most senior executive responsible for the data management strategy and its implementation [L3:14].\n\n**Centralised or federated.** Start centralised, because central structures suit less mature organisations needing control, structure and oversight [L3:8]. Centralisation gives faster decisions and greater consistency across BUs, at the cost of agility [L3:10]. As maturity grows, move to the federated hub-and-spoke model, the leading practice: central control combined with local flexibility, though decisions become slower [L3:10].\n\n**Governance bodies** [L3:11]:\n- *Board:* strategic direction, funding, direction on KPIs and metrics, approval of DG policies [L3:12].\n- *Data Governance Committee:* the principal senior management body accountable to the Board for the effectiveness of data management policies and controls. Its members are senior managers from the business, Risk, Finance and Technology & Operations. It is the forum for deliberation, escalation and approval, and escalates significant issues to the Board [L3:13].\n- *CDO and DMO:* oversee bank-wide governance and make sure policies, standards and processes are designed, implemented and enforced, across governance, architecture and tools, and DQ [L3:14].\n- *Execution level:* data owners, business data stewards, system owners and technical data stewards [L3:11].\n\n**Accountability for data quality.** Mirror the three lines of defence [L1:23]:\n- *1st line:* the businesses are accountable for their data quality. Data owners set standards and are accountable; stewards enforce them and are responsible [L4:5].\n- *2nd line:* the DMO sets policy and assesses compliance.\n- *3rd line:* Internal Audit independently assesses compliance with the Data Management Policy.\n\nApply heightened controls and full lineage to the CDEs used in regulatory submissions [L4:7, L4:8]. Document authorities in the data management policy [L5:7].\n\n**Conclusion.** A centralised, compliance-focused office with clear Board and DGC oversight fixes the immediate problem, and the federated model becomes the target state as the bank matures.",
+  "markingGuide": [
+   {
+    "criterion": "Diagnoses the situation and sets priorities",
+    "marks": 3,
+    "mustInclude": "Governance-first focus given inherent regulatory data issues; consequences of inaction",
+    "cites": [
+     "L3:8",
+     "L1:26"
+    ]
+   },
+   {
+    "criterion": "Justified CDO reporting line",
+    "marks": 3,
+    "mustInclude": "Reporting line follows the reason for the CDO role; options seen in practice",
+    "cites": [
+     "L3:8",
+     "L3:6"
+    ]
+   },
+   {
+    "criterion": "Centralised vs federated decision with pros/cons and maturity",
+    "marks": 4,
+    "mustInclude": "Central for less mature (control, consistency) vs federated leading practice (alignment, slower decisions); transition path",
+    "cites": [
+     "L3:8",
+     "L3:10"
+    ]
+   },
+   {
+    "criterion": "Role of each governance body",
+    "marks": 5,
+    "mustInclude": "Board, DGC (composition, escalation, accountability to Board), CDO/DMO, execution roles",
+    "cites": [
+     "L3:11",
+     "L3:12",
+     "L3:13",
+     "L3:14"
+    ]
+   },
+   {
+    "criterion": "Accountability for DQ",
+    "marks": 4,
+    "mustInclude": "Three lines of defence; owner accountable vs steward responsible; CDE heightened controls",
+    "cites": [
+     "L1:23",
+     "L4:5",
+     "L4:7"
+    ]
+   },
+   {
+    "criterion": "Structure and length",
+    "marks": 1,
+    "mustInclude": "Clear recommendation, about 400 words",
+    "cites": []
+   }
+  ]
+ },
+ {
+  "id": "e-dq-programme",
+  "kind": "essay",
+  "lectures": [
+   4,
+   6,
+   7,
+   9
+  ],
+  "basedOn": null,
+  "wordLimit": 400,
+  "totalMarks": 20,
+  "title": "Designing data quality rules and measurement for a CDE (mixed topics)",
+  "prompt": "'Customer ID' has been identified as a critical data element in your bank. Explain how you would design data quality rules for it, how its data quality would be measured and reported, and how issues would be remediated. (About 400 words.)",
+  "conceptIds": [
+   "cde",
+   "dq-rules-design",
+   "data-profiling",
+   "data-type-classification",
+   "data-controls",
+   "dq-thresholds",
+   "dq-measurement-process",
+   "dq-dashboard",
+   "dq-remediation",
+   "dq-root-causes"
+  ],
+  "modelAnswer": "**Why Customer ID needs this.** As a CDE, Customer ID needs an agreed standard definition, appears in data-flow documentation and full lineage, and is subject to heightened controls, quality monitoring and governance [L4:7].\n\n**Designing the rules** (three steps [L7:4]):\n\n*Step 1: understand the CDE and profile the data.* Profiling is the first but most critical step in reviewing the state of affairs of the data [L7:5]. It covers:\n- null values\n- frequency charts\n- format patterns\n- comparison against approved values\n- suspicious default values\n- relationships between tables\n\nBusiness users also confirm known limits and any reconciliations they need.\n\n*Step 2: classify the data type.* Customer ID is a unique identifier, since it can uniquely confirm a customer's record [L7:7]. This drives which rules apply.\n\n*Step 3: design rules for each dimension*, roughly two per dimension [L9:2]. The worked Customer ID controls are [L6:10, L6:11]:\n- *Accuracy:* the ID is a valid code that refers to the right customer.\n- *Completeness:* a maker-checker makes Customer ID a compulsory field, so every customer has one.\n- *Conformity:* the system only accepts the permitted format (2 alphabets + 6 digits).\n- *Consistency:* reconcile systems holding the same ID, with the golden source as the source of truth.\n- *Timeliness:* deliver the full list of active IDs to Financial Reporting by Day 3 of month-end close.\n- *Uniqueness:* each ID is used for only one customer.\n\nFrom Lecture 7, uniqueness rules suit unique identifiers [L7:13], and verifiability checks (against an external source) also suit them [L7:8].\n\n**Measurement and reporting.** Follow thresholds → measure → dashboard → remediation [L7:14]:\n- *Thresholds:* business users agree acceptable quality based on risk tolerance and regulatory requirements.\n- *Measure:* DQ result = (records assessed − records failing) ÷ records assessed × 100%, with false positives removed. Results of 95% and above are very good, 92.5–95% good, and below 92.5% fair [L7:15].\n- *How:* manually in Excel or automatically with DQ tools; automated testing typically runs monthly or quarterly [L7:16].\n- *Dashboard:* shows issues by CDE, system and report, the potential root causes, owners and remediation timelines [L7:14, L7:17].\n\n**Remediation.** Investigate root causes using data flow diagrams and lineage [L5:19] against the five categories: manual entry, external parties, transformation logic, operational errors and EUC [L6:6]. Then:\n- *Tactical:* make one-time corrections to fix immediate errors.\n- *Strategic:* improve processes and systems so errors stop recurring [L7:14, L9:2].\n\n**Accountability.** The data owner is accountable and the business data steward responsible for Customer ID quality [L4:5].",
+  "markingGuide": [
+   {
+    "criterion": "Explains the implications of CDE status",
+    "marks": 2,
+    "mustInclude": "Agreed definition, data-flow and lineage documentation, heightened controls/monitoring",
+    "cites": [
+     "L4:7"
+    ]
+   },
+   {
+    "criterion": "Three-step rule design with profiling and data type",
+    "marks": 5,
+    "mustInclude": "Profiling types; Customer ID classified as unique identifier; dimensions considered",
+    "cites": [
+     "L7:4",
+     "L7:5",
+     "L7:7"
+    ]
+   },
+   {
+    "criterion": "Appropriate rule/control per DQ dimension",
+    "marks": 5,
+    "mustInclude": "At least five dimensions with correct, specific controls",
+    "cites": [
+     "L6:10",
+     "L6:11",
+     "L7:13"
+    ]
+   },
+   {
+    "criterion": "Measurement and reporting",
+    "marks": 4,
+    "mustInclude": "Thresholds agreed with users; DQ result formula and bands; manual vs automated; dashboard contents",
+    "cites": [
+     "L7:14",
+     "L7:15",
+     "L7:16"
+    ]
+   },
+   {
+    "criterion": "Root cause analysis and remediation with ownership",
+    "marks": 4,
+    "mustInclude": "Five root-cause categories; tactical vs strategic; owner accountable / steward responsible",
+    "cites": [
+     "L6:6",
+     "L9:2",
+     "L4:5"
+    ]
+   }
+  ]
+ }
+]

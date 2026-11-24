@@ -1,0 +1,42 @@
+{
+  "name": "acct673-study",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n web,api -c blue,green \"vite\" \"npm run server\"",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc -b && tsc -p tsconfig.server.json",
+    "ingest": "python3 scripts/ingest.py && python3 scripts/validate_knowledge.py && python3 scripts/build_flashcards.py && python3 scripts/build_questions.py && python3 scripts/build_practice.py",
+    "build:data": "python3 scripts/validate_knowledge.py && python3 scripts/build_flashcards.py && python3 scripts/build_questions.py && python3 scripts/build_practice.py",
+    "dev:web": "vite",
+    "server": "tsx watch server/index.ts",
+    "ask:test": "node scripts/ask-smoke.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.13.0",
+    "@dagrejs/dagre": "^1.1.4",
+    "@huggingface/transformers": "^3.2.4",
+    "@xyflow/react": "^12.3.6",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "react-router-dom": "^6.28.0",
+    "remark-gfm": "^4.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.0",
+    "tailwindcss": "^4.1.11",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}

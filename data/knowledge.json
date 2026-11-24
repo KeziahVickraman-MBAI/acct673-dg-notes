@@ -1,0 +1,3657 @@
+{
+  "course": "ACCT673 Data Governance and Quality",
+  "citationFormat": "Each citation is 'L<lecture>:<page>'; resolve the file via sources. Page = PDF page number.",
+  "sources": {
+    "L1": "SMU ACCT673 - Lecture 1.pdf",
+    "L2": "SMU ACCT673 - Lecture 2.pdf",
+    "L3": "SMU ACCT673 - Lecture 3.pdf",
+    "L4": "SMU ACCT673 - Lecture 4.pdf",
+    "L5": "SMU ACCT673 - Lecture 5.pdf",
+    "L6": "SMU ACCT673 - Lecture 6.pdf",
+    "L7": "SMU ACCT673 - Lecture 7.pdf",
+    "L8": "SMU ACCT673 - Lecture 8.pdf",
+    "L9": "SMU ACCT673 - Lecture 9.pdf"
+  },
+  "quizzes": {
+    "1": {
+      "label": "Pop Quiz 1",
+      "lectures": [
+        1,
+        2,
+        3
+      ],
+      "citations": [
+        "L1:6",
+        "L3:16"
+      ],
+      "newLectures": [
+        1,
+        2,
+        3
+      ]
+    },
+    "2": {
+      "label": "Pop Quiz 2",
+      "lectures": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "citations": [
+        "L1:6",
+        "L5:20"
+      ],
+      "newLectures": [
+        4,
+        5
+      ]
+    },
+    "3": {
+      "label": "Pop Quiz 3",
+      "lectures": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "citations": [
+        "L1:6",
+        "L6:16"
+      ],
+      "newLectures": [
+        6
+      ]
+    },
+    "4": {
+      "label": "Pop Quiz 4",
+      "lectures": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "citations": [
+        "L1:6",
+        "L7:20"
+      ],
+      "newLectures": [
+        7
+      ]
+    },
+    "5": {
+      "label": "Pop Quiz 5",
+      "lectures": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "citations": [
+        "L1:6"
+      ],
+      "newLectures": [
+        8
+      ]
+    }
+  },
+  "themes": [
+    {
+      "id": "foundations",
+      "name": "Foundations & Regulatory Drivers",
+      "summary": "Why data governance matters, the industry frameworks (DAMA-DMBOK, DCAM) and regulator expectations (BCBS 239, CBIRC).",
+      "lectures": [
+        1
+      ],
+      "citations": [
+        "L1:5",
+        "L1:11",
+        "L1:20",
+        "L1:27"
+      ],
+      "links": [
+        {
+          "to": "organisation",
+          "label": "requires roles & structure"
+        },
+        {
+          "to": "strategy",
+          "label": "motivates"
+        },
+        {
+          "to": "quality",
+          "label": "sets expectations for"
+        }
+      ]
+    },
+    {
+      "id": "strategy",
+      "name": "Data Strategy & Value",
+      "summary": "Leveraging data to create business value: strategy characteristics, the strategy document, monetisation and valuation.",
+      "lectures": [
+        2
+      ],
+      "citations": [
+        "L2:7",
+        "L2:10",
+        "L2:16",
+        "L2:18"
+      ],
+      "links": [
+        {
+          "to": "organisation",
+          "label": "is executed by"
+        },
+        {
+          "to": "trends",
+          "label": "extends to data as an asset"
+        }
+      ]
+    },
+    {
+      "id": "organisation",
+      "name": "Data Management Organisation",
+      "summary": "Where the CDO sits, centralised vs federated vs decentralised models, and the typical governance structure from Board to stewards.",
+      "lectures": [
+        3
+      ],
+      "citations": [
+        "L3:8",
+        "L3:10",
+        "L3:11"
+      ],
+      "links": [
+        {
+          "to": "governance",
+          "label": "assigns roles for"
+        },
+        {
+          "to": "architecture",
+          "label": "oversees (DMO pillar)"
+        }
+      ]
+    },
+    {
+      "id": "governance",
+      "name": "Data Governance Essentials",
+      "summary": "Key terms, data stakeholders and ownership, critical data elements (CDEs) and data culture.",
+      "lectures": [
+        4
+      ],
+      "citations": [
+        "L4:3",
+        "L4:5",
+        "L4:7",
+        "L4:15"
+      ],
+      "links": [
+        {
+          "to": "documentation",
+          "label": "is documented through"
+        },
+        {
+          "to": "quality",
+          "label": "scopes CDEs for"
+        }
+      ]
+    },
+    {
+      "id": "documentation",
+      "name": "Policies & Data Documentation",
+      "summary": "DG framework components, the three key data policies, metadata, business glossary, data dictionary, data flow diagrams and lineage.",
+      "lectures": [
+        5
+      ],
+      "citations": [
+        "L5:3",
+        "L5:5",
+        "L5:12",
+        "L5:19"
+      ],
+      "links": [
+        {
+          "to": "quality",
+          "label": "supports root-cause analysis in"
+        },
+        {
+          "to": "architecture",
+          "label": "feeds (bricks of)"
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "name": "Data Quality Management",
+      "summary": "DQ dimensions, root causes, controls, rule design, thresholds, measurement, dashboards and remediation.",
+      "lectures": [
+        6,
+        7
+      ],
+      "citations": [
+        "L6:4",
+        "L6:7",
+        "L7:4",
+        "L7:14"
+      ],
+      "links": [
+        {
+          "to": "architecture",
+          "label": "is enabled by tools in"
+        },
+        {
+          "to": "trends",
+          "label": "is a prerequisite for AI in"
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "name": "Data & Technology Architecture",
+      "summary": "Data architecture components, data domains, taxonomy, reference data, data platforms, MDM/metadata tools and common industry taxonomies.",
+      "lectures": [
+        8
+      ],
+      "citations": [
+        "L8:4",
+        "L8:5",
+        "L8:6",
+        "L8:21"
+      ],
+      "links": [
+        {
+          "to": "trends",
+          "label": "evolves with"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "name": "Emerging Trends & Finance's Role",
+      "summary": "Data for AI/ML, data ethics (MAS FEAT), cloud controls, ASEAN data sharing frameworks, data as an asset and Finance's role.",
+      "lectures": [
+        9
+      ],
+      "citations": [
+        "L9:4",
+        "L9:5",
+        "L9:17",
+        "L9:19"
+      ],
+      "links": []
+    }
+  ],
+  "concepts": [
+    {
+      "id": "benefits-of-dg",
+      "name": "Benefits of data governance & quality",
+      "theme": "foundations",
+      "quizzes": [
+        1
+      ],
+      "summary": "DG&Q is described as a 'miracle pill': lower reputational/regulatory risk, streamlined processes, better usability, insight and decisions, and recognising data as an asset.",
+      "explanation": "Lecture 1 frames data governance and quality as 'the miracle pill'. It (1) improves data quality risks against reputation loss and reduces the risk of regulatory fines; (2) by understanding the data processing, can lead to streamlining of processes; (3) improves the overall usability of the data; (4) improves insights and decision making; and (5) involves recognising data as an asset. The motivation is illustrated by headlines on regulatory pressure and fines (e.g. Citigroup, CBIRC) under the banner 'Data - the new currency of the universe... but...'.",
+      "keyTerms": [
+        "Regulatory fines",
+        "Reputation loss",
+        "Data as an asset",
+        "Usability"
+      ],
+      "examples": [
+        "Citigroup faced continued regulatory pressure over risk management systems (L1 p.10)",
+        "CBIRC fined eight banks over quality of reporting (L1 p.10, p.26)"
+      ],
+      "citations": [
+        "L1:10",
+        "L1:11"
+      ],
+      "related": [
+        {
+          "id": "consequences-poor-data",
+          "type": "is motivated by"
+        },
+        {
+          "id": "data-value-drivers",
+          "type": "is applied in"
+        },
+        {
+          "id": "benefits-dg-finance",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "consequences-poor-data",
+      "name": "Consequences of poor data",
+      "theme": "foundations",
+      "quizzes": [
+        1
+      ],
+      "summary": "Poor data leads to regulatory penalties, sanctions on executives and reputational damage, as shown by Citi, CBIRC fines and the FT Companies House story.",
+      "explanation": "The slides show real-world consequences of poor data. Citigroup faced continued pressure from US Federal Reserve officials frustrated with its pace of progress on risk management systems. In April, the CBIRC fined 8 Chinese banks a total of CNY17.7m (CNY1.6m-2.7m each) for under-reporting or inaccurate reporting of client information, regulatory reports, interbank and trade finance transactions, wealth/AUM volume, securitised asset transactions and loan write-offs; 75% of disciplined executives received warnings, 18% were prohibited from banking roles and 6% were disqualified from senior executive roles. Lecture 6 cites an FT story (29 Sep 2021) where UK Companies House recorded an officer named 'Jesus Holy Christ', residence 'Heaven', nationality 'Angelic', occupation 'Creator'.",
+      "keyTerms": [
+        "CBIRC fines",
+        "EAST inspection system",
+        "Under-reporting",
+        "Inaccurate reporting"
+      ],
+      "examples": [
+        "CBIRC: 8 banks fined CNY17.7m in one month (L1 p.26)",
+        "Companies House 'Jesus Holy Christ' record (L6 p.5)"
+      ],
+      "citations": [
+        "L1:10",
+        "L1:26",
+        "L6:5"
+      ],
+      "related": [
+        {
+          "id": "cbirc",
+          "type": "is illustrated by"
+        },
+        {
+          "id": "dq-root-causes",
+          "type": "is caused by"
+        },
+        {
+          "id": "data-quality",
+          "type": "contrasts with"
+        }
+      ]
+    },
+    {
+      "id": "bakery-analogy",
+      "name": "The bakery analogy",
+      "theme": "foundations",
+      "quizzes": [
+        1
+      ],
+      "summary": "A bakery illustrates four components of data management: ingredients (data definition & quality), cookbook (policies & processes), consistent baking (monitoring controls & oversight) and the oven (technology architecture).",
+      "explanation": "(1) Good quality ingredients with clear specifications drive consistency → Data Definition and Quality: standards, processes and policies must be established for consistent data quality and trusted financial reporting; data is defined in exact definition, format, quantum and timing; common taxonomies and definitions are needed (e.g. gross vs net exposure). (2) A standard cookbook documenting ingredients, quantities, tolerances and steps → Policies, Processes: common data models, golden sources and well-documented processes and assumptions for consistency in BAU and in stress/crisis reporting; SOPs for regular vs ad hoc stress reporting; clear assumptions and limitations; repeatable processes for consistency, comparability and sustainability. (3) Bakers must sift, mix and churn the same way → Monitoring Controls and Oversight: formal processes and controls so data is extracted, transformed, aggregated and reported the right way; even with clear definitions you risk inconsistent results unless processes are adhered to; independent validations (internal/external audit, model validation teams). (4) If the oven doesn't work the bread won't be good → Technology Architecture: differences in infrastructure can impact producing the right outputs in a timely fashion; consider manual processes, controlled calculation environments, reconciliation at each system hop, real-time and integration capabilities (legacy systems).",
+      "keyTerms": [
+        "Data definition & quality",
+        "Policies & processes",
+        "Monitoring controls & oversight",
+        "Technology architecture",
+        "Golden source",
+        "System hop"
+      ],
+      "examples": [
+        "Gross vs net exposure as a definition that must be common (L1 p.13)",
+        "SOPs for regular vs stress/crisis reporting (L1 p.14)"
+      ],
+      "citations": [
+        "L1:13",
+        "L1:14",
+        "L1:15",
+        "L1:16"
+      ],
+      "related": [
+        {
+          "id": "golden-source",
+          "type": "is applied in"
+        },
+        {
+          "id": "technology-architecture",
+          "type": "is part of"
+        },
+        {
+          "id": "data-controls",
+          "type": "is part of"
+        },
+        {
+          "id": "data-policies",
+          "type": "is part of"
+        }
+      ]
+    },
+    {
+      "id": "dama-dmbok",
+      "name": "DAMA-DMBOK",
+      "theme": "foundations",
+      "quizzes": [
+        1
+      ],
+      "summary": "DAMA International's Data Management Body of Knowledge (DAMA-DMBOK2), a comprehensive view of the challenges, complexities and value of effective data management.",
+      "explanation": "DAMA International is dedicated to advancing the concepts and practices of information and data management and to addressing information and data management needs. Its Data Management Body of Knowledge (DAMA-DMBOK2) presents a comprehensive view of the challenges, complexities and value of effective data management. It is introduced alongside the EDM Council's DCAM as the two industry frameworks.",
+      "keyTerms": [
+        "DAMA International",
+        "DMBOK2"
+      ],
+      "examples": [],
+      "citations": [
+        "L1:20",
+        "L1:24"
+      ],
+      "related": [
+        {
+          "id": "dcam",
+          "type": "contrasts with"
+        }
+      ]
+    },
+    {
+      "id": "dcam",
+      "name": "DCAM (Data management Capability Assessment Model)",
+      "theme": "foundations",
+      "quizzes": [
+        1
+      ],
+      "summary": "The EDM Council's industry-standard framework defining the capabilities needed to establish, enable and sustain mature data management, in 8 components.",
+      "explanation": "The EDM Council is the global association created to elevate data management as a business and operational priority and to advocate data standards and best practices. DCAM is the industry standard framework for data management, defining the scope of capabilities required to establish, enable and sustain a mature data management discipline. Its 8 components: (1) Data Strategy & Business Case: define, prioritise, organise, fund and govern DM, embedded in operations and aligned with objectives; (2) Data Management Program and Funding Model: program, stakeholder and funding management, communications, training, performance measurement; (3) Business & Data Architecture: data models such as taxonomies and ontologies, data domains, metadata, business-critical data; business architecture defines business processes; (4) Data & Technology Architecture: architectural requirements of the business, data and technology; (5) Data Quality Management: data profiling, DQ measurement, defect management, root cause analysis, remediation; (6) Data Governance: structure, lines of authority, roles & responsibilities, escalation, policy & standards, compliance, routines; (7) Data Control Environment: data operations, supply-chain management, cross-control-function alignment, collaborative technology architecture; (8) Analytics Management: culture, skills, platform and governance to obtain business value from analytics.",
+      "keyTerms": [
+        "EDM Council",
+        "Capability",
+        "Data Control Environment",
+        "Analytics Management"
+      ],
+      "examples": [],
+      "citations": [
+        "L1:20",
+        "L1:21"
+      ],
+      "related": [
+        {
+          "id": "dama-dmbok",
+          "type": "contrasts with"
+        },
+        {
+          "id": "data-strategy",
+          "type": "includes"
+        },
+        {
+          "id": "data-quality",
+          "type": "includes"
+        },
+        {
+          "id": "data-architecture",
+          "type": "includes"
+        }
+      ]
+    },
+    {
+      "id": "dg-building-blocks",
+      "name": "Building blocks of good data governance",
+      "theme": "foundations",
+      "quizzes": [
+        1
+      ],
+      "summary": "Fundamentals (framework & policies, DQ identification & assessment, controls environment), ongoing controls (monitoring & reporting, remediation) and continuous improvement (independent assessment).",
+      "explanation": "Fundamentals: Framework & Policies: a DQ framework to publish enterprise DQ dimensions and roles & responsibilities over maintaining DQ; DQ Identification & Assessment: DQ for CDEs are profiled, analysed, graded and catalogued, and root cause analysis is performed; Controls Environment: discipline over data management processes to be auditable, with consistency over control points, review, escalation and approval. Ongoing controls: Monitoring & Reporting: DQ metrics are captured, reported and used to drive remediation; Remediation: strategic and tactical remediation plans are developed, prioritised and actioned. Continuous improvement: Independent Assessment: independent assessment of data quality provides reasonable assurance of the DQ checks performed.",
+      "keyTerms": [
+        "Fundamentals",
+        "Ongoing controls",
+        "Continuous improvement",
+        "Independent assessment"
+      ],
+      "examples": [],
+      "citations": [
+        "L1:22"
+      ],
+      "related": [
+        {
+          "id": "cde",
+          "type": "is applied in"
+        },
+        {
+          "id": "dq-remediation",
+          "type": "includes"
+        },
+        {
+          "id": "three-lines-of-defence",
+          "type": "is related to"
+        },
+        {
+          "id": "dq-root-causes",
+          "type": "includes"
+        }
+      ]
+    },
+    {
+      "id": "three-lines-of-defence",
+      "name": "Three lines of defence",
+      "theme": "organisation",
+      "quizzes": [
+        1
+      ],
+      "summary": "The DQ governance framework mirrors three lines: businesses (direct responsibility), the Data Management Office (governance & oversight) and Internal Audit (independent assurance).",
+      "explanation": "The businesses are accountable for the quality of their data. 1st line: Direct responsibility: Business Management including Operations & Technology is responsible for day-to-day implementation and monitoring of data standards, fulfilling data functions through direct execution (CDEs, preventive controls, remediation, key indicators). 2nd line: Governance & oversight: the Group Data Management Office defines the overall programme structure and reports status, with a network of Data Governance Officers overseeing implementation and adherence; it is accountable for ensuring compliance with policy, setting priorities and aligning resources (policy and standards, DQ assessment, policy compliance review, data repository). 3rd line: Independent assurance: Internal Audit provides objective review of the effectiveness of processes, internal controls and governance against the Data Management Policy.",
+      "keyTerms": [
+        "1st line: business",
+        "2nd line: DMO",
+        "3rd line: Internal Audit",
+        "Data Governance Officers"
+      ],
+      "examples": [],
+      "citations": [
+        "L1:23"
+      ],
+      "related": [
+        {
+          "id": "cdo-dmo",
+          "type": "includes"
+        },
+        {
+          "id": "data-owner",
+          "type": "includes"
+        },
+        {
+          "id": "finance-role",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "bcbs239",
+      "name": "BCBS 239 principles",
+      "theme": "foundations",
+      "quizzes": [
+        1
+      ],
+      "summary": "Basel Committee principles for effective risk data aggregation and risk reporting, covering governance & infrastructure, risk data aggregation, risk reporting and supervisory review.",
+      "explanation": "Overarching governance & infrastructure: (1) Governance: strong governance arrangements, fully documented processes, Board and senior management fully aware; (2) Data architecture & IT infrastructure: integrated data taxonomies and architecture across the bank, data dictionaries and golden sources (single identifiers / unified naming conventions), clear data ownership. Risk data aggregation: (3) Accuracy & Integrity: controls on risk data as robust as for finance data, reconciled to bank sources incl. accounting data, balance of automated and manual processes; (4) Completeness: all material risk exposures incl. off-balance sheet, available by business line, legal entity, asset type, industry, region; (5) Timeliness: aggregated risk information on a timely basis, rapidly during stress/crisis; (6) Adaptability: on-demand ad hoc reporting for stress situations, internal needs and supervisory queries. Risk reporting: (7) Reporting Accuracy: automated, manual edit and reasonableness checks; exception reports for data errors; (8) Comprehensiveness: identify emerging risk concentrations, forward-looking assessment; (9) Clarity and Usefulness: clear, concise, tailored, balance of qualitative and quantitative; (10) Frequency: defined and tested; critical reports available within a very short period in stress; (11) Distribution: to relevant parties while maintaining confidentiality. Supervisory review, tools & cooperation: (12) Review, (13) Remedial actions and supervisory measures, (14) Home/host cooperation.",
+      "keyTerms": [
+        "Risk data aggregation",
+        "Risk reporting",
+        "Golden sources",
+        "Off-balance sheet",
+        "Adaptability",
+        "Stress/crisis reporting"
+      ],
+      "examples": [
+        "Data dictionaries and golden sources with single identifiers / unified naming conventions (L1 p.27)"
+      ],
+      "citations": [
+        "L1:18",
+        "L1:24",
+        "L1:27",
+        "L1:28"
+      ],
+      "related": [
+        {
+          "id": "cbirc",
+          "type": "contrasts with"
+        },
+        {
+          "id": "golden-source",
+          "type": "requires"
+        },
+        {
+          "id": "dq-dimensions",
+          "type": "is related to"
+        },
+        {
+          "id": "data-dictionary",
+          "type": "requires"
+        }
+      ]
+    },
+    {
+      "id": "cbirc",
+      "name": "CBIRC data governance guidelines",
+      "theme": "foundations",
+      "quizzes": [
+        1
+      ],
+      "summary": "China's banking regulator guidelines in 7 chapters, covering governance structure, data management, DQ & controls, monetisation and supervision, enforced with fines.",
+      "explanation": "The CBIRC guidelines on data governance for banking financial institutions have 7 parts: (1) General: high-level expectations and applicability (all business units, risk management, internal control, internal and external reporting); (2) Data Governance: establishing the structure, i.e. the central data office and management bodies' responsibility; (3) Data Management: e.g. data standards, enhanced/scalable systems, self-assessments; (4) Data Quality & Controls: controls and the DQ cycle of monitoring, escalation, remediation; (5) Data Monetisation: use of data in business processes and expected benefits; (6) Supervision & Management: supervisory measures to monitor/assess the state of DG; (7) Supplementary: scope, interpretation, effective date. Enforcement: in April alone, 8 banks were fined CNY17.7m in total for under- or inaccurate reporting, using the EAST (Examination & Analysis System Technology) inspection system.",
+      "keyTerms": [
+        "CBIRC",
+        "EAST",
+        "Data monetisation",
+        "Central data office"
+      ],
+      "examples": [
+        "8 banks fined CNY17.7m; 77 executives warned, 19 prohibited from banking roles, 6 disqualified (L1 p.26)"
+      ],
+      "citations": [
+        "L1:24",
+        "L1:25",
+        "L1:26"
+      ],
+      "related": [
+        {
+          "id": "bcbs239",
+          "type": "contrasts with"
+        },
+        {
+          "id": "consequences-poor-data",
+          "type": "is illustrated by"
+        }
+      ]
+    },
+    {
+      "id": "business-challenges",
+      "name": "Business challenges driving data strategy",
+      "theme": "strategy",
+      "quizzes": [
+        1
+      ],
+      "summary": "Cross-border competition, innovative products for informed customers, increasing regulation and audit, digitisation to survive, and too much data.",
+      "explanation": "Lecture 2 lists the business challenges organisations face today: cross-border competition (price-point pressure); innovative products to more informed customers; increasing regulations and audit (PDPA, ESG, ...); digitisation as a means to survive (not an option); and too much data (too many obligations).",
+      "keyTerms": [
+        "PDPA",
+        "ESG",
+        "Digitisation"
+      ],
+      "examples": [],
+      "citations": [
+        "L2:3"
+      ],
+      "related": [
+        {
+          "id": "data-strategy",
+          "type": "causes"
+        }
+      ]
+    },
+    {
+      "id": "financial-value-of-data",
+      "name": "Financial values from improved data",
+      "theme": "strategy",
+      "quizzes": [
+        1
+      ],
+      "summary": "Improved data creates value by improving revenue, reducing costs and improving social capital (which can be converted into economic capital).",
+      "explanation": "Improving revenue: competitive pricing, demographics-based sales, direct conversion of data into revenue (increasing revenue sources, improving customer outreach). Reducing costs: streamlining and reducing process costs, increasing workforce efficiency and productivity (reducing cost of goods sold or overheads). Improving social capital: driving brand loyalty/reputation, developing proprietary knowledge, systems and processes; this social capital can be converted into economic capital. Use case: oOh! and Singtel's DataSpark partnered to target Chinese visitors in Australia, using general profiling, visitor preferences, mobility, airport and retail insights and visitor segmentation. Insights: 6 of 10 most frequented malls and the top 10 shopping areas were suburban; visitors spent 1-2 hours in major malls in Gold Coast and Sydney. Outcomes: optimised campaign planning, segmental audience targeting and exploring insights beyond Chinese visitors.",
+      "keyTerms": [
+        "Improving revenue",
+        "Reducing costs",
+        "Social capital",
+        "Economic capital"
+      ],
+      "examples": [
+        "oOh! x Singtel DataSpark targeting Chinese visitors in Australia (L2 p.5)"
+      ],
+      "citations": [
+        "L2:4",
+        "L2:5"
+      ],
+      "related": [
+        {
+          "id": "mit-iws",
+          "type": "is related to"
+        },
+        {
+          "id": "data-strategy",
+          "type": "is applied in"
+        }
+      ]
+    },
+    {
+      "id": "data-strategy",
+      "name": "Data strategy",
+      "theme": "strategy",
+      "quizzes": [
+        1
+      ],
+      "summary": "A data strategy is about leveraging data to create business value; data is a competitive advantage and needs a strategy to keep it that way.",
+      "explanation": "A data strategy is about leveraging data to create business value. Data is your competitive advantage, and you need a strategy to ensure it stays that way. The lifecycle around business value is Identify → Process → Govern → Store → Provision. A data strategy must consider three views: Business (delivering value to customers, insight to management, realising value from data); Data content, 'we have to think differently, it's about DATA' (precise meaning of data linked to business reality, data as a trusted factor in operations and analytics, discipline to ensure data quality); and the traditional view of Data processing (technology infrastructure, hardware and software, acquire/store/distribute).",
+      "keyTerms": [
+        "Business value",
+        "Competitive advantage",
+        "Identify-Process-Govern-Store-Provision"
+      ],
+      "examples": [
+        "Sample strategy statement: enterprise-wide data architecture with approval in < 1 week via a Trusted Centre; codified data exploitation; four competency levels (basic, intermediate, advanced, expert); industry partnerships (L2 p.14)"
+      ],
+      "citations": [
+        "L2:7",
+        "L2:8",
+        "L2:14"
+      ],
+      "related": [
+        {
+          "id": "data-strategy-characteristics",
+          "type": "is described by"
+        },
+        {
+          "id": "strategy-document",
+          "type": "is documented in"
+        },
+        {
+          "id": "dg-framework",
+          "type": "is part of"
+        }
+      ]
+    },
+    {
+      "id": "data-strategy-characteristics",
+      "name": "Characteristics of a data strategy",
+      "theme": "strategy",
+      "quizzes": [
+        1
+      ],
+      "summary": "Aligned to business goals; actionable, measurable and relevant; identifies support, resources & constraints; a living document; adds value. It must be endorsed, routinely revisited and evolve.",
+      "explanation": "Characteristics: aligns with business goals and objectives; is actionable, measurable and relevant; identifies key support, resources and constraints; is a living document; adds value to the organisation. Key characteristics: (1) the Data Management Strategy must be a living artifact that is visibly endorsed by executive management, supported and prioritised by stakeholders and enabled by technology; (2) it should be routinely revisited and re-evaluated; (3) it must evolve as priorities and needs of the organisation change.",
+      "keyTerms": [
+        "Living artifact",
+        "Executive endorsement",
+        "Routinely revisited",
+        "Evolve"
+      ],
+      "examples": [],
+      "citations": [
+        "L2:10",
+        "L2:13"
+      ],
+      "related": [
+        {
+          "id": "data-strategy",
+          "type": "is part of"
+        }
+      ]
+    },
+    {
+      "id": "strategy-document",
+      "name": "The data strategy document",
+      "theme": "strategy",
+      "quizzes": [
+        1
+      ],
+      "summary": "A primary 'sales tool' for the data function with four benefits and a defined set of core components (principles, stakeholder analysis, gap analysis, governance framework, roadmap, etc.).",
+      "explanation": "The strategy document is a primary sales tool for the function. Four benefits: (1) a defined strategy integrated into enterprise objectives answers the 'why' of data management; (2) a roadmap with clearly defined drivers and triggers gives a tangible vision; (3) executive-level adoption empowers the data management function; (4) successful executive adoption sets the culture to propel the programme forward. Core components: principles of data management; stakeholder analysis; business objectives/scope; target state operations; current state gap analysis; data control approach; governance framework; data quality approach; IT collaboration; cross-functional collaboration; resource plan; funding approach; business case; execution roadmap; measurement approach.",
+      "keyTerms": [
+        "Sales tool",
+        "Roadmap",
+        "Gap analysis",
+        "Business case",
+        "Executive adoption"
+      ],
+      "examples": [],
+      "citations": [
+        "L2:11",
+        "L2:12"
+      ],
+      "related": [
+        {
+          "id": "data-strategy",
+          "type": "documents"
+        },
+        {
+          "id": "data-culture",
+          "type": "causes"
+        }
+      ]
+    },
+    {
+      "id": "mit-iws",
+      "name": "MIT data monetisation framework (Improve, Wrap, Sell)",
+      "theme": "strategy",
+      "quizzes": [
+        1
+      ],
+      "summary": "Three ways to monetise data: Improving (indirect, better processes, lower costs), Wrapping (indirect, analytics bundled into products) and Selling (direct conversion into revenue).",
+      "explanation": "Improving delivers financial value indirectly by improving processes and work tasks with data, reducing cost of goods sold or overhead costs. Wrapping delivers financial value indirectly by bundling core products with analytics features and experiences, increasing the product's value proposition. Selling involves the direct conversion of data or information solutions into revenue.",
+      "keyTerms": [
+        "Improving",
+        "Wrapping",
+        "Selling",
+        "Direct vs indirect value"
+      ],
+      "examples": [],
+      "citations": [
+        "L2:16",
+        "L2:22"
+      ],
+      "related": [
+        {
+          "id": "data-for-sale",
+          "type": "is applied in"
+        },
+        {
+          "id": "financial-value-of-data",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "data-for-sale",
+      "name": "Process to prepare data for sale",
+      "theme": "strategy",
+      "quizzes": [
+        1
+      ],
+      "summary": "Provider: stock-take → assess data → assess potential for sharing → select valuation approach → value → share. The consumer assesses need for external data, then values.",
+      "explanation": "Framed as What / Who / How Much / How. Data provider's perspective: 1. Stock-take the data; 2. Assess data; 3. Assess potential for sharing; 4. Select valuation approach; 5. Value the data; 6. Share the data. Data consumer's perspective: 3. Assess potential need for external data; 4. Select valuation approach; 5. Value the data; 6. Share the data. 'Market discovery' connects the provider and consumer at step 3.",
+      "keyTerms": [
+        "Stock-take",
+        "Market discovery",
+        "Valuation approach"
+      ],
+      "examples": [],
+      "citations": [
+        "L2:17"
+      ],
+      "related": [
+        {
+          "id": "data-valuation",
+          "type": "includes"
+        },
+        {
+          "id": "data-sharing-policy",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "data-valuation",
+      "name": "Data valuation approaches (market, cost, income)",
+      "theme": "strategy",
+      "quizzes": [
+        1
+      ],
+      "summary": "Finance helps select the valuation approach for data as an organisational asset: Market (similar asset's value), Cost (reproduction/replacement) or Income (incremental revenue/reduced cost).",
+      "explanation": "Finance plays an integral role in selecting the appropriate valuation approach (source: IMDA Guide to Data Valuation for Data Sharing). Market approach: what is the value of a similar data asset on the market? Used if market value for identical or similar data is available; either actively traded market (traded prices in an active market) or market transactions (transactions involving comparable data). Cost approach: what is the minimum value to cover costs and generate margin? Used if the data can be reproduced or replaced; reproduction cost (estimated cost of reproducing a replica of the data) or replacement cost (estimated cost of replicating the utility of the data). Income approach: what incremental value can the data consumer generate with the data asset? Used if the net cash flow benefits can be reasonably quantified; incremental revenue (after additional costs) or reduced cost (cost savings from using the data).",
+      "keyTerms": [
+        "Market approach",
+        "Cost approach",
+        "Income approach",
+        "Reproduction cost",
+        "Replacement cost",
+        "Incremental revenue",
+        "IMDA"
+      ],
+      "examples": [],
+      "citations": [
+        "L2:18",
+        "L2:19",
+        "L2:20",
+        "L2:22"
+      ],
+      "related": [
+        {
+          "id": "finance-role",
+          "type": "is applied in"
+        },
+        {
+          "id": "data-value-drivers",
+          "type": "is related to"
+        },
+        {
+          "id": "data-for-sale",
+          "type": "is part of"
+        }
+      ]
+    },
+    {
+      "id": "data-office-maturity",
+      "name": "Maturity of the data office",
+      "theme": "organisation",
+      "quizzes": [
+        1
+      ],
+      "summary": "The 2008 financial crisis gave finance a head start; 56% of programmes have been in place 3+ years (EDM Council 2023 DCAM benchmark).",
+      "explanation": "The 2008 Financial Crisis gave the finance industry a 'head start' in developing data management programmes. 56% of programmes have been in place for 3 years or more, up from 43% in 2020 and 19% in 2017; 45% of programmes are new (started in the past three years), down from 57% in 2020. Programmes in place more than 5 years: Finance 37% vs Other 30%; less than 1 year: Finance 8% vs Other 13%.",
+      "keyTerms": [
+        "EDM Council DCAM Benchmarking Report",
+        "2008 Financial Crisis"
+      ],
+      "examples": [],
+      "citations": [
+        "L3:3"
+      ],
+      "related": [
+        {
+          "id": "cdo-reporting-lines",
+          "type": "is related to"
+        },
+        {
+          "id": "dcam",
+          "type": "is measured by"
+        }
+      ]
+    },
+    {
+      "id": "cdo-reporting-lines",
+      "name": "Where the CDO reports",
+      "theme": "organisation",
+      "quizzes": [
+        1
+      ],
+      "summary": "CDO reporting varies (CIO, COO, CFO, CRO, strategy); the right line depends on why the CDO role was created: regulatory compliance, business innovation or data quality risk.",
+      "explanation": "The slide text states that 35% of CDOs in non-financial services report to the CIO (symptomatic of the importance of data to generating insights) and 24% report to the COO (symptomatic of the importance of operating processes to generating good data). Note: in the slide's chart the 24% COO bar is labelled Finance, while non-financial (Other) COO is 9%. Chart (Finance vs Other): CEO 7%/20%, CFO 11%/10%, CIO 20%/35%, COO 24%/9%, CRO 18%/0%, CTO 7%/4%, LOB 5%/12%. Singapore banks show different structures: CDO reports to Strategy & Planning, to the CFO, or to the CRO (where there is no CDO title, only a Head of Data Management). G-SIBs in Singapore: CDO reports to the CIO, sometimes with regional CDOs. Pros/cons: the reporting line (CEO vs CRO vs CFO) depends on the reason for establishing the CDO: regulatory compliance vs business innovation vs data quality risks.",
+      "keyTerms": [
+        "CDO",
+        "CIO",
+        "COO",
+        "CRO",
+        "CFO",
+        "G-SIB"
+      ],
+      "examples": [
+        "Singapore bank where the Head of Data Management sits under the CRO (L3 p.6)",
+        "G-SIB with Group CDO and regional CDOs under the CIO (L3 p.7)"
+      ],
+      "citations": [
+        "L3:4",
+        "L3:6",
+        "L3:7",
+        "L3:8"
+      ],
+      "related": [
+        {
+          "id": "cdo-dmo",
+          "type": "is related to"
+        },
+        {
+          "id": "cdao",
+          "type": "is related to"
+        }
+      ],
+      "flags": {
+        "conflict": "L3 p.4: the slide text says 24% of CDOs in non-financial services report to the COO, but the chart shows COO = 24% for Finance and 9% for Other industries. Both figures are shown; this number is not quizzed.",
+        "noQuizFigures": [
+          "24% COO"
+        ]
+      }
+    },
+    {
+      "id": "cdao",
+      "name": "CDAO & analytics in the CDO role",
+      "theme": "organisation",
+      "quizzes": [
+        1
+      ],
+      "summary": "CDOs increasingly own analytics (Chief Data and Analytics Officers), but firms with inherent data issues may first focus purely on governance.",
+      "explanation": "Increasingly, the chief data executive is assuming greater responsibility for data analytics; many firms are appointing CDAOs (Chief Data and Analytics Officers) to lead both data management and analytics programmes (EDM Council 2023). Data analytics and innovation give more depth to the CDO role to support business initiatives beyond pure governance. However, if organisations have inherent data issues to resolve (e.g. regulatory push on AML/KYC, regulatory submission errors, new compliance rules), it might be good to focus purely on data governance to start.",
+      "keyTerms": [
+        "CDAO",
+        "Data analytics",
+        "AML/KYC"
+      ],
+      "examples": [],
+      "citations": [
+        "L3:5",
+        "L3:8"
+      ],
+      "related": [
+        {
+          "id": "cdo-reporting-lines",
+          "type": "is related to"
+        },
+        {
+          "id": "dcam",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "centralised-model",
+      "name": "Centralised data management model",
+      "theme": "organisation",
+      "quizzes": [
+        1
+      ],
+      "summary": "Single point of control at enterprise level with BUs selectively engaged; suits less mature organisations needing control and alignment.",
+      "explanation": "Centralised: single point of control at enterprise level, with BUs selectively engaged. Pros: faster decision making; greater data consistency across BUs; better efficiency and minimal duplication. Cons: low agility and collaboration; transactional engagement and strategic misalignment between central and local teams. Trending away from centralised means: empower local decision making; align specialty talent with functional needs; encourage broader data innovation. Central is for less mature organisations, giving greater control, structure, central alignment and oversight.",
+      "keyTerms": [
+        "Single point of control",
+        "Consistency",
+        "Low agility"
+      ],
+      "examples": [
+        "Capital One, HSBC, Coca-Cola, Rio Tinto (L3 p.10)"
+      ],
+      "citations": [
+        "L3:8",
+        "L3:10"
+      ],
+      "related": [
+        {
+          "id": "federated-model",
+          "type": "contrasts with"
+        },
+        {
+          "id": "decentralised-model",
+          "type": "contrasts with"
+        }
+      ]
+    },
+    {
+      "id": "federated-model",
+      "name": "Federated (hub-and-spoke) model",
+      "theme": "organisation",
+      "quizzes": [
+        1
+      ],
+      "summary": "Central plus selectively localised capability with centralised control; the leading practice, suited to more mature organisations.",
+      "explanation": "Federated (hub and spoke): central plus selective localised capability distribution, with centralised control. Pros: better Business-IT integration; easy to cross-pollinate capacity, skills and best practices; better efficiency and minimal duplication. Cons: slower decision making due to distributed ownership and larger stakeholder groups. Leading practice: consolidate decentralised/centralised structures into a hub-and-spoke, maintaining central control with local flexibility and niche talent. Federated suits more mature data organisations, giving greater alignment to BUs and ownership to BUs to control and manage data to fit their business purpose.",
+      "keyTerms": [
+        "Hub and spoke",
+        "Leading practice",
+        "BU ownership"
+      ],
+      "examples": [
+        "P&G, GSK, Amazon, Bank of Ireland (L3 p.10)"
+      ],
+      "citations": [
+        "L3:8",
+        "L3:10"
+      ],
+      "related": [
+        {
+          "id": "centralised-model",
+          "type": "contrasts with"
+        },
+        {
+          "id": "decentralised-model",
+          "type": "contrasts with"
+        }
+      ]
+    },
+    {
+      "id": "decentralised-model",
+      "name": "Decentralised model",
+      "theme": "organisation",
+      "quizzes": [
+        1
+      ],
+      "summary": "BUs operate with complete autonomy and no central control: quick BU-level decisions but duplicated effort and inconsistent quality.",
+      "explanation": "Decentralised: business units operate with complete autonomy, with no central control. Pros: BUs have complete autonomy and flexibility; quick decision making at BU level. Cons: disjointed, duplicated efforts; inconsistent quality across BUs; inability to cross-leverage capacity, skills and best practices. Trending away from decentralised means: implement enterprise-wide governance; align resources with strategic needs; establish formal talent management.",
+      "keyTerms": [
+        "Autonomy",
+        "Duplication",
+        "Inconsistent quality"
+      ],
+      "examples": [
+        "BHP, UPS, Visa, Nike, Google (L3 p.10)"
+      ],
+      "citations": [
+        "L3:10"
+      ],
+      "related": [
+        {
+          "id": "centralised-model",
+          "type": "contrasts with"
+        },
+        {
+          "id": "federated-model",
+          "type": "contrasts with"
+        }
+      ]
+    },
+    {
+      "id": "dg-structure",
+      "name": "Typical data governance structure",
+      "theme": "organisation",
+      "quizzes": [
+        1
+      ],
+      "summary": "Strategic: Board → Executive: Data Governance Committee → Management: CDO & DMO (governance, quality, architecture) → Execution: data owners, business data stewards, system owners, technical data stewards.",
+      "explanation": "Strategic level: Board of Directors. Executive level: Data Governance Committee. Management level: Chief Data Officer and the Data Management Office, with three pillars: Data Governance, Data Quality and Data Architecture. Execution level: Data Owners, Business Data Stewards, System Owners and Technical Data Stewards. The structure is recapped at the start of Lecture 8.",
+      "keyTerms": [
+        "Strategic level",
+        "Executive level",
+        "Management level",
+        "Execution level"
+      ],
+      "examples": [],
+      "citations": [
+        "L3:11",
+        "L8:3"
+      ],
+      "related": [
+        {
+          "id": "board-dg",
+          "type": "includes"
+        },
+        {
+          "id": "dgc",
+          "type": "includes"
+        },
+        {
+          "id": "cdo-dmo",
+          "type": "includes"
+        },
+        {
+          "id": "data-owner",
+          "type": "includes"
+        },
+        {
+          "id": "data-stewards",
+          "type": "includes"
+        }
+      ]
+    },
+    {
+      "id": "board-dg",
+      "name": "Board of Directors' role in DG",
+      "theme": "organisation",
+      "quizzes": [
+        1
+      ],
+      "summary": "Sets strategic direction, funds strategic initiatives, directs KPIs/metrics and approves DG policies and DGC-proposed changes.",
+      "explanation": "The Board of Directors provides strategic direction and defines strategic initiatives; provides strategic initiative funding; provides direction on KPIs and metrics; and approves data governance policies as well as changes (if any) proposed by the Data Governance Committee (DGC). Under BCBS 239, the Board and senior management should be fully aware of risk data aggregation and reporting governance.",
+      "keyTerms": [
+        "Strategic direction",
+        "Funding",
+        "Policy approval"
+      ],
+      "examples": [],
+      "citations": [
+        "L3:12",
+        "L1:27"
+      ],
+      "related": [
+        {
+          "id": "dgc",
+          "type": "oversees"
+        },
+        {
+          "id": "dg-structure",
+          "type": "is part of"
+        }
+      ]
+    },
+    {
+      "id": "dgc",
+      "name": "Data Governance Committee (DGC)",
+      "theme": "organisation",
+      "quizzes": [
+        1
+      ],
+      "summary": "The principal senior management body, accountable to the Board for the effectiveness of data management policies and controls; a forum for deliberation, escalation and approval.",
+      "explanation": "The DGC is the principal senior management body that supports and is accountable to the BoD on the effectiveness of the Group's data management policies and controls to meet data management objectives. It comprises senior management from key business areas, Risk, Finance and Group Technology & Operations. It is the forum for deliberation, issue escalation and approval of data-related matters; it ensures regular progress reports and escalates data issues of significant concern to the BoD. The Head of the DGC is typically the CDO's reporting head or the CDO.",
+      "keyTerms": [
+        "Escalation",
+        "Accountable to the Board",
+        "Senior management forum"
+      ],
+      "examples": [],
+      "citations": [
+        "L3:13"
+      ],
+      "related": [
+        {
+          "id": "board-dg",
+          "type": "reports to"
+        },
+        {
+          "id": "cdo-dmo",
+          "type": "oversees"
+        }
+      ]
+    },
+    {
+      "id": "cdo-dmo",
+      "name": "Chief Data Officer & Data Management Office",
+      "theme": "organisation",
+      "quizzes": [
+        1
+      ],
+      "summary": "The CDO is the most senior executive responsible for data management strategy and implementation; with the DMO, oversees bank-wide DG and ensures policies, standards and processes are designed, implemented and enforced.",
+      "explanation": "The CDO is the most senior executive in the bank responsible for the strategy and implementation of the data management programme. The CDO and team (DMO) maintain oversight of bank-wide data governance, ensuring data policies, standards and processes are designed, implemented and enforced. CDO responsibilities are broadly classified into Data Governance, Data Architecture & Tools, and Data Quality. In the three lines of defence the DMO is the 2nd line (governance & oversight). The CDO also ensures adherence to Data Ownership Principles and can assign data ownership where it cannot otherwise be determined.",
+      "keyTerms": [
+        "CDO",
+        "DMO",
+        "Oversight",
+        "2nd line"
+      ],
+      "examples": [],
+      "citations": [
+        "L3:14",
+        "L1:23",
+        "L4:5",
+        "L4:6"
+      ],
+      "related": [
+        {
+          "id": "three-lines-of-defence",
+          "type": "is part of"
+        },
+        {
+          "id": "data-ownership-principles",
+          "type": "enforces"
+        },
+        {
+          "id": "dg-structure",
+          "type": "is part of"
+        }
+      ]
+    },
+    {
+      "id": "dg-key-terms",
+      "name": "Key data governance terms",
+      "theme": "governance",
+      "quizzes": [
+        2
+      ],
+      "summary": "Lecture 4 defines data controls, data quality, data architecture, data documentation, data stakeholders, metadata and data culture.",
+      "explanation": "Data controls manage risks through preventing, detecting or correcting activities and can be automated or procedural. Data quality: a measure of the degree to which collected data is fit for the intended purpose. Data architecture: a discipline, process and programme focusing on integrating sets of information. Data documentation: a series of documents that explain the data, its use, its flow, its transformation and its stakeholders. Data stakeholders: those who use, affect or are affected by data. Metadata: the descriptive characteristics about the data, e.g. 'title', 'creation date', 'author'. Data culture: a social norm of using data to drive strategy, decisions and innovation.",
+      "keyTerms": [
+        "Data controls",
+        "Data quality",
+        "Data architecture",
+        "Data documentation",
+        "Data stakeholders",
+        "Metadata",
+        "Data culture"
+      ],
+      "examples": [],
+      "citations": [
+        "L4:4"
+      ],
+      "related": [
+        {
+          "id": "data-controls",
+          "type": "defines"
+        },
+        {
+          "id": "metadata",
+          "type": "defines"
+        },
+        {
+          "id": "data-culture",
+          "type": "defines"
+        },
+        {
+          "id": "data-quality",
+          "type": "defines"
+        }
+      ]
+    },
+    {
+      "id": "data-owner",
+      "name": "Data owner",
+      "theme": "governance",
+      "quizzes": [
+        2
+      ],
+      "summary": "Has a clear understanding of the data they own, sets standards for it and is accountable for data quality.",
+      "explanation": "Data owners have a clear understanding of the data they own, set the standards for the data and are accountable for data quality. They are represented by business data stewards. In most (but not all) cases data owners are identified from the function that captures, enters and can explain the data, close to the point of origination, and they need authority to initiate changes to business processes and IT systems to improve data quality. In the three lines of defence, businesses are accountable for the quality of their data.",
+      "keyTerms": [
+        "Accountable for data quality",
+        "Sets standards",
+        "Proximity to data capture"
+      ],
+      "examples": [],
+      "citations": [
+        "L4:5",
+        "L4:6",
+        "L1:23"
+      ],
+      "related": [
+        {
+          "id": "data-ownership-principles",
+          "type": "is defined by"
+        },
+        {
+          "id": "data-stewards",
+          "type": "is represented by"
+        },
+        {
+          "id": "data-stakeholders",
+          "type": "is a type of"
+        }
+      ]
+    },
+    {
+      "id": "data-stewards",
+      "name": "Business & technical data stewards",
+      "theme": "governance",
+      "quizzes": [
+        2
+      ],
+      "summary": "Business data stewards are department representatives supporting data owners, enforcing standards and responsible for DQ; technical data stewards enable the technology.",
+      "explanation": "Business data stewards are department representatives supporting data owners; they enforce standards for data and are responsible for data quality (whereas the data owner is accountable). Technical data stewards enable the technology that supports data providers and consumers. Both sit at the execution level of the governance structure, alongside system owners.",
+      "keyTerms": [
+        "Responsible vs accountable",
+        "Enforce standards",
+        "Technical data steward"
+      ],
+      "examples": [],
+      "citations": [
+        "L4:5",
+        "L3:11"
+      ],
+      "related": [
+        {
+          "id": "data-owner",
+          "type": "supports"
+        },
+        {
+          "id": "data-stakeholders",
+          "type": "is a type of"
+        }
+      ]
+    },
+    {
+      "id": "data-stakeholders",
+      "name": "Data stakeholders: providers & consumers",
+      "theme": "governance",
+      "quizzes": [
+        2
+      ],
+      "summary": "Those who use, affect or are affected by data: CDO (oversight), data owners, stewards, data providers and data consumers.",
+      "explanation": "Data stakeholders are those who use, affect or are affected by data. The CDO provides oversight and ensures adherence to Data Ownership Principles. Data Provider: facilitates, transfers and retains data; ensures availability of data for owners and consumers; responsible for DQ. Data Consumer: receives data; performs reporting and/or analytics; prepares reports for publication or submission. If a data consumer provides data to downstream users, they are also data providers. Technology is enabled by technical data stewards.",
+      "keyTerms": [
+        "Data provider",
+        "Data consumer",
+        "Consumer and/or provider"
+      ],
+      "examples": [],
+      "citations": [
+        "L4:4",
+        "L4:5"
+      ],
+      "related": [
+        {
+          "id": "data-owner",
+          "type": "includes"
+        },
+        {
+          "id": "data-stewards",
+          "type": "includes"
+        }
+      ]
+    },
+    {
+      "id": "data-ownership-principles",
+      "name": "Data ownership principles",
+      "theme": "governance",
+      "quizzes": [
+        2
+      ],
+      "summary": "Owners are chosen by proximity to data capture and authority to initiate change; else assigned by the CDO; ownership passes on reassignment and changes only when data is transformed.",
+      "explanation": "Proximity to data capture: the function that captures, enters and can explain the data; proximity to point of origination preferred. Authority to initiate changes: owners need authority to change business processes and IT systems to improve DQ. Assignment by CDO: if owners still cannot be determined, the CDO assigns ownership. Assignment by previous data owner: on reassignment, the existing owner ensures a new owner is assigned and takes on the role. Transformation of data element: if a data element is transferred without transformation there is no change in ownership (no new element is created); if a new element is created through transformation, the stakeholder who defines the transformation criteria becomes the new data owner.",
+      "keyTerms": [
+        "Proximity to data capture",
+        "Authority to initiate changes",
+        "Transformation",
+        "CDO assignment"
+      ],
+      "examples": [],
+      "citations": [
+        "L4:6"
+      ],
+      "related": [
+        {
+          "id": "data-owner",
+          "type": "defines"
+        },
+        {
+          "id": "data-lineage",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "cde",
+      "name": "Critical data elements (CDEs)",
+      "theme": "governance",
+      "quizzes": [
+        2
+      ],
+      "summary": "The most important data, scoped for heightened control and monitoring with limited resources; CDEs get agreed definitions, data-flow and full lineage documentation and heightened controls.",
+      "explanation": "Why identify CDEs: to scope the most important data for heightened control and monitoring using the bank's limited resources (finances, effort); regulators have mandated improved documentation and control for data 'most critical' to key business processes. Impacts of being a CDE: standard definition agreed and documented; appears in data-flow documentation; full lineage documentation performed; subject to heightened controls, quality monitoring and governance. How identified: regulators have not provided guidance but expect banks to explain their process and rationale; due to inconsistency, industry has collaborated with the EDMC to develop principles to identify CDEs. CDEs are also the starting point of DQ rule design (Step 1).",
+      "keyTerms": [
+        "Heightened controls",
+        "Limited resources",
+        "Full lineage",
+        "EDMC principles"
+      ],
+      "examples": [],
+      "citations": [
+        "L4:7",
+        "L4:17",
+        "L1:22",
+        "L7:4"
+      ],
+      "related": [
+        {
+          "id": "cde-criteria",
+          "type": "is defined by"
+        },
+        {
+          "id": "data-lineage",
+          "type": "requires"
+        },
+        {
+          "id": "dq-rules-design",
+          "type": "is applied in"
+        },
+        {
+          "id": "data-dictionary",
+          "type": "is documented in"
+        }
+      ]
+    },
+    {
+      "id": "cde-criteria",
+      "name": "CDE criteria (8)",
+      "theme": "governance",
+      "quizzes": [
+        2
+      ],
+      "summary": "Regulatory usage, information security/privacy, reporting level, reputational impact, financial impact, enterprise performance, operational risk, risk management.",
+      "explanation": "1. Data attribute usage for regulatory purposes: data in submissions to authorities (ACRA, IRAS, MAS, EDB, Singstat), e.g. financial, tax, regulatory reports. 2. Information security/privacy: data requiring access limitations or privacy considerations, e.g. customer profiles. 3. Reporting level: data used by senior management and the Board, e.g. business unit (Board reporting) vs cost centre (mid-management). 4. Reputational impact: data relied on by clients/third parties that may hinder reputation if wrong, e.g. wrong product type, customer group information. 5. Financial impact: data that if incorrect could significantly impact a critical risk measure, e.g. taxable number of days. 6. Enterprise performance: data for key performance measurements, e.g. capital charge, leverage ratio, EPS. 7. Operational risk: data that if incorrect could cause operational risk losses, e.g. number of customer complaints, critical system downtime by month. 8. Risk management: data used in key financial risk management processes.",
+      "keyTerms": [
+        "Regulatory",
+        "Information security",
+        "Reporting level",
+        "Reputational",
+        "Financial",
+        "Enterprise performance",
+        "Operational risk",
+        "Risk management"
+      ],
+      "examples": [
+        "Fine revenue worked example (L4 pp.11-13)"
+      ],
+      "citations": [
+        "L4:8",
+        "L4:9"
+      ],
+      "related": [
+        {
+          "id": "cde",
+          "type": "defines"
+        },
+        {
+          "id": "cde-fine-revenue",
+          "type": "is applied in"
+        }
+      ]
+    },
+    {
+      "id": "cde-fine-revenue",
+      "name": "Worked example: fine revenue CDEs",
+      "theme": "governance",
+      "quizzes": [
+        2
+      ],
+      "summary": "Data feeding 'Fine revenue' is mapped against the 8 CDE criteria; e.g. 'No of people fined' meets 1, 3, 5 and 'Penalty per fine' meets 1, 4, 5.",
+      "explanation": "Fine revenue is derived from 'No of people fined' and 'Penalty per fine'. Each input is marked against the CDE criteria: No of people fined: 1 (regulatory), 3 (reporting level), 5 (financial impact). Penalty per fine: 1, 4 (reputational), 5. No of people fined for speeding > speed: a directly derived field. Successful appeal cases: 1, 4. Wrongful records: 1, 4. Records of drivers > speed limits on roads: 1, 2 (information security), 3, 4, 8 (risk management). Records of drivers and speeds on roads: 1, 2, 8.",
+      "keyTerms": [
+        "Directly derived field",
+        "Criteria mapping"
+      ],
+      "examples": [
+        "Fine revenue = No of people fined x Penalty per fine (L4 p.12)"
+      ],
+      "citations": [
+        "L4:11",
+        "L4:12",
+        "L4:13"
+      ],
+      "related": [
+        {
+          "id": "cde-criteria",
+          "type": "applies"
+        },
+        {
+          "id": "data-controls",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "data-culture",
+      "name": "Data culture",
+      "theme": "governance",
+      "quizzes": [
+        2
+      ],
+      "summary": "A social norm of using data to drive strategy, decisions and innovation, built from 'lego blocks': tone at the top, embedding into operations, and enablers.",
+      "explanation": "Data culture is a social norm of using data to drive strategy, decisions and innovation. The data-driven innovation loop explores embedding data into projects to innovate processes and drive customer insights, raising the questions of how to encourage adoption and motivate employees. The starting 'lego blocks': Tone at the top: KPIs & rewards structure, corporate values, senior communications, long-term sustainability. Embedding into operations: decision making, data-enabled processes, capability building, success stories, worker empowerment. Enabled by: frameworks, policies, procedures, upgrading tools. Executive adoption of the data strategy sets organisational culture.",
+      "keyTerms": [
+        "Tone at the top",
+        "Embedding into operations",
+        "Enablers",
+        "Data-driven innovation loop"
+      ],
+      "examples": [
+        "How DBS made data its culture (reading listed, L4 p.17)"
+      ],
+      "citations": [
+        "L4:4",
+        "L4:14",
+        "L4:15",
+        "L2:11"
+      ],
+      "related": [
+        {
+          "id": "strategy-document",
+          "type": "is caused by"
+        },
+        {
+          "id": "trusted-view",
+          "type": "is part of"
+        },
+        {
+          "id": "dg-framework",
+          "type": "is part of"
+        }
+      ]
+    },
+    {
+      "id": "dg-framework",
+      "name": "Components of a data governance framework",
+      "theme": "documentation",
+      "quizzes": [
+        2
+      ],
+      "summary": "Data strategy (vision, monetisation); data governance, architecture and quality pillars; DG framework & policies; information lifecycle management; systems & tools; data culture.",
+      "explanation": "Typical components: Data strategy: vision, monetisation. Data Governance: critical data elements, data dictionary, data documentation. Data Architecture: golden sources, metadata, reference & master data. Data quality: data controls, DQ monitoring & reporting, data remediation. Data governance framework and policies. Information Lifecycle Management: data acquisition, data security, data usage and access, EUC management, data retention, data sharing. Systems, tools and technology: data management tools, data quality tools. Data management and data culture: regular training, ongoing communications, ethical use of data, continuous improvement.",
+      "keyTerms": [
+        "Information lifecycle management",
+        "EUC management",
+        "Reference & master data",
+        "Ethical use of data"
+      ],
+      "examples": [],
+      "citations": [
+        "L5:5"
+      ],
+      "related": [
+        {
+          "id": "data-policies",
+          "type": "includes"
+        },
+        {
+          "id": "data-strategy",
+          "type": "includes"
+        },
+        {
+          "id": "data-culture",
+          "type": "includes"
+        },
+        {
+          "id": "cde",
+          "type": "includes"
+        }
+      ]
+    },
+    {
+      "id": "data-policies",
+      "name": "Data policies",
+      "theme": "documentation",
+      "quizzes": [
+        2
+      ],
+      "summary": "Three key policies, Data Management, Data Quality and Data Sharing, each created, reviewed and authorised by named parties.",
+      "explanation": "The three key data policies are the Data Management Policy, the Data Quality Policy and the Data Sharing Policy. Each records who created, reviewed and authorised it. All three share 'Purpose and Governance', 'Applicable laws and regulations' and 'Key definitions and interpretations (glossary)' as core components.",
+      "keyTerms": [
+        "Created / Reviewed / Authorised",
+        "Applicable laws",
+        "Glossary"
+      ],
+      "examples": [],
+      "citations": [
+        "L5:6",
+        "L5:7",
+        "L5:8",
+        "L5:9"
+      ],
+      "related": [
+        {
+          "id": "data-management-policy",
+          "type": "includes"
+        },
+        {
+          "id": "data-quality-policy",
+          "type": "includes"
+        },
+        {
+          "id": "data-sharing-policy",
+          "type": "includes"
+        }
+      ]
+    },
+    {
+      "id": "data-management-policy",
+      "name": "Data management policy",
+      "theme": "documentation",
+      "quizzes": [
+        2
+      ],
+      "summary": "Covers purpose & governance, laws, glossary, data governance (CDEs, ownership, dictionary), data architecture, information lifecycle management and data culture.",
+      "explanation": "Core components: Purpose and Governance; Applicable laws and regulations; Key definitions and interpretations (glossary); Data Governance: critical data elements, data ownership, data dictionary, data documents; Data Architecture: golden source, metadata, reference data, master data, data taxonomy, data modelling; Information lifecycle management: data acquisition, data usage and access, retention, EUC management, security; Data culture: training and communications. Internal Audit assesses requirements outlined in the Data Management Policy.",
+      "keyTerms": [
+        "Golden source",
+        "Data taxonomy",
+        "Information lifecycle management"
+      ],
+      "examples": [],
+      "citations": [
+        "L5:7",
+        "L1:23"
+      ],
+      "related": [
+        {
+          "id": "data-policies",
+          "type": "is a type of"
+        },
+        {
+          "id": "data-quality-policy",
+          "type": "contrasts with"
+        }
+      ]
+    },
+    {
+      "id": "data-quality-policy",
+      "name": "Data quality policy",
+      "theme": "documentation",
+      "quizzes": [
+        2
+      ],
+      "summary": "Covers purpose & governance, laws, glossary, DQ controls (dimensions, rules, thresholds), DQ monitoring & reporting, and remediation & escalation.",
+      "explanation": "Core components: Purpose and Governance; Applicable laws and regulations; Key definitions and interpretations (glossary); Data Quality Controls: DQ dimensions, rules, thresholds; DQ monitoring and reporting: monitoring, reporting, operating model; Data remediation and escalation.",
+      "keyTerms": [
+        "DQ rules",
+        "Thresholds",
+        "Escalation",
+        "Operating model"
+      ],
+      "examples": [],
+      "citations": [
+        "L5:8"
+      ],
+      "related": [
+        {
+          "id": "data-policies",
+          "type": "is a type of"
+        },
+        {
+          "id": "dq-thresholds",
+          "type": "governs"
+        },
+        {
+          "id": "dq-dimensions",
+          "type": "governs"
+        }
+      ]
+    },
+    {
+      "id": "data-sharing-policy",
+      "name": "Data sharing policy",
+      "theme": "documentation",
+      "quizzes": [
+        2
+      ],
+      "summary": "Covers purpose & governance, laws, glossary, scope inclusions/exclusions, sharing approach, stages of data sharing and operationalising sharing.",
+      "explanation": "Core components: Purpose and Governance; Applicable laws and regulations; Key definitions and interpretations (glossary); Scope inclusions and exclusions; Data sharing approach: principles, legal and regulatory considerations; Stages of data sharing; Operationalising data sharing: data sharing models, provisioning and technical solutions.",
+      "keyTerms": [
+        "Scope inclusions/exclusions",
+        "Data sharing models",
+        "Provisioning"
+      ],
+      "examples": [],
+      "citations": [
+        "L5:9"
+      ],
+      "related": [
+        {
+          "id": "data-policies",
+          "type": "is a type of"
+        },
+        {
+          "id": "asean-mcc",
+          "type": "is related to"
+        },
+        {
+          "id": "data-for-sale",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "metadata",
+      "name": "Metadata",
+      "theme": "documentation",
+      "quizzes": [
+        2
+      ],
+      "summary": "'Data about the data': the descriptive characteristics of data (e.g. title, creation date, author, column names, data types). It is what data documentation records.",
+      "explanation": "Metadata is the descriptive characteristics about the data, e.g. 'title', 'creation date', 'author'. The information being documented in data documentation is metadata, i.e. 'data about the data'. In an employee table, the column headers (employee_id, first_name, nin, department_id) are metadata while the rows are data; a data dictionary records metadata such as column, data type and description. Metadata is also listed under Data Architecture in DG frameworks, and metadata management tools support understanding, trusting and using data.",
+      "keyTerms": [
+        "Data about data",
+        "Column",
+        "Data type"
+      ],
+      "examples": [
+        "employee_id int: primary key of a table (L5 p.11)"
+      ],
+      "citations": [
+        "L4:4",
+        "L5:11",
+        "L5:12",
+        "L8:14"
+      ],
+      "related": [
+        {
+          "id": "data-dictionary",
+          "type": "is documented in"
+        },
+        {
+          "id": "data-documentation",
+          "type": "is applied in"
+        },
+        {
+          "id": "metadata-tool",
+          "type": "is managed by"
+        }
+      ]
+    },
+    {
+      "id": "data-documentation",
+      "name": "Data documentation (business vs technical)",
+      "theme": "documentation",
+      "quizzes": [
+        2
+      ],
+      "summary": "Different means by which data is described. Business documentation: business glossary, data flow diagram. Technical documentation: data dictionary, data lineage.",
+      "explanation": "Data documentation refers to the different means in which data is described or documented: a series of documents that explain the data, its use, flow, transformation and stakeholders. It falls into two categories: Business documentation, (1) business glossary and (2) data flow diagram; and Technical documentation, (3) data dictionary and (4) data lineage. The information documented is metadata.",
+      "keyTerms": [
+        "Business documentation",
+        "Technical documentation"
+      ],
+      "examples": [],
+      "citations": [
+        "L5:10",
+        "L5:11",
+        "L4:4"
+      ],
+      "related": [
+        {
+          "id": "business-glossary",
+          "type": "includes"
+        },
+        {
+          "id": "data-dictionary",
+          "type": "includes"
+        },
+        {
+          "id": "data-flow-diagram",
+          "type": "includes"
+        },
+        {
+          "id": "data-lineage",
+          "type": "includes"
+        }
+      ]
+    },
+    {
+      "id": "business-glossary",
+      "name": "Business glossary",
+      "theme": "documentation",
+      "quizzes": [
+        2
+      ],
+      "summary": "A searchable collection of business terms and definitions that gives context; used generically to understand data elements and whom to approach. Maintained by the DMO with data owners.",
+      "explanation": "A glossary is a collection of all terms that define your data's key characteristics, organised to be easy to search; a list of terms and definitions that gives context and helps organise knowledge. Use: for generic purposes, to understand the nature of data elements used within the organisation and whom to approach for such data. Maintained by: DMO with data owners. Sample headings: Business Term ID, Name, Definition, Notes/Examples, Business Rules, Term Owner, Acronyms, Related Business Terms (synonym, hierarchy level, use, use for, narrower, broader, related), Associated Data Element ID (links to the data dictionary), Downstream Metric ID.",
+      "keyTerms": [
+        "Business term",
+        "Synonym / broader / narrower term",
+        "Term owner"
+      ],
+      "examples": [
+        "Business rule: PDPA fields are populated monthly after scrubbing against the PDPA DNC Registry (L5 p.13)"
+      ],
+      "citations": [
+        "L5:12",
+        "L5:13",
+        "L5:19"
+      ],
+      "related": [
+        {
+          "id": "data-dictionary",
+          "type": "contrasts with"
+        },
+        {
+          "id": "data-documentation",
+          "type": "is a type of"
+        }
+      ]
+    },
+    {
+      "id": "data-dictionary",
+      "name": "Data dictionary",
+      "theme": "documentation",
+      "quizzes": [
+        2
+      ],
+      "summary": "A centralised repository of metadata (tables, fields, data type, size, source, owners, defaults); used especially in system implementation for golden sources and approvals. Maintained by the DMO with data owners.",
+      "explanation": "A data dictionary is a centralised repository of metadata. It includes tables, fields, databases, data type, size, explanation, source, application, owners, default values, etc. Use: provides comprehensive understanding of a data element, used especially during system implementation for golden sources of data and approvals for authorised use. Maintained by: DMO with data owners. Sample headings: Data Element ID (e.g. System ID_Table_Column), name, definition, system, table, column, technical name, CDE flag (Yes/No), data element domain, timeliness (T+X), golden source, associated business term ID, related elements, data owner, related documents. BCBS 239 expects data dictionaries and golden sources to be in place.",
+      "keyTerms": [
+        "Centralised repository of metadata",
+        "T+X timeliness",
+        "Golden source",
+        "CDE flag"
+      ],
+      "examples": [
+        "SG_DP_VALMOM_T_RT_Daily_AS_OF_DATE, timeliness T+1, golden source EDW (Core) (L5 p.14)"
+      ],
+      "citations": [
+        "L5:12",
+        "L5:14",
+        "L5:15",
+        "L5:19",
+        "L1:27"
+      ],
+      "related": [
+        {
+          "id": "metadata",
+          "type": "documents"
+        },
+        {
+          "id": "business-glossary",
+          "type": "contrasts with"
+        },
+        {
+          "id": "golden-source",
+          "type": "documents"
+        },
+        {
+          "id": "data-documentation",
+          "type": "is a type of"
+        }
+      ]
+    },
+    {
+      "id": "data-flow-diagram",
+      "name": "Data flow diagram",
+      "theme": "documentation",
+      "quizzes": [
+        2
+      ],
+      "summary": "Shows how information flows through a process/system, from collection to report; used to identify control gaps, streamlining and root causes. Maintained by Technology and business process owners.",
+      "explanation": "A data flow diagram shows the way information flows through a process or system, including data inputs and outputs, data stores and subprocesses from collection to report. Use: provides understanding of end-to-end data flow; identifies control gaps and streamlining opportunities; used for forensic investigation of root causes for DQ issues. Maintained by: Technology and business process owners. All CDEs appear in data-flow documentation. In metadata tools a summarised data flow diagram contrasts with full data lineage.",
+      "keyTerms": [
+        "Inputs/outputs",
+        "Data stores",
+        "Control gaps",
+        "Forensic investigation"
+      ],
+      "examples": [],
+      "citations": [
+        "L5:12",
+        "L5:16",
+        "L5:19",
+        "L4:7",
+        "L8:16"
+      ],
+      "related": [
+        {
+          "id": "data-lineage",
+          "type": "contrasts with"
+        },
+        {
+          "id": "dq-root-causes",
+          "type": "is applied in"
+        },
+        {
+          "id": "data-documentation",
+          "type": "is a type of"
+        }
+      ]
+    },
+    {
+      "id": "data-lineage",
+      "name": "Data lineage",
+      "theme": "documentation",
+      "quizzes": [
+        2
+      ],
+      "summary": "Understanding, recording and visualising data from source to consumption, incl. every transformation (how, what changed and why). Required in full for CDEs.",
+      "explanation": "Data lineage is the process of understanding, recording and visualising data as it flows from data sources to consumption, including all transformations along the way: how the data was transformed, what changed and why. Use: deep understanding of data transformation through its life cycle; forensic investigation of root causes for DQ issues. Maintained by: Technology and business process owners. Full lineage documentation is performed for CDEs. Lecture 8 covers technology architecture for 'streamlined and controlled data lineage', and CDMC cloud control 13 requires lineage for all sensitive data.",
+      "keyTerms": [
+        "Source to consumption",
+        "Transformations",
+        "Full lineage"
+      ],
+      "examples": [],
+      "citations": [
+        "L5:12",
+        "L5:17",
+        "L5:19",
+        "L4:7",
+        "L8:4",
+        "L8:16"
+      ],
+      "related": [
+        {
+          "id": "data-flow-diagram",
+          "type": "contrasts with"
+        },
+        {
+          "id": "cde",
+          "type": "is applied in"
+        },
+        {
+          "id": "cdmc-cloud-controls",
+          "type": "is required by"
+        }
+      ]
+    },
+    {
+      "id": "golden-source",
+      "name": "Golden source",
+      "theme": "documentation",
+      "quizzes": [
+        2
+      ],
+      "summary": "The authoritative source for a data element; the reliable source of truth used in reconciliations and recorded in the data dictionary.",
+      "explanation": "The golden source is the authoritative source for a data element (data dictionary field 'Golden Source', e.g. EDW (Core)). In consistency controls the reliable source of truth rests in the golden source. Golden sources appear in the bakery analogy (common data models and golden sources for consistency), in BCBS 239 Principle 2 (data dictionaries and golden sources such as single identifiers/unified naming conventions) and under Data Architecture in the DG framework and data management policy.",
+      "keyTerms": [
+        "Authoritative source",
+        "Source of truth"
+      ],
+      "examples": [
+        "Customer ID 'AB123456' reconciled across two systems against the golden source (L6 p.11)"
+      ],
+      "citations": [
+        "L5:14",
+        "L6:11",
+        "L1:14",
+        "L1:27",
+        "L5:5"
+      ],
+      "related": [
+        {
+          "id": "dq-consistency",
+          "type": "is applied in"
+        },
+        {
+          "id": "data-dictionary",
+          "type": "is documented in"
+        },
+        {
+          "id": "data-architecture",
+          "type": "is part of"
+        }
+      ]
+    },
+    {
+      "id": "data-quality",
+      "name": "Data quality & why it matters",
+      "theme": "quality",
+      "quizzes": [
+        3
+      ],
+      "summary": "A measure of the degree to which data is fit for its intended purpose; the goal is trusted, fit-for-purpose data.",
+      "explanation": "Data quality is a measure of the degree to which the collected data is fit for the intended purpose. The objective of a good DQ initiative is to deliver data that is trusted and fit-for-purpose, where users and consumers trust and have confidence that the data is what they need. Lecture 6 covers DQ dimensions, data controls, roles in DQ, root cause analysis and AI/ML preventive controls; Lecture 7 covers DQ assessment (business and technical rules), thresholds, dashboards and tools. The learning outcomes include understanding the differences between data controls and data quality.",
+      "keyTerms": [
+        "Fit for purpose",
+        "Trusted data"
+      ],
+      "examples": [
+        "Companies House 'Jesus Holy Christ' record (L6 p.5)"
+      ],
+      "citations": [
+        "L4:4",
+        "L6:3",
+        "L6:4"
+      ],
+      "related": [
+        {
+          "id": "dq-dimensions",
+          "type": "is measured by"
+        },
+        {
+          "id": "data-controls",
+          "type": "contrasts with"
+        },
+        {
+          "id": "dq-root-causes",
+          "type": "is affected by"
+        }
+      ]
+    },
+    {
+      "id": "dq-root-causes",
+      "name": "Root causes of data quality issues (5)",
+      "theme": "quality",
+      "quizzes": [
+        3,
+        4
+      ],
+      "summary": "Manual data entry errors; errors from external parties; program/transformation logic; data operational errors; End User Computing (EUC) errors.",
+      "explanation": "1. Manual data entry errors: typographical errors, inconsistent entry of data attributes. 2. Data errors from external parties: inaccuracies in data procured, delayed arrival of files, missing data attributes. 3. Program logic / data transformation logic: misunderstanding of or incomplete requirements, inadequate UAT scenarios, upstream system enhancements not in sync with downstream applications, system design not in sync with data standards. 4. Data operational errors: configuration errors in business parameters, batch scheduling errors, code deployment errors, operational adjustments not communicated timely to downstream. 5. End User Computing (EUC) errors: incorrect template or data source, typographical errors, transposition errors. Lecture 7 revisits these as a remediation refresher, asking what to do strategically to resolve them.",
+      "keyTerms": [
+        "Manual entry",
+        "External parties",
+        "Transformation logic",
+        "Operational errors",
+        "EUC",
+        "UAT"
+      ],
+      "examples": [],
+      "citations": [
+        "L6:6",
+        "L7:19",
+        "L9:2"
+      ],
+      "related": [
+        {
+          "id": "dq-remediation",
+          "type": "is addressed by"
+        },
+        {
+          "id": "data-flow-diagram",
+          "type": "is investigated using"
+        },
+        {
+          "id": "consequences-poor-data",
+          "type": "causes"
+        }
+      ]
+    },
+    {
+      "id": "dq-dimensions",
+      "name": "Data quality dimensions (7)",
+      "theme": "quality",
+      "quizzes": [
+        3,
+        4
+      ],
+      "summary": "Per EDM Council: accuracy, completeness, conformity, consistency, coverage, timeliness, uniqueness. Rule design in L7 uses six (no coverage).",
+      "explanation": "EDM Council's recommended DQ dimensions (L6 p.7-8): Accuracy, Completeness, Conformity, Consistency, Coverage, Timeliness and Uniqueness. Lecture 7's rule design (Step 3) considers six dimensions: Accuracy, Completeness, Conformity, Consistency, Timeliness and Uniqueness. DQ rules and controls are put in place for each dimension as part of assessing a CDE's data quality. The DQ policy's DQ controls section covers DQ dimensions, rules and thresholds.",
+      "keyTerms": [
+        "EDM Council",
+        "Accuracy",
+        "Completeness",
+        "Conformity",
+        "Consistency",
+        "Coverage",
+        "Timeliness",
+        "Uniqueness"
+      ],
+      "examples": [],
+      "citations": [
+        "L6:7",
+        "L6:8",
+        "L7:4",
+        "L6:10"
+      ],
+      "related": [
+        {
+          "id": "dq-accuracy",
+          "type": "includes"
+        },
+        {
+          "id": "dq-completeness",
+          "type": "includes"
+        },
+        {
+          "id": "dq-conformity",
+          "type": "includes"
+        },
+        {
+          "id": "dq-consistency",
+          "type": "includes"
+        },
+        {
+          "id": "dq-coverage",
+          "type": "includes"
+        },
+        {
+          "id": "dq-timeliness",
+          "type": "includes"
+        },
+        {
+          "id": "dq-uniqueness",
+          "type": "includes"
+        }
+      ]
+    },
+    {
+      "id": "dq-accuracy",
+      "name": "Accuracy",
+      "theme": "quality",
+      "quizzes": [
+        3,
+        4
+      ],
+      "summary": "Veracity of data to its authorised source and precision, validated against business rules; the degree to which data correctly reflects the event described.",
+      "explanation": "L6: a measurement of the veracity of data to its authorised source, and the precision of data, validated against defined business rules. Examples: records wrong at specified time; records not refreshed or updated; wrong level of precision (decimal places). Control example: Customer ID is a valid code and refers to the right assigned customer. L7: the degree to which data correctly reflects the record/transaction event being described. Rule types: check against a list of permitted values (all types except unique identifiers); against a range (dates, amounts); precision (dates, amounts); validity, e.g. customer exists and is backed by documentation (all types); verifiability to an external source such as Moody's/S&P/Fitch or ACRA (external reference values, unique identifiers); derivation, e.g. correctly derived from date of birth (dates, amounts, others).",
+      "keyTerms": [
+        "Veracity",
+        "Precision",
+        "Validity",
+        "Verifiability",
+        "Derivation"
+      ],
+      "examples": [
+        "Wrong number of decimal places (L6 p.7)",
+        "Rating verified against Moody's/S&P/Fitch (L7 p.8)"
+      ],
+      "citations": [
+        "L6:7",
+        "L6:10",
+        "L7:8"
+      ],
+      "related": [
+        {
+          "id": "dq-dimensions",
+          "type": "is a type of"
+        },
+        {
+          "id": "dq-consistency",
+          "type": "contrasts with"
+        }
+      ]
+    },
+    {
+      "id": "dq-completeness",
+      "name": "Completeness",
+      "theme": "quality",
+      "quizzes": [
+        3,
+        4
+      ],
+      "summary": "Existence of required attributes across the population; whether data needed by approved users is available (not null, not default values).",
+      "explanation": "L6: measures the existence of required data attributes in the population of data records. Examples: missing ticker symbol, null maturity date, record with missing attributes. Control example: maker-checker to ensure a Customer ID is assigned to every customer, making Customer ID a compulsory system field. L7: measures whether data necessary to meet approved data users' demand is available. Rule types (all data types): field not null; not filled with 'N/A', 'NIL' or default values (e.g. 1, 11111, 99999); fields needed by users fully collected; total number of records in table complete.",
+      "keyTerms": [
+        "Null",
+        "Default values",
+        "Maker-checker",
+        "Record count"
+      ],
+      "examples": [
+        "Null maturity date (L6 p.7)",
+        "2 employees with NULL employee ID (L7 p.6)"
+      ],
+      "citations": [
+        "L6:7",
+        "L6:10",
+        "L7:9",
+        "L7:6"
+      ],
+      "related": [
+        {
+          "id": "dq-dimensions",
+          "type": "is a type of"
+        },
+        {
+          "id": "dq-coverage",
+          "type": "contrasts with"
+        }
+      ]
+    },
+    {
+      "id": "dq-conformity",
+      "name": "Conformity",
+      "theme": "quality",
+      "quizzes": [
+        3,
+        4
+      ],
+      "summary": "Alignment of content with required standards (internal/external/industry): data type, size and format.",
+      "explanation": "L6: alignment of content with required standards (internal, external or industry-wide). Examples: invalid ISO currency codes, violation of allowable values, inconsistent date formats. Control example: system restriction on permitted values/formats so the system only accepts e.g. 2 alphabets + 6 digits. L7: whether data follows the set of standard data formats (data type, size, format). Rule types: expected format, e.g. all numeric, alphanumeric, no special characters (all types); allowable characters, e.g. retail customers indicated with 'R'; external references associated correctly, e.g. MAS Industry Code fields follow MAS industry classification codes (all types).",
+      "keyTerms": [
+        "Standards",
+        "Format",
+        "Allowable values",
+        "ISO codes"
+      ],
+      "examples": [
+        "Invalid ISO currency code (L6 p.7)",
+        "SG postal code 'XXXX' instead of 'XXXXXX' (L7 p.6)"
+      ],
+      "citations": [
+        "L6:7",
+        "L6:10",
+        "L7:10",
+        "L7:6"
+      ],
+      "related": [
+        {
+          "id": "dq-dimensions",
+          "type": "is a type of"
+        },
+        {
+          "id": "dq-consistency",
+          "type": "contrasts with"
+        },
+        {
+          "id": "reference-data",
+          "type": "is enforced by"
+        }
+      ]
+    },
+    {
+      "id": "dq-consistency",
+      "name": "Consistency",
+      "theme": "quality",
+      "quizzes": [
+        3,
+        4
+      ],
+      "summary": "Values, formats and definitions in one population agree with another; data across systems is in sync.",
+      "explanation": "L6: data values, format and definitions in one population agree with those in another. Examples: invalid data format in some feeds, telephone number format, US vs European date formats. Control example: reconciliation of two systems containing the same Customer ID; both should show 'AB123456', with the golden source as the reliable source of truth. L7: data across systems is in synchronisation within the bank. Rule types (all data types): data consistent across the tables it exists in; logical relationships present, e.g. loan records linked to an existing customer.",
+      "keyTerms": [
+        "Reconciliation",
+        "Synchronisation",
+        "Logical relationships"
+      ],
+      "examples": [
+        "US vs European date formats (L6 p.8)",
+        "Loan records must link to an existing customer (L7 p.11)"
+      ],
+      "citations": [
+        "L6:8",
+        "L6:11",
+        "L7:11"
+      ],
+      "related": [
+        {
+          "id": "dq-dimensions",
+          "type": "is a type of"
+        },
+        {
+          "id": "golden-source",
+          "type": "relies on"
+        },
+        {
+          "id": "dq-conformity",
+          "type": "contrasts with"
+        }
+      ]
+    },
+    {
+      "id": "dq-coverage",
+      "name": "Coverage",
+      "theme": "quality",
+      "quizzes": [
+        3
+      ],
+      "summary": "Breadth and availability of data, e.g. a required field is missing.",
+      "explanation": "Coverage measures the breadth and availability of data. Example: required field is missing. Coverage is one of the seven EDM Council dimensions in Lecture 6 but is not among the six dimensions used for rule design in Lecture 7. Lecture 9 also lists coverage (geographical and temporal coverage, representational consistency) as a data characteristic influencing AI.",
+      "keyTerms": [
+        "Breadth",
+        "Availability"
+      ],
+      "examples": [
+        "Required field is missing (L6 p.8)"
+      ],
+      "citations": [
+        "L6:8",
+        "L9:9"
+      ],
+      "related": [
+        {
+          "id": "dq-dimensions",
+          "type": "is a type of"
+        },
+        {
+          "id": "dq-completeness",
+          "type": "contrasts with"
+        }
+      ]
+    },
+    {
+      "id": "dq-timeliness",
+      "name": "Timeliness",
+      "theme": "quality",
+      "quizzes": [
+        3,
+        4
+      ],
+      "summary": "How well content represents current conditions and whether data is available when needed / up to date.",
+      "explanation": "L6: how well content represents currency of conditions and whether data is available when needed. Examples: file delivered late for processing; revised credit rating not updated on the day it was issued. Control example: system delivers a full list of active Customer ID files to Financial Reporting by Day 3 of month-end close. L7: whether data is available when expected or up to date. Rule types: end date later than start date (for accuracy; all types except amounts); check against record history, e.g. a term loan completed in 2009 should not be active in 2019 (all except amounts); continuity of a record, e.g. repayments should not disappear while outstanding payment remains (for completeness; dates); timestamp vs expected update frequency (all); availability vs SLA delivery timeline (all).",
+      "keyTerms": [
+        "SLA",
+        "Currency",
+        "Record history",
+        "Continuity"
+      ],
+      "examples": [
+        "Revised credit rating not updated on day issued (L6 p.8)",
+        "Customer ID file to Financial Reporting by Day 3 (L6 p.11)"
+      ],
+      "citations": [
+        "L6:8",
+        "L6:11",
+        "L7:12"
+      ],
+      "related": [
+        {
+          "id": "dq-dimensions",
+          "type": "is a type of"
+        },
+        {
+          "id": "bcbs239",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "dq-uniqueness",
+      "name": "Uniqueness",
+      "theme": "quality",
+      "quizzes": [
+        3,
+        4
+      ],
+      "summary": "Singularity of records and attributes; de-duplication and referential checks.",
+      "explanation": "L6: singularity of records and attributes. Examples: 2 instances of the same security; a customer with different customer IDs. Control example: Customer ID 'AB123456' is unique and used for only 1 customer across all records. L7: encompasses validations such as de-duplication and identifies records which do not comply with defined referential checks across a set of tables. Rule type: checking uniqueness of values, i.e. no duplicate exists (unique identifiers).",
+      "keyTerms": [
+        "De-duplication",
+        "Unique identifier"
+      ],
+      "examples": [
+        "2 different employee names with the same NRIC (L7 p.6)"
+      ],
+      "citations": [
+        "L6:8",
+        "L6:11",
+        "L7:13",
+        "L7:6"
+      ],
+      "related": [
+        {
+          "id": "dq-dimensions",
+          "type": "is a type of"
+        },
+        {
+          "id": "data-type-classification",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "data-controls",
+      "name": "Data controls",
+      "theme": "quality",
+      "quizzes": [
+        2,
+        3
+      ],
+      "summary": "Controls manage risks by preventing, detecting or correcting, and can be automated or procedural; DQ rules and controls are set per dimension for each CDE.",
+      "explanation": "Controls manage risks through preventing, detecting or correcting activities and can be automated or procedural (L4). As part of assessing a CDE's data quality, DQ rules and controls are put in place for each DQ dimension, e.g. valid customer ID (accuracy), maker-checker compulsory field (completeness), system format restriction (conformity), reconciliation to golden source (consistency), delivery by Day 3 (timeliness), one ID per customer (uniqueness). In most organisations some of these rules and controls may already exist or be executed as part of a process or as system controls. The fine-revenue worked example maps controls to each process step (individual profile created; master profile database; fine transactions recorded; aggregate total fines; calculate and report fines by category/severity) and asks who is responsible for each control and how responsibilities are handed over.",
+      "keyTerms": [
+        "Preventive",
+        "Detective",
+        "Corrective",
+        "Automated vs procedural",
+        "Maker-checker"
+      ],
+      "examples": [
+        "Fine revenue controls: individual profile created → dimensions 1,2,3,5,6 (L6 p.12)"
+      ],
+      "citations": [
+        "L4:4",
+        "L6:10",
+        "L6:11",
+        "L6:12",
+        "L6:13"
+      ],
+      "related": [
+        {
+          "id": "data-quality",
+          "type": "contrasts with"
+        },
+        {
+          "id": "dq-dimensions",
+          "type": "is applied in"
+        },
+        {
+          "id": "ai-ml-dq",
+          "type": "is enhanced by"
+        }
+      ]
+    },
+    {
+      "id": "traditional-dq-approach",
+      "name": "Traditional approach to data quality",
+      "theme": "quality",
+      "quizzes": [
+        3
+      ],
+      "summary": "Profile → build rules & thresholds → implement & execute → measure & report → root cause & remediate → review & refine; long, arduous and costly.",
+      "explanation": "Steps: profile and document the current state of data; build business rules and thresholds; implement and execute rules; measure and report; perform root cause analysis and remediate; review and refine after remediation. The traditional approach is difficult because it is long and arduous: it takes time to build and implement DQ rules, measure, solve for root cause and remediate, and this delay is costly.",
+      "keyTerms": [
+        "Profiling",
+        "Rules & thresholds",
+        "Delay is costly"
+      ],
+      "examples": [],
+      "citations": [
+        "L6:14"
+      ],
+      "related": [
+        {
+          "id": "ai-ml-dq",
+          "type": "contrasts with"
+        },
+        {
+          "id": "dq-measurement-process",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "ai-ml-dq",
+      "name": "AI/ML as preventive DQ controls",
+      "theme": "quality",
+      "quizzes": [
+        3
+      ],
+      "summary": "A spectrum from rules-based (reactive, high human effort) to statistical reviews, anomaly detection, predictive modelling and self-learning decision making.",
+      "explanation": "Rules-based: specific rules and formulas; high human intervention; reactive on an after-event basis; greater remediation effort. Statistical reviews: simple statistical tests on the population, identification of outliers; quick way to identify potential errors. Anomaly detection: identify homogeneous groups with similar characteristics; outlier investigations in large and complex datasets. Predictive modelling: create DQ flags, impute missing values; real-time prediction and model improvement. Decision making: real-time detection, suggestions for corrections, self-learning based on decisions, improved decisions over time.",
+      "keyTerms": [
+        "Rules-based",
+        "Statistical reviews",
+        "Anomaly detection",
+        "Predictive modelling",
+        "Self-learning"
+      ],
+      "examples": [],
+      "citations": [
+        "L6:15"
+      ],
+      "related": [
+        {
+          "id": "traditional-dq-approach",
+          "type": "contrasts with"
+        },
+        {
+          "id": "data-controls",
+          "type": "enhances"
+        },
+        {
+          "id": "data-for-ai",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "dq-rules-design",
+      "name": "Approach to DQ rules design",
+      "theme": "quality",
+      "quizzes": [
+        4
+      ],
+      "summary": "Step 1: understand the CDE & profile data; Step 2: classify the data type; Step 3: design rules per DQ dimension (about 2 per dimension per CDE).",
+      "explanation": "Step 1: understanding the CDE and data profiling. Step 2: data type classification (external reference table values, internal reference tables, unique identifiers, date values, amounts, others). Step 3: consider DQ dimensions (accuracy, completeness, conformity, consistency, timeliness, uniqueness) and design rules for each. The Lecture 9 recap notes about 2 rules per dimension for each CDE.",
+      "keyTerms": [
+        "Step 1 profiling",
+        "Step 2 classification",
+        "Step 3 dimensions"
+      ],
+      "examples": [],
+      "citations": [
+        "L7:4",
+        "L9:2"
+      ],
+      "related": [
+        {
+          "id": "data-profiling",
+          "type": "includes"
+        },
+        {
+          "id": "data-type-classification",
+          "type": "includes"
+        },
+        {
+          "id": "dq-dimensions",
+          "type": "applies"
+        },
+        {
+          "id": "cde",
+          "type": "starts from"
+        }
+      ]
+    },
+    {
+      "id": "data-profiling",
+      "name": "Data profiling",
+      "theme": "quality",
+      "quizzes": [
+        4
+      ],
+      "summary": "The first but most critical step: reviewing the 'state of affairs' of data to build rules that constrain attributes.",
+      "explanation": "Data profiling is the first but most critical step to reviewing the 'state of affairs' of the data and building rules that dictate the constraints of data attributes. Types: null, minimum, maximum and average values; frequency chart of attributes; precision levels (dates/values); pattern of formats; compare against approved list of permitted values; suspicious default values; pattern detection (relationships in tables). Key business questions: typical checks performed to ensure fitness for purpose; adjustments made (user to answer); specific reporting requirements (user to answer); relationships with other data; known limits/constraints; external parameters to reconcile to (user to answer). Example over 1,000 employee records: 2 NULL employee IDs (completeness rule); 10 start dates of 1/1/1900 (staff left > 5 years ago; tune rule to active employees); 5 managers with salary above range (HR to look into, keep generic rule); 10 SG postal codes 'XXXX' (conformity rule); 2 names with the same NRIC (uniqueness rule); 1 end date before start date (perhaps retiree; tune for exceptions).",
+      "keyTerms": [
+        "State of affairs",
+        "Suspicious default values",
+        "Frequency chart",
+        "Pattern detection"
+      ],
+      "examples": [
+        "10 employees with start date 1/1/1900 (L7 p.6)"
+      ],
+      "citations": [
+        "L7:5",
+        "L7:6",
+        "L9:2"
+      ],
+      "related": [
+        {
+          "id": "dq-rules-design",
+          "type": "is part of"
+        },
+        {
+          "id": "traditional-dq-approach",
+          "type": "is part of"
+        }
+      ]
+    },
+    {
+      "id": "data-type-classification",
+      "name": "Data type classification",
+      "theme": "quality",
+      "quizzes": [
+        4
+      ],
+      "summary": "Grouping CDEs as external reference values, internal reference tables, unique identifiers, date values, amounts or others, so the right DQ rules apply.",
+      "explanation": "Before designing DQ rules, data is grouped so applicable rules can be designed. External reference table type values: taken from an external reference (ISO, Moody's, S&P, Fitch), e.g. country of operations, currency code, issuer rating. Internal reference tables: from an internal reference (list of bank products, business units, cost centres), e.g. product type, business unit, cost centre. Unique identifiers: can uniquely confirm a customer's record, e.g. customer name, account number, passport/NRIC. Date values: in a date format, e.g. amortising, maturity, callable date. Amounts: numerical format, e.g. notional amount, regulatory capital, NPL balance. Others: not classifiable, e.g. external/internal indicator, NPL indicator, commodity curve.",
+      "keyTerms": [
+        "External reference",
+        "Internal reference",
+        "Unique identifiers",
+        "Date values",
+        "Amounts",
+        "Others"
+      ],
+      "examples": [
+        "Currency code = external reference value (L7 p.7)",
+        "NRIC = unique identifier (L7 p.7)"
+      ],
+      "citations": [
+        "L7:7"
+      ],
+      "related": [
+        {
+          "id": "dq-rules-design",
+          "type": "is part of"
+        },
+        {
+          "id": "reference-data",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "dq-measurement-process",
+      "name": "Process for measuring data quality",
+      "theme": "quality",
+      "quizzes": [
+        4
+      ],
+      "summary": "Thresholds → Measure → Dashboard → Remediation.",
+      "explanation": "Thresholds: agree on acceptable quality for the business user based on risk tolerance and regulatory requirements. Measure: execute measurement manually or through systems at the agreed frequency. Dashboard: highlight quality issues, potential root causes, systems/data owners and remediation timelines. Remediation: one-time corrections of errors and strategic enhancement of processes/systems to improve controls. Lecture 9 recaps the full cycle: profiling → data type classification → design rules → agree thresholds (set by users) → measure (automatic or manual, frequency by criticality) → report (patterns over periods, systems, CDEs, human errors) → root cause analysis → remediate.",
+      "keyTerms": [
+        "Thresholds",
+        "Measure",
+        "Dashboard",
+        "Remediation"
+      ],
+      "examples": [],
+      "citations": [
+        "L7:14",
+        "L9:2"
+      ],
+      "related": [
+        {
+          "id": "dq-thresholds",
+          "type": "includes"
+        },
+        {
+          "id": "dq-dashboard",
+          "type": "includes"
+        },
+        {
+          "id": "dq-remediation",
+          "type": "includes"
+        },
+        {
+          "id": "dq-manual-vs-automated",
+          "type": "includes"
+        }
+      ]
+    },
+    {
+      "id": "dq-thresholds",
+      "name": "DQ thresholds & DQ result formula",
+      "theme": "quality",
+      "quizzes": [
+        4
+      ],
+      "summary": "DQ result = (records assessed − records failed) / records assessed × 100%. ≥95% very good; 92.5–95% good; <92.5% fair.",
+      "explanation": "DQ results = (Total # records assessed − # records that failed the DQ rules applied) / Total records assessed × 100%. Notes: it counts data which violated the rules in the entire population; false positives have been removed; it does not represent the actual deviation of the data (e.g. accuracy). Interpretation: 95% and up is very good; between 92.5% and 95% is good; less than 92.5% is fair. Thresholds are agreed with business users based on risk tolerance and regulatory requirements; the L9 recap describes the threshold as the percentage of records that minimally need to be right, set by users.",
+      "keyTerms": [
+        "Pass rate",
+        "False positives",
+        "Risk tolerance",
+        "Very good / good / fair"
+      ],
+      "examples": [],
+      "citations": [
+        "L7:15",
+        "L7:14",
+        "L9:2"
+      ],
+      "related": [
+        {
+          "id": "dq-measurement-process",
+          "type": "is part of"
+        },
+        {
+          "id": "data-quality-policy",
+          "type": "is governed by"
+        }
+      ]
+    },
+    {
+      "id": "dq-manual-vs-automated",
+      "name": "Manual vs automated DQ measurement",
+      "theme": "quality",
+      "quizzes": [
+        4
+      ],
+      "summary": "Manual via Excel (e.g. operational risk control attestation, annual/bi-annual) vs automated via tools like Informatica, IBM, Talend (DQ team testing, monthly/quarterly).",
+      "explanation": "Data quality can be assessed manually, through something as simple as an Excel spreadsheet (e.g. operational risk controls attestation, annual/bi-annual testing), or automatically through DQ rules and systems/tools such as Informatica, IBM or Talend (e.g. data quality team testing on a monthly/quarterly basis). Measurement frequency is agreed based on criticality.",
+      "keyTerms": [
+        "Excel",
+        "Attestation",
+        "Informatica / IBM / Talend",
+        "Frequency"
+      ],
+      "examples": [],
+      "citations": [
+        "L7:16",
+        "L9:2"
+      ],
+      "related": [
+        {
+          "id": "dq-measurement-process",
+          "type": "is part of"
+        },
+        {
+          "id": "mdm-tools",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "dq-dashboard",
+      "name": "DQ dashboards",
+      "theme": "quality",
+      "quizzes": [
+        4
+      ],
+      "summary": "Dashboards highlight DQ issues, root causes, systems/owners and remediation timelines, by CDE, system, report and dimension, with trends.",
+      "explanation": "The dashboard step highlights quality issues, potential root causes, systems/data owners and remediation timelines. The sample dashboard summarises issues today by CDE, system and report; shows a DQ-dimensions wheel; trends CDE issues over months; and drills into a CDE (e.g. Borrower ID) showing a completeness issue ('blank field for a mandatory input'), quantified impact and threshold vs actual per dimension. Reporting should highlight patterns over periods, systems, CDEs and human errors.",
+      "keyTerms": [
+        "Issues by CDE/system/report",
+        "Trend",
+        "Drill-down"
+      ],
+      "examples": [
+        "Borrower ID completeness failure (L7 p.17)"
+      ],
+      "citations": [
+        "L7:14",
+        "L7:17",
+        "L7:18",
+        "L9:2"
+      ],
+      "related": [
+        {
+          "id": "dq-measurement-process",
+          "type": "is part of"
+        },
+        {
+          "id": "metadata-tool",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "dq-remediation",
+      "name": "DQ remediation (tactical vs strategic)",
+      "theme": "quality",
+      "quizzes": [
+        4
+      ],
+      "summary": "One-time (tactical) corrections fix immediate errors; strategic fixes enhance processes/systems to prevent recurrence. Plans are developed, prioritised and actioned.",
+      "explanation": "Remediation: perform one-time corrections to correct the errors and enhance processes/systems to improve controls strategically (L7 p.14). The L9 recap: tactical fixes fix immediate errors, and strategic fixes prevent errors from further happening. In the building blocks of DG, data remediation plans (strategic and tactical) are developed, prioritised and actioned. Lecture 7 asks what to do strategically to resolve each of the 5 root-cause categories. The DQ policy includes data remediation and escalation.",
+      "keyTerms": [
+        "Tactical / one-time",
+        "Strategic",
+        "Prioritised"
+      ],
+      "examples": [],
+      "citations": [
+        "L7:14",
+        "L7:19",
+        "L9:2",
+        "L1:22",
+        "L5:8"
+      ],
+      "related": [
+        {
+          "id": "dq-root-causes",
+          "type": "addresses"
+        },
+        {
+          "id": "dq-measurement-process",
+          "type": "is part of"
+        }
+      ]
+    },
+    {
+      "id": "data-architecture",
+      "name": "Data architecture",
+      "theme": "architecture",
+      "quizzes": [
+        5
+      ],
+      "summary": "The bridge between business data requirements and physical execution in technology; defines data models (taxonomies, ontologies), domains, metadata and business-critical data.",
+      "explanation": "Data architecture is a bridge between the requirements for data of the business process and the physical execution of that data in technology infrastructure. It defines data models such as taxonomies and ontologies as well as data domains, metadata and business-critical data to execute processes across the data control environment. L4 defines it as a discipline, process and programme focusing on integrating sets of information. It is one of the three DMO pillars (with governance and quality).",
+      "keyTerms": [
+        "Bridge",
+        "Data models",
+        "Taxonomies",
+        "Ontologies",
+        "Data domains"
+      ],
+      "examples": [],
+      "citations": [
+        "L8:5",
+        "L4:4",
+        "L3:11"
+      ],
+      "related": [
+        {
+          "id": "technology-architecture",
+          "type": "contrasts with"
+        },
+        {
+          "id": "data-architecture-components",
+          "type": "includes"
+        },
+        {
+          "id": "dcam",
+          "type": "is part of"
+        }
+      ]
+    },
+    {
+      "id": "technology-architecture",
+      "name": "Technology architecture",
+      "theme": "architecture",
+      "quizzes": [
+        5
+      ],
+      "summary": "How data, tools and platforms operate together to meet business requirements, driving efficiency, speed, cost control and scalability.",
+      "explanation": "Technology architecture determines how data, tools and platforms operate in collaboration to satisfy business requirements. Proper alignment dictates application efficiency and system processing speed, enabling organisations to control costs and achieve infrastructure scalability and elasticity, characteristic of an organisation designed for long-term implementation success. In the bakery analogy it is the oven: even with good standards and data, infrastructure differences can impact producing the right outputs in a timely fashion. L8 links it to streamlined and controlled data lineage.",
+      "keyTerms": [
+        "Scalability",
+        "Elasticity",
+        "Processing speed"
+      ],
+      "examples": [
+        "Bakery oven (L1 p.16)"
+      ],
+      "citations": [
+        "L8:5",
+        "L8:4",
+        "L1:16"
+      ],
+      "related": [
+        {
+          "id": "data-architecture",
+          "type": "contrasts with"
+        },
+        {
+          "id": "bakery-analogy",
+          "type": "is illustrated by"
+        },
+        {
+          "id": "data-platform",
+          "type": "is applied in"
+        }
+      ]
+    },
+    {
+      "id": "data-architecture-components",
+      "name": "Components of data architecture (bricks)",
+      "theme": "architecture",
+      "quizzes": [
+        5
+      ],
+      "summary": "Individual bricks (CDEs, data dictionary) → sorted bricks (data domain, taxonomy, reference data) → aggregated bricks (data flow, lineage, inventory) → output design (data model).",
+      "explanation": "Data architecture is illustrated as building with bricks. Individual bricks: critical data elements, data dictionary. Sorted bricks: data domain, data taxonomy, reference data. Aggregated bricks: data flow diagram, data lineage, data inventory. Output design: data model.",
+      "keyTerms": [
+        "Individual / sorted / aggregated bricks",
+        "Data model",
+        "Data inventory"
+      ],
+      "examples": [],
+      "citations": [
+        "L8:6"
+      ],
+      "related": [
+        {
+          "id": "data-domain",
+          "type": "includes"
+        },
+        {
+          "id": "data-taxonomy",
+          "type": "includes"
+        },
+        {
+          "id": "reference-data",
+          "type": "includes"
+        },
+        {
+          "id": "cde",
+          "type": "includes"
+        }
+      ]
+    },
+    {
+      "id": "data-domain",
+      "name": "Data domains",
+      "theme": "architecture",
+      "quizzes": [
+        5
+      ],
+      "summary": "Groupings of data such as Customer, Product master, Collaterals, Risk, Finance, HR and Entity structure.",
+      "explanation": "Customer: all static information on customer profile. Product master: master list of all products, codes and customer restrictions. Collaterals: collateral types, value, location, secured liabilities. Risk: raw inputs on risk data from external sources and computed risk analytics. Finance: all finance, regulatory and tax data, incl. economic and finance indicators. HR: employee information, job data and external benchmark data. Entity structure: enterprise, geographic location, entity set-up, BU and cost centre set-ups. The data dictionary also records a 'data element domain'.",
+      "keyTerms": [
+        "Customer",
+        "Product master",
+        "Collaterals",
+        "Risk",
+        "Finance",
+        "HR",
+        "Entity structure"
+      ],
+      "examples": [],
+      "citations": [
+        "L8:7",
+        "L5:14"
+      ],
+      "related": [
+        {
+          "id": "data-taxonomy",
+          "type": "is classified by"
+        },
+        {
+          "id": "data-architecture-components",
+          "type": "is part of"
+        }
+      ]
+    },
+    {
+      "id": "data-taxonomy",
+      "name": "Data taxonomy",
+      "theme": "architecture",
+      "quizzes": [
+        5
+      ],
+      "summary": "Classification of data into hierarchical groups to create structure, standardise terminology and popularise a dataset across the organisation.",
+      "explanation": "Data taxonomy is the classification of data into hierarchical groups to create structure, standardise terminology and popularise a dataset within an organisation. Example: a Geography taxonomy for the entity structure domain: Asia/Pacific → Singapore, Malaysia (E Malaysia, W Malaysia, Labuan), Greater China (China, Hong Kong, Macau, Taiwan), Indonesia, Japan, Australia...; Europe → EU (Germany, France, Italy, other EU), Non-EU (UK, other non-EU); Americas → US, Latin Americas, other; Middle East/Africa. BCBS 239 expects integrated data taxonomies across the bank.",
+      "keyTerms": [
+        "Hierarchy",
+        "Standardised terminology"
+      ],
+      "examples": [
+        "Geography hierarchy (L8 p.8)"
+      ],
+      "citations": [
+        "L8:8",
+        "L1:27"
+      ],
+      "related": [
+        {
+          "id": "reference-data",
+          "type": "contrasts with"
+        },
+        {
+          "id": "common-taxonomies",
+          "type": "is related to"
+        },
+        {
+          "id": "data-domain",
+          "type": "classifies"
+        }
+      ]
+    },
+    {
+      "id": "reference-data",
+      "name": "Reference data",
+      "theme": "architecture",
+      "quizzes": [
+        5
+      ],
+      "summary": "Foundational data to identify, define, classify or aggregate entities and transactions; restricts valid values for a field. Public (country/currency codes) vs private (chart of accounts, product codes).",
+      "explanation": "Reference data is any foundational data that provides the basis to identify, define, classify or aggregate business entities and transactions, providing the ability to view, monitor, analyse and report on them. It restricts the set of valid values for each data field. Reference data management is the process of managing classifications and hierarchies across systems and business lines. Public: country codes, currency codes, external risk rating categories, legal entity identifiers. Private: chart of accounts, product codes, internal risk rating categories, customer classification types. In practice, source records ('Singapore', 'ID') are looked up in a reference data table and updated to enterprise standards ('SGP', 'IDN'). Why important: inconsistent views lead to incorrect, inconsistent metrics and reports; multiple sources for one reference class cause confusion; poor understanding leads to multiple enrichment/distribution points, increasing complexity. Examples: different versions of industry classifications; inconsistent product classifications.",
+      "keyTerms": [
+        "Valid values",
+        "Public vs private",
+        "Reference data management",
+        "Lookup"
+      ],
+      "examples": [
+        "Singapore / SG → SGP (L8 p.10)"
+      ],
+      "citations": [
+        "L8:8",
+        "L8:9",
+        "L8:10",
+        "L8:11"
+      ],
+      "related": [
+        {
+          "id": "data-taxonomy",
+          "type": "contrasts with"
+        },
+        {
+          "id": "dq-conformity",
+          "type": "supports"
+        },
+        {
+          "id": "data-type-classification",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "data-platform",
+      "name": "A data-driven platform",
+      "theme": "architecture",
+      "quizzes": [
+        5
+      ],
+      "summary": "Capture → Curate → Consume: sources, a data supply chain (raw, curation, enterprise and for-purpose zones), data services and consumption, underpinned by data governance & management and security.",
+      "explanation": "Capture: sources (databases, files, 3rd party, devices, sensors, cloud) and data acquisition (bulk, streaming, API, change data). Curate: raw zone (as-is, source mirror), data curation (cleanse, link, standardise), enterprise zone (enterprise data model), data provisioning (conform, shape, business rules), for-purpose zone (extracts/feeds, analytics store, operational store). Consume: data services (files, SQL, virtualisation, API), self-service (marketplace search, discovery sandbox, data preparation, visual intelligence), consumption (BI/reporting, visualisation, ML, ad-hoc analysis, applications). Underpinned by data governance & management (lineage, quality, discovery, master data, reference data, metadata hub/catalog, glossary/taxonomy, classification, compliance) and data security & platform services (identity & access, protection, lifecycle, DevOps, workflow, audit & monitoring).",
+      "keyTerms": [
+        "Capture / Curate / Consume",
+        "Raw zone",
+        "Enterprise zone",
+        "Self-service"
+      ],
+      "examples": [],
+      "citations": [
+        "L8:12"
+      ],
+      "related": [
+        {
+          "id": "technology-architecture",
+          "type": "applies"
+        },
+        {
+          "id": "metadata-tool",
+          "type": "includes"
+        }
+      ]
+    },
+    {
+      "id": "mdm-tools",
+      "name": "MDM tools",
+      "theme": "architecture",
+      "quizzes": [
+        5
+      ],
+      "summary": "Vendors shown for master data management: TIBCO, Informatica, Talend, Ataccama, Collibra, Riversand, SAP, Ab Initio.",
+      "explanation": "Lecture 8 introduces MDM tools via vendor logos: TIBCO, Informatica, Talend, Ataccama, Collibra, Riversand, SAP and Ab Initio. A Gartner comparison of MDM tools is listed as a reading. Lecture 7 names Informatica, IBM and Talend as automated DQ tools.",
+      "keyTerms": [
+        "Master data management",
+        "Informatica",
+        "Collibra"
+      ],
+      "examples": [],
+      "citations": [
+        "L8:13",
+        "L8:22",
+        "L7:16"
+      ],
+      "related": [
+        {
+          "id": "metadata-tool",
+          "type": "is related to"
+        },
+        {
+          "id": "dq-manual-vs-automated",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "metadata-tool",
+      "name": "Metadata management tool",
+      "theme": "architecture",
+      "quizzes": [
+        5
+      ],
+      "summary": "Supports understanding the data (inventory, dictionary, CDE, golden source, owner, lineage), trusting it (auditability, DQ rules, dashboards, exceptions, profiling) and using it (pipelines, preparation, PII integrity, self-service).",
+      "explanation": "Understanding the data: data inventory, data dictionary, metadata, CDE, golden source, data owner, data lineage/flow (summarised data flow diagram vs full data lineage). Trusting the data: auditability, data quality rules, analytics dashboard, exception management, discovery & profiling (e.g. DQ passing rates by metric group; DQ rules by criticality and dimension scores). Using the data: build data pipelines, data preparation, preserve referential integrity of PII, self-service data access (self-service analytics dashboards).",
+      "keyTerms": [
+        "Understanding / Trusting / Using",
+        "Data inventory",
+        "DQ passing rate",
+        "Self-service"
+      ],
+      "examples": [
+        "Scorecard: Accuracy 30.43%, Uniqueness 97.83% (L8 p.17)"
+      ],
+      "citations": [
+        "L8:14",
+        "L8:15",
+        "L8:16",
+        "L8:17",
+        "L8:18",
+        "L8:20"
+      ],
+      "related": [
+        {
+          "id": "metadata",
+          "type": "manages"
+        },
+        {
+          "id": "data-lineage",
+          "type": "visualises"
+        },
+        {
+          "id": "dq-dashboard",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "common-taxonomies",
+      "name": "Industry-wide common taxonomies & ontologies",
+      "theme": "architecture",
+      "quizzes": [
+        5
+      ],
+      "summary": "ECB's BIRD, FCA's Digital Regulatory Reporting, the FIBO ontology and the EU ESG climate taxonomy (MAS too).",
+      "explanation": "Development of common taxonomies globally: (1) ECB's Banks' Integrated Reporting Dictionary: a harmonised data dictionary and data model to reduce interpretation burdens and inconsistencies; (2) FCA's Digital Regulatory Reporting: regulators write machine-readable code as reporting instructions instead of natural language; (3) FIBO ontology: a global, platform-independent, machine-readable, unambiguous data standard enabling understanding of financial terminology, cross-system federation and aggregation; (4) EU's ESG Climate Taxonomy: consistent labelling of green investment products to screen and evaluate organisations by activities (MAS too).",
+      "keyTerms": [
+        "BIRD",
+        "Digital Regulatory Reporting",
+        "FIBO",
+        "ESG taxonomy",
+        "Ontology"
+      ],
+      "examples": [],
+      "citations": [
+        "L8:21",
+        "L8:4"
+      ],
+      "related": [
+        {
+          "id": "data-taxonomy",
+          "type": "is related to"
+        },
+        {
+          "id": "data-dictionary",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "five-trends",
+      "name": "Five latest trends in data management",
+      "theme": "trends",
+      "quizzes": [],
+      "summary": "1 Data for AI/ML, 2 Data ethics, 3 Data on cloud, 4 Data sharing, 5 Data as an asset.",
+      "explanation": "1. Data for AI/ML: pervasiveness of AI/ML/Gen AI and AGI, with data as an enabler. 2. Data ethics: UN AI Advisory Body, EU AI Act, US AI Executive Order. 3. Data on cloud: cybersecurity, access and controls, privacy. 4. Data sharing: ASEAN Digital Data Sharing framework, ASEAN Bankers' Interoperable Data Framework. 5. Data as an asset: monetising data as a way forward.",
+      "keyTerms": [
+        "AI/ML",
+        "Data ethics",
+        "Cloud",
+        "Data sharing",
+        "Data as an asset"
+      ],
+      "examples": [],
+      "citations": [
+        "L9:5"
+      ],
+      "related": [
+        {
+          "id": "data-for-ai",
+          "type": "includes"
+        },
+        {
+          "id": "mas-feat",
+          "type": "includes"
+        },
+        {
+          "id": "cdmc-cloud-controls",
+          "type": "includes"
+        },
+        {
+          "id": "asean-dmf",
+          "type": "includes"
+        },
+        {
+          "id": "data-value-drivers",
+          "type": "includes"
+        }
+      ]
+    },
+    {
+      "id": "data-for-ai",
+      "name": "Data for AI/ML & knowledge graphs",
+      "theme": "trends",
+      "quizzes": [],
+      "summary": "Singapore banks (DBS, OCBC, UOB) use data and AI; knowledge graphs link entities to find hidden patterns in financial crime, risk, fraud and marketing.",
+      "explanation": "Proliferation of data in AI/ML: DBS banks on data to know what customers want before they do; OCBC was the first Singapore bank to use AI/ML to combat financial crime; UOB's 'Mighty Insights' analyses transactional data to give tailored suggestions. Knowledge graphs represent entities and relationships (e.g. books have authors and publishers, are published on a date and followed by sequels) and are increasingly used to look for undetected patterns and discover superficially unconnected individuals, with use cases in financial crime investigations, risk management, fraud and marketing.",
+      "keyTerms": [
+        "Knowledge graph",
+        "Financial crime",
+        "Mighty Insights"
+      ],
+      "examples": [
+        "OCBC AI/ML to combat financial crime (L9 p.6)"
+      ],
+      "citations": [
+        "L9:6",
+        "L9:7",
+        "L9:8"
+      ],
+      "related": [
+        {
+          "id": "ai-data-characteristics",
+          "type": "depends on"
+        },
+        {
+          "id": "ai-ml-dq",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "ai-data-characteristics",
+      "name": "Data characteristics influencing AI",
+      "theme": "trends",
+      "quizzes": [],
+      "summary": "Sensitivity, representativeness, accuracy, completeness, accessibility and coverage (GPAI).",
+      "explanation": "Sensitivity: protected characteristics and causal influences, identifiability, anonymisation, commercially sensitive data. Representativeness: bias in data collection (selection, exclusion, reporting, detection bias) leading to over/under-representation. Accuracy: objectivity, precision, reliability, validity, legitimacy, labelled data. Completeness: timeliness, appropriateness, volume. Accessibility: FAIR data, open or closed data, standardisation/interoperability, access, security. Coverage: geographical and temporal coverage, representational consistency. Source: GPAI, The Role of Data in AI.",
+      "keyTerms": [
+        "Representativeness",
+        "Selection bias",
+        "FAIR data",
+        "Sensitivity"
+      ],
+      "examples": [],
+      "citations": [
+        "L9:9"
+      ],
+      "related": [
+        {
+          "id": "dq-dimensions",
+          "type": "is related to"
+        },
+        {
+          "id": "mas-feat",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "mas-feat",
+      "name": "MAS FEAT principles",
+      "theme": "trends",
+      "quizzes": [],
+      "summary": "MAS principles for the use of AI and data analytics (AIDA) in financial decision-making: foundational principles, operationalising governance and public trust.",
+      "explanation": "Objectives of the MAS FEAT Principles: (1) provide firms offering financial products and services with foundational principles to consider when using AIDA in decision-making; (2) assist firms in contextualising and operationalising governance of AIDA in their own business models and structures; (3) promote public confidence and trust in the use of AIDA. It falls under the 'data ethics' trend.",
+      "keyTerms": [
+        "AIDA",
+        "Data ethics",
+        "Public trust"
+      ],
+      "examples": [],
+      "citations": [
+        "L9:10",
+        "L9:20"
+      ],
+      "related": [
+        {
+          "id": "five-trends",
+          "type": "is part of"
+        },
+        {
+          "id": "ai-data-characteristics",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "cdmc-cloud-controls",
+      "name": "CDMC key controls for data in cloud",
+      "theme": "trends",
+      "quizzes": [],
+      "summary": "EDMC's 14 key controls in 6 areas: governance & accountability, cataloguing & classification, accessibility & usage, protection & privacy, data lifecycle, data & technical architecture.",
+      "explanation": "1.0 Governance & Accountability: (1) data control compliance metric for sensitive data assets; (2) ownership field populated in the catalog; (3) register of authoritative sources and authorised distributors; (4) data sovereignty and cross-border movement recorded, auditable and controlled. 2.0 Cataloguing & Classification: (5) automated cataloguing at creation/ingestion; (6) automated, always-on classification. 3.0 Accessibility & Usage: (7) entitlements defaulted to creator and owner, access tracked; (8) data consumption purpose in data sharing agreements. 4.0 Protection & Privacy: (9) security controls enabled with evidence; (10) privacy impact assessments auto-triggered for personal data by jurisdiction. 5.0 Data Lifecycle: (11) DQ measurement enabled for sensitive data; (12) retention, archiving and purging per schedule. 6.0 Data & Technical Architecture: (13) lineage available for all sensitive data; (14) cost metrics for use, storage and movement in the catalog.",
+      "keyTerms": [
+        "CDMC",
+        "Data sovereignty",
+        "Automated classification",
+        "Privacy impact assessment"
+      ],
+      "examples": [],
+      "citations": [
+        "L9:11",
+        "L9:20"
+      ],
+      "related": [
+        {
+          "id": "five-trends",
+          "type": "is part of"
+        },
+        {
+          "id": "data-lineage",
+          "type": "requires"
+        }
+      ]
+    },
+    {
+      "id": "asean-dmf",
+      "name": "ASEAN Data Management Framework",
+      "theme": "trends",
+      "quizzes": [],
+      "summary": "6 foundational components: governance & oversight, policies & procedures, data inventory, impact/risk assessment (C-I-A), controls, monitoring & continuous improvement.",
+      "explanation": "The 6 foundational components aim to let organisations leverage a corporate governance structure to define, manage and monitor data management processes: (1) Governance and oversight: direct employees in implementing the DMF and confirm it operates as designed; (2) Policies and procedural documents across the data lifecycle for a clear mandate; (3) Data inventory: identify data used and collected and storage type, to understand data taxonomy and purpose; (4) Impact/risk assessment: assess impact if confidentiality (C), integrity (I) or availability (A) is compromised; (5) Controls: design and implement protection controls per category and data lifecycle; (6) Monitoring and continuous improvement: monitor, measure, analyse and evaluate to keep the DMF up to date.",
+      "keyTerms": [
+        "Data inventory",
+        "Confidentiality-Integrity-Availability",
+        "Continuous improvement"
+      ],
+      "examples": [],
+      "citations": [
+        "L9:12",
+        "L9:20"
+      ],
+      "related": [
+        {
+          "id": "asean-mcc",
+          "type": "is related to"
+        },
+        {
+          "id": "dg-building-blocks",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "asean-mcc",
+      "name": "ASEAN Model Contractual Clauses",
+      "theme": "trends",
+      "quizzes": [],
+      "summary": "Clauses for cross-border data flows: lawful basis for collection/use/disclosure, baseline data protection clauses and data breach notification.",
+      "explanation": "Lawful/legal basis: the data exporter warrants that data is collected, used, disclosed and transferred per applicable AMS law, or where no law exists, data subjects have been notified and consented where reasonable. Baseline data protection clauses: the importer processes data per clauses derived from the ASEAN Framework on Personal Data Protection (2016): collection, notification, purpose, accuracy, security safeguards, access and correction, transfers, retention and accountability. Data breach notification: the importer notifies authorities and the exporter without undue delay (or within an agreed time) of any loss or unauthorised use, copying, modification, disclosure, destruction of or access to personal data.",
+      "keyTerms": [
+        "Data exporter / importer",
+        "Cross-border data flows",
+        "Breach notification"
+      ],
+      "examples": [],
+      "citations": [
+        "L9:13",
+        "L9:20"
+      ],
+      "related": [
+        {
+          "id": "data-sharing-policy",
+          "type": "is related to"
+        },
+        {
+          "id": "asean-dmf",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "data-value-drivers",
+      "name": "When data becomes an asset (value drivers)",
+      "theme": "trends",
+      "quizzes": [],
+      "summary": "The value of data lies in its usefulness, driven by completeness, consistency, accuracy, timeliness, exclusivity, usage restrictions, liability & risks and interoperability.",
+      "explanation": "Completeness: more complete data is more valuable as it reduces bias (subject to use case). Consistency: data conforms to the syntax of its definition. Accuracy: degree to which data correctly describes the real world; provenance lets users understand history and account for errors. Timeliness: more timely is more valuable, but relative to the use case. Exclusivity: the more unique the dataset, the more valuable. Usage restrictions: the less restricted, the higher the value. Liability and risks: associated liabilities could reduce value. Interoperability/accessibility: consumers choose the most accessible dataset; joinability is often critical. Usefulness: the value of data lies in its usefulness; data without concrete or potential application has no inherent value; value drivers are the factors that drive usefulness.",
+      "keyTerms": [
+        "Usefulness",
+        "Exclusivity",
+        "Provenance",
+        "Interoperability"
+      ],
+      "examples": [],
+      "citations": [
+        "L9:14",
+        "L9:5"
+      ],
+      "related": [
+        {
+          "id": "data-valuation",
+          "type": "is related to"
+        },
+        {
+          "id": "dq-dimensions",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "data-distress",
+      "name": "Data distress",
+      "theme": "trends",
+      "quizzes": [],
+      "summary": "Solidatus survey: data distress prompted 71% of banking/FS data leaders to consider quitting; 64% experience high data-related stress.",
+      "explanation": "In a Solidatus-commissioned survey of 300 senior data leaders in the US and UK, data distress prompted 71% of data leaders in banking and financial services to consider quitting. 64% experience high levels of data-related stress; 87% say it affected their mental health and well-being, 74% have taken sick days and 68% endure 2-6 nights of disrupted sleep per week.",
+      "keyTerms": [
+        "Solidatus",
+        "Data-related stress"
+      ],
+      "examples": [],
+      "citations": [
+        "L9:15"
+      ],
+      "related": [
+        {
+          "id": "five-trends",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "finance-role",
+      "name": "Finance's role in the data lifecycle",
+      "theme": "trends",
+      "quizzes": [],
+      "summary": "Robust controls & governance, valuing data as an asset, monitoring DQ, independent validation/assurance and impact analysis of DQ issues.",
+      "explanation": "Finance's role: implementation of robust controls and governance framework; valuation of data as an asset; monitoring of data quality; independent validation/assurance over data quality and processes; impact analysis for data quality issues. Lecture 2 also states Finance plays an integral role in selecting the appropriate valuation approach for data.",
+      "keyTerms": [
+        "Valuation",
+        "Independent assurance",
+        "Impact analysis"
+      ],
+      "examples": [],
+      "citations": [
+        "L9:17",
+        "L2:18"
+      ],
+      "related": [
+        {
+          "id": "data-valuation",
+          "type": "applies"
+        },
+        {
+          "id": "benefits-dg-finance",
+          "type": "is related to"
+        },
+        {
+          "id": "three-lines-of-defence",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "benefits-dg-finance",
+      "name": "Benefits of strong data governance to Finance",
+      "theme": "trends",
+      "quizzes": [],
+      "summary": "Earlier detection and mitigation of financial risks, visualised trends, smart analysis, lower process costs and better reporting quality.",
+      "explanation": "Benefits to Finance: earlier detection of financial risks and their mitigation; visualising trends for insight generation; smart analysis; reducing costs of processes; improving quality of reporting.",
+      "keyTerms": [
+        "Risk detection",
+        "Reporting quality"
+      ],
+      "examples": [],
+      "citations": [
+        "L9:18"
+      ],
+      "related": [
+        {
+          "id": "finance-role",
+          "type": "is related to"
+        },
+        {
+          "id": "benefits-of-dg",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "trusted-view",
+      "name": "Building a trusted view of data (recap)",
+      "theme": "trends",
+      "quizzes": [],
+      "summary": "Understand our data, strong governance, good quality, data awareness, and innovation & commercialisation together build a trusted view of data.",
+      "explanation": "Understand our data: enterprise documentation, consistent and accurate data models, systems and data tools. Strong governance: clear ownership and responsibilities, policies and procedures, improved privacy and security. Good quality: robust controls, DQ measurement, continuous improvement. Data awareness: leverage best practices, build data community, improve data literacy. Innovation & commercialisation: data analytics, AI/ML platforms, data monetisation. Together these build a trusted view of data.",
+      "keyTerms": [
+        "Data literacy",
+        "Data community",
+        "Trusted view"
+      ],
+      "examples": [],
+      "citations": [
+        "L9:19"
+      ],
+      "related": [
+        {
+          "id": "data-culture",
+          "type": "includes"
+        },
+        {
+          "id": "dg-framework",
+          "type": "is related to"
+        }
+      ]
+    },
+    {
+      "id": "business-technical-rules",
+      "name": "Business rules vs technical rules",
+      "theme": "quality",
+      "quizzes": [
+        4
+      ],
+      "flags": {
+        "notDefinedInSlides": true,
+        "noQuiz": true
+      },
+      "summary": "Named in the slides as a Lecture 7 topic, but no slide defines business rules and technical rules or explains how they differ.",
+      "explanation": "L7 p.3 lists 'Understand what are business rules, technical rules in data quality' as a learning outcome, and L6 p.4 says Lecture 7 covers 'DQ assessment (business and technical rules)'. The term 'business rules' appears elsewhere: accuracy is 'validated against defined business rules' (L6 p.7); the traditional approach includes 'Build business rules and thresholds' (L6 p.14); the sample business glossary has a 'Business Rules' field (L5 p.13). No slide defines 'technical rules' or distinguishes the two. This concept is flagged 'Not defined in slides' and is not quizzed.",
+      "keyTerms": [
+        "Business rules",
+        "Technical rules"
+      ],
+      "examples": [],
+      "citations": [
+        "L7:3",
+        "L6:4",
+        "L6:7",
+        "L6:14",
+        "L5:13"
+      ],
+      "related": [
+        {
+          "id": "dq-rules-design",
+          "type": "is related to"
+        },
+        {
+          "id": "traditional-dq-approach",
+          "type": "is related to"
+        }
+      ]
+    }
+  ],
+  "quizPolicy": {
+    "cumulative": true,
+    "note": "Quizzes are cumulative (user-confirmed): Quiz N covers all lectures up to its last lecture. Lecture 9 is 'Bonus / Final review' and not on any quiz.",
+    "bonusLabel": "Bonus / Final review"
+  },
+  "discussionPrompts": [
+    {
+      "id": "dp-l1-12",
+      "prompt": "What are the benefits of having data governance?",
+      "citation": "L1:12",
+      "relatedConcepts": [
+        "benefits-of-dg"
+      ],
+      "relatedSlides": [
+        "L1:11"
+      ]
+    },
+    {
+      "id": "dp-l1-17",
+      "prompt": "If you are asked to govern Singapore's data governance, what would you do?",
+      "citation": "L1:17",
+      "relatedConcepts": [],
+      "relatedSlides": []
+    },
+    {
+      "id": "dp-l1-19",
+      "prompt": "What is the difference between data management and data governance?",
+      "citation": "L1:19",
+      "relatedConcepts": [
+        "dama-dmbok",
+        "dcam"
+      ],
+      "relatedSlides": []
+    },
+    {
+      "id": "dp-l2-6",
+      "prompt": "Can you discuss some ways in which your own organisation benefit from a good data strategy?",
+      "citation": "L2:6",
+      "relatedConcepts": [
+        "data-strategy",
+        "financial-value-of-data"
+      ],
+      "relatedSlides": []
+    },
+    {
+      "id": "dp-l2-15",
+      "prompt": "What is Finance and Technology's role in a data strategy?",
+      "citation": "L2:15",
+      "relatedConcepts": [
+        "data-valuation",
+        "finance-role"
+      ],
+      "relatedSlides": [
+        "L2:18",
+        "L9:17"
+      ]
+    },
+    {
+      "id": "dp-l3-9",
+      "prompt": "What are the pros and cons of each of these organisational structures?",
+      "citation": "L3:9",
+      "relatedConcepts": [
+        "centralised-model",
+        "federated-model",
+        "decentralised-model"
+      ],
+      "relatedSlides": [
+        "L3:8",
+        "L3:10"
+      ]
+    },
+    {
+      "id": "dp-l3-15",
+      "prompt": "Can we do away without the DG Committee? Explain your answer.",
+      "citation": "L3:15",
+      "relatedConcepts": [
+        "dgc"
+      ],
+      "relatedSlides": [
+        "L3:13"
+      ]
+    },
+    {
+      "id": "dp-l4-10",
+      "prompt": "If you are in the Finance team, what would be some of the CDEs and why?",
+      "citation": "L4:10",
+      "relatedConcepts": [
+        "cde-criteria"
+      ],
+      "relatedSlides": [
+        "L4:8",
+        "L4:9"
+      ]
+    },
+    {
+      "id": "dp-l4-14",
+      "prompt": "How do you encourage adoption? How do you motivate employees to adopt a data culture?",
+      "citation": "L4:14",
+      "relatedConcepts": [
+        "data-culture"
+      ],
+      "relatedSlides": [
+        "L4:15"
+      ]
+    },
+    {
+      "id": "dp-l5-4",
+      "prompt": "What do you think are required in a data governance framework?",
+      "citation": "L5:4",
+      "relatedConcepts": [
+        "dg-framework"
+      ],
+      "relatedSlides": [
+        "L5:5"
+      ]
+    },
+    {
+      "id": "dp-l5-18",
+      "prompt": "When do you use each of the types of data documentation?",
+      "citation": "L5:18",
+      "relatedConcepts": [
+        "data-documentation"
+      ],
+      "relatedSlides": [
+        "L5:19"
+      ]
+    },
+    {
+      "id": "dp-l6-9",
+      "prompt": "Which of these DQ dimensions would be most relevant for your organisation?",
+      "citation": "L6:9",
+      "relatedConcepts": [
+        "dq-dimensions"
+      ],
+      "relatedSlides": [
+        "L6:7",
+        "L6:8"
+      ]
+    },
+    {
+      "id": "dp-l6-12",
+      "prompt": "(Fine revenue example) Explain how each of the controls would work.",
+      "citation": "L6:12",
+      "relatedConcepts": [
+        "data-controls"
+      ],
+      "relatedSlides": [
+        "L6:10",
+        "L6:11"
+      ]
+    },
+    {
+      "id": "dp-l6-13",
+      "prompt": "(Fine revenue example) Who would be responsible for these controls? Explain the handover of responsibilities.",
+      "citation": "L6:13",
+      "relatedConcepts": [
+        "data-controls",
+        "data-stakeholders"
+      ],
+      "relatedSlides": []
+    },
+    {
+      "id": "dp-l9-16",
+      "prompt": "Which of the developments is the most important in your views? Why?",
+      "citation": "L9:16",
+      "relatedConcepts": [
+        "five-trends"
+      ],
+      "relatedSlides": [
+        "L9:5"
+      ]
+    }
+  ]
+}

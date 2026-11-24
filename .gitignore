@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+.DS_Store
+server/.cache/
+
+# Course lecture PDFs (not for public redistribution)
+materials /
+*.pdf
+data/raw/

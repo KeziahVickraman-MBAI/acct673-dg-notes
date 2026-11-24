@@ -1,0 +1,1228 @@
+[
+ {
+  "id": "q-l6-iso",
+  "lecture": 6,
+  "conceptId": "dq-conformity",
+  "type": "distinguish",
+  "multi": false,
+  "q": "A feed contains invalid ISO currency codes. Which DQ dimension is breached?",
+  "options": [
+   "Conformity",
+   "Consistency",
+   "Accuracy",
+   "Coverage"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L6 p.7: Conformity = alignment of content with required standards; examples include invalid ISO currency codes.",
+  "cites": [
+   "L6:7"
+  ]
+ },
+ {
+  "id": "q-l6-useu",
+  "lecture": 6,
+  "conceptId": "dq-consistency",
+  "type": "distinguish",
+  "multi": false,
+  "q": "One system stores dates in US format and another in European format for the same records. Which DQ dimension is breached?",
+  "options": [
+   "Consistency",
+   "Conformity",
+   "Timeliness",
+   "Accuracy"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L6 p.8: Consistency = values, format and definitions in one population agree with those in another; example: US vs European date formats. (Conformity's example is 'inconsistent date formats' against a required standard.)",
+  "cites": [
+   "L6:8",
+   "L6:7"
+  ]
+ },
+ {
+  "id": "q-l6-null",
+  "lecture": 6,
+  "conceptId": "dq-completeness",
+  "type": "distinguish",
+  "multi": false,
+  "q": "Bond records have a null maturity date. Which DQ dimension is breached?",
+  "options": [
+   "Completeness",
+   "Coverage",
+   "Accuracy",
+   "Uniqueness"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L6 p.7: Completeness = existence of required data attributes; example: null maturity date.",
+  "cites": [
+   "L6:7"
+  ]
+ },
+ {
+  "id": "q-l6-dup",
+  "lecture": 6,
+  "conceptId": "dq-uniqueness",
+  "type": "distinguish",
+  "multi": false,
+  "q": "The same customer appears under two different customer IDs. Which DQ dimension is breached?",
+  "options": [
+   "Uniqueness",
+   "Consistency",
+   "Conformity",
+   "Completeness"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L6 p.8: Uniqueness = singularity of records and attributes; example: customer with different Cus IDs.",
+  "cites": [
+   "L6:8"
+  ]
+ },
+ {
+  "id": "q-l6-rating",
+  "lecture": 6,
+  "conceptId": "dq-timeliness",
+  "type": "distinguish",
+  "multi": false,
+  "q": "A revised credit rating was not updated in the system on the day it was issued. Which DQ dimension is breached?",
+  "options": [
+   "Timeliness",
+   "Accuracy",
+   "Consistency",
+   "Coverage"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L6 p.8 lists 'revised credit rating not updated on day it was issued' as a Timeliness example.",
+  "cites": [
+   "L6:8"
+  ]
+ },
+ {
+  "id": "q-l6-coverage",
+  "lecture": 6,
+  "conceptId": "dq-coverage",
+  "type": "definition",
+  "multi": false,
+  "q": "Which DQ dimension is defined as 'breadth and availability of data'?",
+  "options": [
+   "Coverage",
+   "Completeness",
+   "Timeliness",
+   "Conformity"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L6 p.8: Coverage.",
+  "cites": [
+   "L6:8"
+  ]
+ },
+ {
+  "id": "q-l6-not-dim",
+  "lecture": 6,
+  "conceptId": "dq-dimensions",
+  "type": "not",
+  "multi": false,
+  "q": "Which is NOT one of the seven EDM Council DQ dimensions taught in Lecture 6?",
+  "options": [
+   "Validity",
+   "Coverage",
+   "Uniqueness",
+   "Conformity"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L6 pp.7-8: Accuracy, Completeness, Conformity, Consistency, Coverage, Timeliness, Uniqueness.",
+  "cites": [
+   "L6:7",
+   "L6:8"
+  ]
+ },
+ {
+  "id": "q-l6-acc-ex",
+  "lecture": 6,
+  "conceptId": "dq-accuracy",
+  "type": "distinguish",
+  "multi": true,
+  "q": "Which of these are given as examples of ACCURACY issues in Lecture 6? Select all that apply.",
+  "options": [
+   "Records are wrong at specified time",
+   "Records not refreshed or updated",
+   "Wrong level of precision (e.g. decimal places)",
+   "Invalid ISO currency codes",
+   "Null maturity date"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "L6 p.7: accuracy examples are records wrong at specified time, records not refreshed/updated and wrong precision. Invalid ISO codes = conformity; null maturity date = completeness.",
+  "cites": [
+   "L6:7"
+  ]
+ },
+ {
+  "id": "q-l6-ctrl-conf",
+  "lecture": 6,
+  "conceptId": "data-controls",
+  "type": "scenario",
+  "multi": false,
+  "q": "The system only accepts Customer IDs of 2 alphabets + 6 digits. This control addresses which dimension?",
+  "options": [
+   "Conformity",
+   "Accuracy",
+   "Consistency",
+   "Uniqueness"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L6 p.10: system restriction on permitted values/formats is the Conformity control example.",
+  "cites": [
+   "L6:10"
+  ]
+ },
+ {
+  "id": "q-l6-ctrl-cons",
+  "lecture": 6,
+  "conceptId": "data-controls",
+  "type": "scenario",
+  "multi": false,
+  "q": "Two systems holding the same Customer ID are reconciled, with the golden source as the reliable source of truth. This control addresses which dimension?",
+  "options": [
+   "Consistency",
+   "Accuracy",
+   "Uniqueness",
+   "Completeness"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L6 p.11: reconciliation of two systems is the Consistency control example.",
+  "cites": [
+   "L6:11"
+  ]
+ },
+ {
+  "id": "q-l6-ctrl-comp",
+  "lecture": 6,
+  "conceptId": "data-controls",
+  "type": "scenario",
+  "multi": false,
+  "q": "A maker-checker ensures a Customer ID is assigned to every customer, making it a compulsory system field. This control addresses which dimension?",
+  "options": [
+   "Completeness",
+   "Accuracy",
+   "Uniqueness",
+   "Conformity"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L6 p.10: the Completeness control example.",
+  "cites": [
+   "L6:10"
+  ]
+ },
+ {
+  "id": "q-l6-rc-uat",
+  "lecture": 6,
+  "conceptId": "dq-root-causes",
+  "type": "distinguish",
+  "multi": false,
+  "q": "Inadequate UAT scenarios and upstream system enhancements not in sync with downstream applications fall under which root cause category?",
+  "options": [
+   "Program logic / data transformation logic",
+   "Data operational errors",
+   "End User Computing (EUC) errors",
+   "Manual data entry errors"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L6 p.6: category 3, Program logic / Data transformation logic.",
+  "cites": [
+   "L6:6"
+  ]
+ },
+ {
+  "id": "q-l6-rc-batch",
+  "lecture": 6,
+  "conceptId": "dq-root-causes",
+  "type": "distinguish",
+  "multi": false,
+  "q": "Batch scheduling errors and code deployment errors fall under which root cause category?",
+  "options": [
+   "Data operational errors",
+   "Program logic / data transformation logic",
+   "Data errors from external parties",
+   "End User Computing (EUC) errors"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L6 p.6: category 4, Data operational errors (also configuration errors and operational adjustments not communicated downstream).",
+  "cites": [
+   "L6:6"
+  ]
+ },
+ {
+  "id": "q-l6-rc-ext",
+  "lecture": 6,
+  "conceptId": "dq-root-causes",
+  "type": "distinguish",
+  "multi": true,
+  "q": "Which are listed under 'Data errors from external parties'? Select all that apply.",
+  "options": [
+   "Inaccuracies in data procured",
+   "Delayed arrival of files",
+   "Missing data attributes",
+   "Transposition errors",
+   "Code deployment errors"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "L6 p.6. Transposition errors are EUC errors; code deployment errors are data operational errors.",
+  "cites": [
+   "L6:6"
+  ]
+ },
+ {
+  "id": "q-l6-rc-manual",
+  "lecture": 6,
+  "conceptId": "dq-root-causes",
+  "type": "distinguish",
+  "multi": true,
+  "q": "Which of these are End User Computing (EUC) errors per Lecture 6? Select all that apply.",
+  "options": [
+   "Incorrect template or data source",
+   "Transposition errors",
+   "Typographical errors",
+   "Batch scheduling errors",
+   "Inadequate UAT scenarios"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "L6 p.6: EUC errors = incorrect template or data source, typographical errors, transposition errors. Batch scheduling = data operational; inadequate UAT = program/transformation logic.",
+  "cites": [
+   "L6:6"
+  ]
+ },
+ {
+  "id": "q-l6-rc-euc",
+  "lecture": 6,
+  "conceptId": "dq-root-causes",
+  "type": "scenario",
+  "multi": false,
+  "q": "An analyst's Excel reporting template points at last month's data source, so the month-end report is wrong. Which root cause category?",
+  "options": [
+   "End User Computing (EUC) errors",
+   "Manual data entry errors",
+   "Program logic / data transformation logic",
+   "Data operational errors"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L6 p.6: EUC errors include incorrect template or data source.",
+  "cites": [
+   "L6:6"
+  ]
+ },
+ {
+  "id": "q-l6-trad",
+  "lecture": 6,
+  "conceptId": "traditional-dq-approach",
+  "type": "definition",
+  "multi": false,
+  "q": "Why do the slides describe the traditional approach to data quality as difficult?",
+  "options": [
+   "It is long and arduous; building rules, measuring, solving root causes and remediating takes time, and the delay is costly",
+   "It requires AI/ML expertise most banks lack",
+   "Regulators no longer accept rules-based checks",
+   "It cannot measure data quality at all"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L6 p.14.",
+  "cites": [
+   "L6:14"
+  ]
+ },
+ {
+  "id": "q-l6-ai-rules",
+  "lecture": 6,
+  "conceptId": "ai-ml-dq",
+  "type": "distinguish",
+  "multi": false,
+  "q": "'Specific rules and formula; high human intervention; reactive on an after-event basis' describes which approach?",
+  "options": [
+   "Rules-based",
+   "Statistical reviews",
+   "Anomaly detection",
+   "Predictive modelling"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L6 p.15: rules-based.",
+  "cites": [
+   "L6:15"
+  ]
+ },
+ {
+  "id": "q-l6-ai-pred",
+  "lecture": 6,
+  "conceptId": "ai-ml-dq",
+  "type": "distinguish",
+  "multi": false,
+  "q": "'Create DQ flags; impute missing values; real-time prediction and model improvement' describes which AI/ML approach?",
+  "options": [
+   "Predictive modelling",
+   "Anomaly detection",
+   "Decision making",
+   "Statistical reviews"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L6 p.15: predictive modelling.",
+  "cites": [
+   "L6:15"
+  ]
+ },
+ {
+  "id": "q-l6-dq-def",
+  "lecture": 6,
+  "conceptId": "data-quality",
+  "type": "definition",
+  "multi": false,
+  "q": "'A measure of the degree to which the collected data is fit for the intended purpose' defines:",
+  "options": [
+   "Data quality",
+   "Data controls",
+   "Data governance",
+   "Data culture"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L4 p.4; the DQ objective on L6 p.4 is trusted, fit-for-purpose data.",
+  "cites": [
+   "L4:4",
+   "L6:4"
+  ]
+ },
+ {
+  "id": "q-l7-band-94",
+  "lecture": 7,
+  "conceptId": "dq-thresholds",
+  "type": "scenario",
+  "multi": false,
+  "q": "A CDE's DQ result is 94%. How is it interpreted?",
+  "options": [
+   "Good",
+   "Very good",
+   "Fair",
+   "Fails"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L7 p.15: 95%+ very good; 92.5%-95% good; <92.5% fair.",
+  "cites": [
+   "L7:15"
+  ]
+ },
+ {
+  "id": "q-l7-band-92",
+  "lecture": 7,
+  "conceptId": "dq-thresholds",
+  "type": "scenario",
+  "multi": false,
+  "q": "A CDE's DQ result is 92%. How is it interpreted?",
+  "options": [
+   "Fair",
+   "Good",
+   "Very good",
+   "Poor"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L7 p.15: less than 92.5% is 'Fair'. There is no 'Poor' band on the slide.",
+  "cites": [
+   "L7:15"
+  ]
+ },
+ {
+  "id": "q-l7-calc",
+  "lecture": 7,
+  "conceptId": "dq-thresholds",
+  "type": "scenario",
+  "multi": false,
+  "q": "2,000 records were assessed and 80 failed the DQ rules applied. Using the slide formula, what is the DQ result and interpretation?",
+  "options": [
+   "96%: Very good",
+   "4%: Fair",
+   "96%: Good",
+   "92.5%: Good"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L7 p.15: (2,000 − 80) / 2,000 × 100% = 96%, which is in the '95% and up' band (Very good).",
+  "cites": [
+   "L7:15"
+  ]
+ },
+ {
+  "id": "q-l7-notes",
+  "lecture": 7,
+  "conceptId": "dq-thresholds",
+  "type": "distinguish",
+  "multi": true,
+  "q": "Which statements about the DQ result are correct per the slides? Select all that apply.",
+  "options": [
+   "It reflects the number of data which violated the rules in the entire population",
+   "False positives have been removed from the population",
+   "It represents the actual deviation of the data (e.g. accuracy)",
+   "False positives are counted as failures"
+  ],
+  "answer": [
+   0,
+   1
+  ],
+  "explanation": "L7 p.15: it counts violations in the entire population, false positives removed, and it does NOT represent the actual deviation of the data.",
+  "cites": [
+   "L7:15"
+  ]
+ },
+ {
+  "id": "q-l7-step2",
+  "lecture": 7,
+  "conceptId": "dq-rules-design",
+  "type": "definition",
+  "multi": false,
+  "q": "In the approach to DQ rules design, what is Step 2?",
+  "options": [
+   "Classify the CDE to the right data type",
+   "Understand the CDE and conduct data profiling",
+   "Design rules for each DQ dimension",
+   "Agree threshold limits"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L7 p.4: Step 1 profiling, Step 2 data type classification, Step 3 DQ dimensions.",
+  "cites": [
+   "L7:4"
+  ]
+ },
+ {
+  "id": "q-l7-profiling",
+  "lecture": 7,
+  "conceptId": "data-profiling",
+  "type": "definition",
+  "multi": false,
+  "q": "How do the slides describe data profiling?",
+  "options": [
+   "The first but most critical step to reviewing the 'state of affairs' of the data",
+   "The final step before remediation",
+   "Optional if the CDE is already in the data dictionary",
+   "A check used only for unique identifiers"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L7 p.5.",
+  "cites": [
+   "L7:5"
+  ]
+ },
+ {
+  "id": "q-l7-prof-nric",
+  "lecture": 7,
+  "conceptId": "data-profiling",
+  "type": "scenario",
+  "multi": false,
+  "q": "Profiling of 1,000 employee records finds 2 different employee names with the same NRIC number. What did the slide conclude?",
+  "options": [
+   "Uniqueness issue: incorporate as a uniqueness rule",
+   "Conformity issue: incorporate as a conformity rule",
+   "Completeness issue: incorporate as a completeness rule",
+   "HR Manager to look into it; keep as a generic rule"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L7 p.6.",
+  "cites": [
+   "L7:6"
+  ]
+ },
+ {
+  "id": "q-l7-prof-1900",
+  "lecture": 7,
+  "conceptId": "data-profiling",
+  "type": "scenario",
+  "multi": false,
+  "q": "Profiling finds 10 employees with employment start date 1/1/1900. What did the slide conclude?",
+  "options": [
+   "These employees left more than 5 years ago; fine-tune the rule for active employees only",
+   "Conformity issue: reject all 1/1/1900 dates",
+   "Completeness issue: treat as null",
+   "Uniqueness issue: deduplicate the records"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L7 p.6.",
+  "cites": [
+   "L7:6"
+  ]
+ },
+ {
+  "id": "q-l7-dtc-ccy",
+  "lecture": 7,
+  "conceptId": "data-type-classification",
+  "type": "scenario",
+  "multi": false,
+  "q": "Currency code is classified as which data type for DQ rule design?",
+  "options": [
+   "External reference table type values",
+   "Internal reference tables",
+   "Unique identifiers",
+   "Others"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L7 p.7: values taken from an external reference (e.g. ISO); examples: country of operations, currency code, issuer rating.",
+  "cites": [
+   "L7:7"
+  ]
+ },
+ {
+  "id": "q-l7-dtc-uid",
+  "lecture": 7,
+  "conceptId": "data-type-classification",
+  "type": "distinguish",
+  "multi": true,
+  "q": "Which are given as examples of 'Unique identifiers'? Select all that apply.",
+  "options": [
+   "Customer account number",
+   "Passport number / NRIC",
+   "Customer name",
+   "Cost centre",
+   "Issuer rating"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "L7 p.7: unique identifier examples are customer name, customer account number, passport number/NRIC. Cost centre is an internal reference table; issuer rating is an external reference value.",
+  "cites": [
+   "L7:7"
+  ]
+ },
+ {
+  "id": "q-l7-verif",
+  "lecture": 7,
+  "conceptId": "dq-accuracy",
+  "type": "distinguish",
+  "multi": false,
+  "q": "An accuracy rule checks that data can be verified to an external source such as Moody's/S&P/Fitch ratings or the ACRA Business File. This rule type is:",
+  "options": [
+   "Verifiability",
+   "Validity",
+   "Derivation",
+   "Checking against a list"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L7 p.8: verifiability. Validity checks e.g. that the customer exists and is backed by documentation.",
+  "cites": [
+   "L7:8"
+  ]
+ },
+ {
+  "id": "q-l7-uniq",
+  "lecture": 7,
+  "conceptId": "dq-uniqueness",
+  "type": "definition",
+  "multi": false,
+  "q": "The uniqueness rule (checking no duplicate exists) is best suited to which data type?",
+  "options": [
+   "Unique identifiers",
+   "Date values",
+   "Amounts",
+   "External reference table type values"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L7 p.13.",
+  "cites": [
+   "L7:13"
+  ]
+ },
+ {
+  "id": "q-l7-comp-not",
+  "lecture": 7,
+  "conceptId": "dq-completeness",
+  "type": "not",
+  "multi": false,
+  "q": "Which is NOT a completeness rule type in Lecture 7?",
+  "options": [
+   "Checking that the end date is always later than the start date",
+   "Checking that the field is not null",
+   "Checking that the field is not filled with 'N/A', 'NIL' or default values",
+   "Checking that the total number of records in the table is complete"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L7 p.9 vs p.12: end date later than start date is listed under the timeliness rules (marked 'for accuracy').",
+  "cites": [
+   "L7:9",
+   "L7:12"
+  ]
+ },
+ {
+  "id": "q-l7-cons",
+  "lecture": 7,
+  "conceptId": "dq-consistency",
+  "type": "distinguish",
+  "multi": false,
+  "q": "A rule checks that every loan record is linked to an existing customer. Per Lecture 7, this is a rule for which dimension?",
+  "options": [
+   "Consistency (logical relationships)",
+   "Accuracy (validity)",
+   "Completeness",
+   "Uniqueness"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L7 p.11: 'checking whether logical relationships are present (e.g., loan records should be linked to an existing customer)' is a consistency rule.",
+  "cites": [
+   "L7:11"
+  ]
+ },
+ {
+  "id": "q-l7-process",
+  "lecture": 7,
+  "conceptId": "dq-measurement-process",
+  "type": "definition",
+  "multi": false,
+  "q": "What is the correct order of the process for measuring data quality?",
+  "options": [
+   "Thresholds → Measure → Dashboard → Remediation",
+   "Measure → Thresholds → Remediation → Dashboard",
+   "Dashboard → Measure → Thresholds → Remediation",
+   "Measure → Dashboard → Thresholds → Remediation"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L7 p.14.",
+  "cites": [
+   "L7:14"
+  ]
+ },
+ {
+  "id": "q-l7-thresholds",
+  "lecture": 7,
+  "conceptId": "dq-measurement-process",
+  "type": "definition",
+  "multi": false,
+  "q": "Per the slides, DQ thresholds are agreed on what basis?",
+  "options": [
+   "Acceptable quality for the business user, based on risk tolerance and regulatory requirements",
+   "A fixed 95% set by regulators for all data",
+   "Whatever the DQ tool vendor recommends",
+   "Internal Audit's annual testing results"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L7 p.14; the L9 recap adds that thresholds are set by users as the % of records that minimally need to be right.",
+  "cites": [
+   "L7:14",
+   "L9:2"
+  ]
+ },
+ {
+  "id": "q-l7-manual",
+  "lecture": 7,
+  "conceptId": "dq-manual-vs-automated",
+  "type": "scenario",
+  "multi": false,
+  "q": "An Operational Risk Controls Attestation on data quality is done in Excel on an annual/bi-annual basis. This is an example of:",
+  "options": [
+   "Manual DQ measurement",
+   "Automated DQ measurement via tools",
+   "DQ dashboarding",
+   "Data profiling"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L7 p.16: manual (Excel) vs automated via tools such as Informatica, IBM, Talend (monthly/quarterly DQ team testing).",
+  "cites": [
+   "L7:16"
+  ]
+ },
+ {
+  "id": "q-l7-remed",
+  "lecture": 7,
+  "conceptId": "dq-remediation",
+  "type": "distinguish",
+  "multi": true,
+  "q": "Which describe the Remediation step of DQ measurement? Select all that apply.",
+  "options": [
+   "Perform one-time corrections to correct the errors",
+   "Enhance processes/systems to improve controls strategically",
+   "Agree acceptable quality based on risk tolerance",
+   "Highlight issues, root causes, owners and timelines"
+  ],
+  "answer": [
+   0,
+   1
+  ],
+  "explanation": "L7 p.14: remediation = one-time corrections + strategic enhancements. Agreeing acceptable quality is Thresholds; highlighting issues is Dashboard.",
+  "cites": [
+   "L7:14"
+  ]
+ },
+ {
+  "id": "q-l7-time-hist",
+  "lecture": 7,
+  "conceptId": "dq-timeliness",
+  "type": "scenario",
+  "multi": false,
+  "q": "A rule flags a term loan completed in 2009 that still shows as active in 2019. Which rule type is this?",
+  "options": [
+   "Timeliness: checking against the history of the record",
+   "Consistency: data consistent across tables",
+   "Completeness: total records complete",
+   "Uniqueness: no duplicates"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L7 p.12.",
+  "cites": [
+   "L7:12"
+  ]
+ },
+ {
+  "id": "q-l8-da",
+  "lecture": 8,
+  "conceptId": "data-architecture",
+  "type": "distinguish",
+  "multi": false,
+  "q": "'A bridge between the requirements for data of the business process and the physical execution of that data in technology infrastructure' defines:",
+  "options": [
+   "Data architecture",
+   "Technology architecture",
+   "Data lineage",
+   "Data governance"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L8 p.5.",
+  "cites": [
+   "L8:5"
+  ]
+ },
+ {
+  "id": "q-l8-ta",
+  "lecture": 8,
+  "conceptId": "technology-architecture",
+  "type": "distinguish",
+  "multi": false,
+  "q": "'How data, tools and platforms operate in collaboration to satisfy business requirements, enabling cost control, scalability and elasticity' defines:",
+  "options": [
+   "Technology architecture",
+   "Data architecture",
+   "Data platform",
+   "Reference data management"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L8 p.5.",
+  "cites": [
+   "L8:5"
+  ]
+ },
+ {
+  "id": "q-l8-tax",
+  "lecture": 8,
+  "conceptId": "data-taxonomy",
+  "type": "distinguish",
+  "multi": false,
+  "q": "'Classification of data into hierarchical groups to create structure, standardise terminology, and popularise a dataset' is:",
+  "options": [
+   "Data taxonomy",
+   "Reference data",
+   "Data domain",
+   "Data dictionary"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L8 p.8.",
+  "cites": [
+   "L8:8"
+  ]
+ },
+ {
+  "id": "q-l8-ref",
+  "lecture": 8,
+  "conceptId": "reference-data",
+  "type": "distinguish",
+  "multi": false,
+  "q": "Which 'restricts the set of valid values for each data field'?",
+  "options": [
+   "Reference data",
+   "Data taxonomy",
+   "Metadata",
+   "Data lineage"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L8 p.8 (and p.9 definition of reference data).",
+  "cites": [
+   "L8:8",
+   "L8:9"
+  ]
+ },
+ {
+  "id": "q-l8-ref-public",
+  "lecture": 8,
+  "conceptId": "reference-data",
+  "type": "distinguish",
+  "multi": true,
+  "q": "Which are examples of PUBLIC reference data? Select all that apply.",
+  "options": [
+   "Country codes",
+   "Currency codes",
+   "Legal entity identifiers",
+   "Chart of accounts",
+   "Product codes"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "L8 p.9: public = country codes, currency codes, external risk rating categories, legal entity identifiers. Chart of accounts and product codes are private.",
+  "cites": [
+   "L8:9"
+  ]
+ },
+ {
+  "id": "q-l8-ref-lookup",
+  "lecture": 8,
+  "conceptId": "reference-data",
+  "type": "scenario",
+  "multi": false,
+  "q": "Source 1 records a customer's country as 'Singapore'; Source 2 records 'SG'. Both are looked up in a table and updated to 'SGP'. This illustrates:",
+  "options": [
+   "Reference data in practice: updating records to enterprise standards",
+   "Data lineage",
+   "Data taxonomy",
+   "A uniqueness rule"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L8 p.10.",
+  "cites": [
+   "L8:10"
+  ]
+ },
+ {
+  "id": "q-l8-bricks",
+  "lecture": 8,
+  "conceptId": "data-architecture-components",
+  "type": "distinguish",
+  "multi": false,
+  "q": "In the 'bricks' illustration of data architecture, which are the 'sorted bricks'?",
+  "options": [
+   "Data domain, data taxonomy, reference data",
+   "Critical data elements, data dictionary",
+   "Data flow diagram, data lineage, data inventory",
+   "Data model"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L8 p.6: individual bricks = CDEs, dictionary; sorted = domain, taxonomy, reference data; aggregated = DFD, lineage, inventory; output = data model.",
+  "cites": [
+   "L8:6"
+  ]
+ },
+ {
+  "id": "q-l8-domain",
+  "lecture": 8,
+  "conceptId": "data-domain",
+  "type": "distinguish",
+  "multi": false,
+  "q": "Which data domain 'contains enterprise, geographic location, entity set up, BU and cost centre set ups'?",
+  "options": [
+   "Entity structure",
+   "Finance",
+   "Product master",
+   "Customer"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L8 p.7.",
+  "cites": [
+   "L8:7"
+  ]
+ },
+ {
+  "id": "q-l8-trust",
+  "lecture": 8,
+  "conceptId": "metadata-tool",
+  "type": "distinguish",
+  "multi": true,
+  "q": "In the metadata management tool, which capabilities fall under 'Trusting the data'? Select all that apply.",
+  "options": [
+   "Auditability",
+   "Data quality rules",
+   "Exception management",
+   "Build data pipelines",
+   "Data lineage / flow"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "L8 p.14: Trusting = auditability, DQ rules, analytics dashboard, exception management, discovery & profiling. Pipelines = Using the data; lineage = Understanding the data.",
+  "cites": [
+   "L8:14"
+  ]
+ },
+ {
+  "id": "q-l8-drr",
+  "lecture": 8,
+  "conceptId": "common-taxonomies",
+  "type": "distinguish",
+  "multi": false,
+  "q": "'Regulators write machine-readable code as a set of reporting instructions instead of natural language' describes:",
+  "options": [
+   "FCA's Digital Regulatory Reporting",
+   "ECB's Banks' Integrated Reporting Dictionary",
+   "FIBO ontology",
+   "EU's ESG Climate Taxonomy"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L8 p.21.",
+  "cites": [
+   "L8:21"
+  ]
+ },
+ {
+  "id": "q-l8-fibo",
+  "lecture": 8,
+  "conceptId": "common-taxonomies",
+  "type": "distinguish",
+  "multi": false,
+  "q": "'A global, platform-independent, machine-readable and unambiguous data standard that enables understanding of financial terminology' is:",
+  "options": [
+   "FIBO ontology",
+   "ECB's BIRD",
+   "FCA's Digital Regulatory Reporting",
+   "DCAM"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L8 p.21.",
+  "cites": [
+   "L8:21"
+  ]
+ },
+ {
+  "id": "q-l9-cia",
+  "lecture": 9,
+  "conceptId": "asean-dmf",
+  "type": "definition",
+  "multi": false,
+  "q": "In the ASEAN Data Management Framework, the impact/risk assessment uses which parameters?",
+  "options": [
+   "Confidentiality, Integrity, Availability",
+   "Completeness, Integrity, Accuracy",
+   "Cost, Impact, Likelihood",
+   "Collection, Use, Disclosure"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L9 p.12: component 4 assesses impact if confidentiality (C), integrity (I) or availability (A) is compromised.",
+  "cites": [
+   "L9:12"
+  ]
+ },
+ {
+  "id": "q-l9-cdmc",
+  "lecture": 9,
+  "conceptId": "cdmc-cloud-controls",
+  "type": "distinguish",
+  "multi": false,
+  "q": "'Classification must be automated for all data at point of creation or ingestion and must be always on' belongs to which CDMC area?",
+  "options": [
+   "Cataloguing & Classification",
+   "Protection & Privacy",
+   "Governance & Accountability",
+   "Data Lifecycle"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L9 p.11: control 6, under 2.0 Cataloguing & Classification.",
+  "cites": [
+   "L9:11"
+  ]
+ },
+ {
+  "id": "q-l9-usage",
+  "lecture": 9,
+  "conceptId": "data-value-drivers",
+  "type": "distinguish",
+  "multi": false,
+  "q": "'The less restricted the use of the shared data is, the higher its value' describes which data value driver?",
+  "options": [
+   "Usage restrictions",
+   "Exclusivity",
+   "Liability and risks",
+   "Interoperability/accessibility"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L9 p.14.",
+  "cites": [
+   "L9:14"
+  ]
+ },
+ {
+  "id": "q-l9-repr",
+  "lecture": 9,
+  "conceptId": "ai-data-characteristics",
+  "type": "distinguish",
+  "multi": false,
+  "q": "'Bias in data collection (selection, exclusion, reporting, detection bias) leading to over or under representation' is which data characteristic influencing AI?",
+  "options": [
+   "Representativeness",
+   "Sensitivity",
+   "Accuracy",
+   "Coverage"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L9 p.9.",
+  "cites": [
+   "L9:9"
+  ]
+ },
+ {
+  "id": "q-l9-finrole",
+  "lecture": 9,
+  "conceptId": "finance-role",
+  "type": "distinguish",
+  "multi": true,
+  "q": "Which are listed as Finance's role in the data lifecycle? Select all that apply.",
+  "options": [
+   "Valuation of data as an asset",
+   "Independent validation / assurance over data quality and processes",
+   "Impact analysis for data quality issues",
+   "Owning all customer master data",
+   "Approving the Board's data strategy"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "L9 p.17: robust controls & governance, valuation of data as an asset, monitoring DQ, independent validation/assurance, impact analysis for DQ issues.",
+  "cites": [
+   "L9:17"
+  ]
+ },
+ {
+  "id": "q-l9-feat",
+  "lecture": 9,
+  "conceptId": "mas-feat",
+  "type": "not",
+  "multi": false,
+  "q": "Which is NOT an objective of the MAS FEAT Principles?",
+  "options": [
+   "Prescribing the DQ thresholds firms must meet for AI models",
+   "Providing foundational principles for firms using AIDA in decision-making",
+   "Assisting firms to operationalise governance of AIDA use",
+   "Promoting public confidence and trust in the use of AIDA"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L9 p.10 lists the three objectives; no DQ thresholds are prescribed.",
+  "cites": [
+   "L9:10"
+  ]
+ },
+ {
+  "id": "q-l9-mcc",
+  "lecture": 9,
+  "conceptId": "asean-mcc",
+  "type": "definition",
+  "multi": false,
+  "q": "Under the ASEAN Model Contractual Clauses, who must notify the relevant authorities and the Data Exporter of a data breach?",
+  "options": [
+   "The Data Importer",
+   "The Data Exporter",
+   "The Data Subject",
+   "The regulator"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "L9 p.13: the Data Importer shall notify without undue delay or within an agreed time.",
+  "cites": [
+   "L9:13"
+  ]
+ }
+]

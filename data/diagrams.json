@@ -1,0 +1,115 @@
+{
+  "_note": "Simple diagrams for the Concept Explorer. Each reproduces the structure of the cited slide only. Types: flow (arrows), cycle, layers (rows of label + items), columns (side-by-side boxes).",
+  "dg-structure": {"type": "layers", "citation": "L3:11", "rows": [
+    {"label": "Strategic", "items": ["Board of Directors"]},
+    {"label": "Executive", "items": ["Data Governance Committee"]},
+    {"label": "Management", "items": ["Chief Data Officer", "Data Management Office: Data Governance · Data Quality · Data Architecture"]},
+    {"label": "Execution", "items": ["Data Owners", "Business Data Stewards", "System Owners", "Technical Data Stewards"]}
+  ]},
+  "three-lines-of-defence": {"type": "layers", "citation": "L1:23", "rows": [
+    {"label": "1st line: Direct responsibility", "items": ["Business Management incl. Operations & Technology", "CDEs · Preventive controls · Remediation · Key indicators"]},
+    {"label": "2nd line: Governance & oversight", "items": ["Data Management Office", "Policy & standards · DQ assessment · Policy compliance review · Data repository"]},
+    {"label": "3rd line: Independent assurance", "items": ["Internal Audit", "Objective assessment vs the Data Management Policy"]}
+  ]},
+  "dg-building-blocks": {"type": "layers", "citation": "L1:22", "rows": [
+    {"label": "Continuous improvement", "items": ["Independent assessment"]},
+    {"label": "Ongoing controls", "items": ["Monitoring & reporting", "Remediation"]},
+    {"label": "Fundamentals", "items": ["Framework & policies", "DQ identification & assessment", "Controls environment"]}
+  ]},
+  "data-strategy": {"type": "cycle", "citation": "L2:7", "center": "Business value", "steps": ["Identify", "Process", "Govern", "Store", "Provision"]},
+  "mit-iws": {"type": "columns", "citation": "L2:16", "columns": [
+    {"title": "Improving", "items": ["Indirect value", "Better processes & work tasks", "Lower COGS / overheads"]},
+    {"title": "Wrapping", "items": ["Indirect value", "Bundle analytics features with core products", "Higher value proposition"]},
+    {"title": "Selling", "items": ["Direct value", "Convert data / information solutions into revenue"]}
+  ]},
+  "data-valuation": {"type": "columns", "citation": "L2:18", "columns": [
+    {"title": "Market", "items": ["Value of a similar data asset on the market?", "Actively traded market", "Market transactions"]},
+    {"title": "Cost", "items": ["Minimum value to cover costs + margin?", "Reproduction cost", "Replacement cost"]},
+    {"title": "Income", "items": ["Incremental value the consumer can generate?", "Incremental revenue", "Reduced cost"]}
+  ]},
+  "data-for-sale": {"type": "flow", "citation": "L2:17", "steps": ["Stock-take the data", "Assess data", "Assess potential for sharing", "Select valuation approach", "Value the data", "Share the data"]},
+  "financial-value-of-data": {"type": "columns", "citation": "L2:4", "columns": [
+    {"title": "Improving revenue", "items": ["Competitive pricing", "Demographics-based sales", "Direct conversion of data into revenue"]},
+    {"title": "Reducing costs", "items": ["Streamline process costs", "Workforce efficiency & productivity"]},
+    {"title": "Improving social capital", "items": ["Brand loyalty / reputation", "Proprietary knowledge, systems & processes"]}
+  ]},
+  "centralised-model": {"type": "columns", "citation": "L3:10", "columns": [
+    {"title": "Decentralised", "items": ["Complete BU autonomy, no central control", "+ Quick BU decisions", "− Duplication, inconsistent quality"]},
+    {"title": "Federated (hub & spoke)", "items": ["Central + selective local capability", "+ Business-IT integration, minimal duplication", "− Slower decisions", "Leading practice"]},
+    {"title": "Centralised", "items": ["Single point of control", "+ Faster decisions, consistency", "− Low agility, misalignment"]}
+  ]},
+  "federated-model": {"type": "columns", "citation": "L3:10", "columns": [
+    {"title": "Decentralised", "items": ["Complete BU autonomy, no central control", "+ Quick BU decisions", "− Duplication, inconsistent quality"]},
+    {"title": "Federated (hub & spoke)", "items": ["Central + selective local capability", "+ Business-IT integration, minimal duplication", "− Slower decisions", "Leading practice"]},
+    {"title": "Centralised", "items": ["Single point of control", "+ Faster decisions, consistency", "− Low agility, misalignment"]}
+  ]},
+  "decentralised-model": {"type": "columns", "citation": "L3:10", "columns": [
+    {"title": "Decentralised", "items": ["Complete BU autonomy, no central control", "+ Quick BU decisions", "− Duplication, inconsistent quality"]},
+    {"title": "Federated (hub & spoke)", "items": ["Central + selective local capability", "+ Business-IT integration, minimal duplication", "− Slower decisions", "Leading practice"]},
+    {"title": "Centralised", "items": ["Single point of control", "+ Faster decisions, consistency", "− Low agility, misalignment"]}
+  ]},
+  "bakery-analogy": {"type": "columns", "citation": "L1:13", "columns": [
+    {"title": "Ingredients", "items": ["→ Data definition & quality"]},
+    {"title": "Cookbook", "items": ["→ Policies, processes"]},
+    {"title": "Bakers sift & mix the same way", "items": ["→ Monitoring controls & oversight"]},
+    {"title": "The oven", "items": ["→ Technology architecture"]}
+  ]},
+  "data-culture": {"type": "layers", "citation": "L4:15", "rows": [
+    {"label": "Tone at the top", "items": ["KPIs & rewards structure", "Corporate values", "Senior communications", "Long term sustainability"]},
+    {"label": "Embedding into operations", "items": ["Decision making", "Data-enabled processes", "Capability building", "Success stories", "Worker empowerment"]},
+    {"label": "Enabled by", "items": ["Frameworks", "Policies", "Procedures", "Upgrading tools"]}
+  ]},
+  "data-stakeholders": {"type": "flow", "citation": "L4:5", "steps": ["Data Provider (transfers data)", "Data Consumer and/or Provider", "Data Consumer (reporting / analytics)"]},
+  "data-documentation": {"type": "columns", "citation": "L5:10", "columns": [
+    {"title": "Business documentation", "items": ["Business glossary (DMO + data owners)", "Data flow diagram (Technology + business process owners)"]},
+    {"title": "Technical documentation", "items": ["Data dictionary (DMO + data owners)", "Data lineage (Technology + business process owners)"]}
+  ]},
+  "data-policies": {"type": "columns", "citation": "L5:6", "columns": [
+    {"title": "Data Management Policy", "items": ["Data governance", "Data architecture", "Information lifecycle mgmt", "Data culture"]},
+    {"title": "Data Quality Policy", "items": ["DQ controls: dimensions, rules, thresholds", "DQ monitoring & reporting", "Remediation & escalation"]},
+    {"title": "Data Sharing Policy", "items": ["Scope inclusions / exclusions", "Data sharing approach", "Stages of data sharing", "Operationalising sharing"]}
+  ]},
+  "dq-root-causes": {"type": "columns", "citation": "L6:6", "columns": [
+    {"title": "1. Manual data entry", "items": ["Typos", "Inconsistent entry"]},
+    {"title": "2. External parties", "items": ["Inaccurate procured data", "Late files", "Missing attributes"]},
+    {"title": "3. Program / transformation logic", "items": ["Incomplete requirements", "Inadequate UAT", "Upstream not in sync"]},
+    {"title": "4. Data operational", "items": ["Config errors", "Batch scheduling", "Code deployment"]},
+    {"title": "5. EUC", "items": ["Wrong template / source", "Typos", "Transposition"]}
+  ]},
+  "traditional-dq-approach": {"type": "cycle", "citation": "L6:14", "center": "Long, arduous, costly", "steps": ["Profile & document current state", "Build business rules & thresholds", "Implement & execute rules", "Measure & report", "Root cause analysis & remediate", "Review & refine"]},
+  "ai-ml-dq": {"type": "flow", "citation": "L6:15", "steps": ["Rules-based (reactive)", "Statistical reviews", "Anomaly detection", "Predictive modelling", "Decision making (self-learning)"]},
+  "dq-rules-design": {"type": "flow", "citation": "L7:4", "steps": ["Step 1: Understand the CDE & profile data", "Step 2: Classify the data type", "Step 3: Design rules per DQ dimension"]},
+  "dq-measurement-process": {"type": "flow", "citation": "L7:14", "steps": ["Thresholds", "Measure", "Dashboard", "Remediation"]},
+  "dq-thresholds": {"type": "columns", "citation": "L7:15", "columns": [
+    {"title": "≥ 95%", "items": ["Very good"]},
+    {"title": "92.5% – 95%", "items": ["Good"]},
+    {"title": "< 92.5%", "items": ["Fair"]}
+  ]},
+  "data-type-classification": {"type": "columns", "citation": "L7:7", "columns": [
+    {"title": "External reference", "items": ["Currency code", "Issuer rating"]},
+    {"title": "Internal reference", "items": ["Product type", "Cost centre"]},
+    {"title": "Unique identifiers", "items": ["Account no.", "NRIC"]},
+    {"title": "Date values", "items": ["Maturity date"]},
+    {"title": "Amounts", "items": ["Notional amount"]},
+    {"title": "Others", "items": ["NPL indicator"]}
+  ]},
+  "data-architecture-components": {"type": "flow", "citation": "L8:6", "steps": ["Individual bricks: CDEs, data dictionary", "Sorted bricks: data domain, taxonomy, reference data", "Aggregated bricks: data flow, lineage, inventory", "Output design: data model"]},
+  "data-platform": {"type": "flow", "citation": "L8:12", "steps": ["Capture: sources & acquisition", "Curate: raw → curation → enterprise → provisioning → for-purpose", "Consume: data services, self-service, BI / ML"]},
+  "metadata-tool": {"type": "columns", "citation": "L8:14", "columns": [
+    {"title": "Understanding the data", "items": ["Inventory", "Dictionary", "CDE", "Golden source", "Owner", "Lineage"]},
+    {"title": "Trusting the data", "items": ["Auditability", "DQ rules", "Dashboard", "Exception mgmt", "Profiling"]},
+    {"title": "Using the data", "items": ["Pipelines", "Data preparation", "PII integrity", "Self-service access"]}
+  ]},
+  "reference-data": {"type": "columns", "citation": "L8:9", "columns": [
+    {"title": "Public", "items": ["Country codes", "Currency codes", "External risk rating categories", "Legal entity identifiers"]},
+    {"title": "Private", "items": ["Chart of accounts", "Product codes", "Internal risk rating categories", "Customer classification types"]}
+  ]},
+  "asean-dmf": {"type": "flow", "citation": "L9:12", "steps": ["Governance & oversight", "Policies & procedures", "Data inventory", "Impact / risk assessment (C-I-A)", "Controls", "Monitoring & continuous improvement"]},
+  "trusted-view": {"type": "layers", "citation": "L9:19", "rows": [
+    {"label": "Understand our data", "items": ["Enterprise documentation", "Consistent & accurate data models", "Systems & data tools"]},
+    {"label": "Strong governance", "items": ["Clear ownership", "Policies & procedures", "Privacy & security"]},
+    {"label": "Good quality", "items": ["Robust controls", "DQ measurement", "Continuous improvement"]},
+    {"label": "Data awareness", "items": ["Best practices", "Data community", "Data literacy"]},
+    {"label": "Innovation & commercialisation", "items": ["Analytics", "AI/ML platforms", "Monetisation"]}
+  ]}
+}

@@ -1,0 +1,3859 @@
+[
+ {
+  "id": "auto-benefits-of-dg",
+  "conceptId": "benefits-of-dg",
+  "kind": "definition",
+  "auto": true,
+  "front": "Benefits of data governance & quality",
+  "prompt": "Explain this concept",
+  "back": "DG&Q is described as a 'miracle pill': lower reputational/regulatory risk, streamlined processes, better usability, insight and decisions, and recognising data as an asset.",
+  "keyTerms": [
+   "Regulatory fines",
+   "Reputation loss",
+   "Data as an asset",
+   "Usability"
+  ],
+  "cites": [
+   "L1:10",
+   "L1:11"
+  ],
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-consequences-poor-data",
+  "conceptId": "consequences-poor-data",
+  "kind": "definition",
+  "auto": true,
+  "front": "Consequences of poor data",
+  "prompt": "Explain this concept",
+  "back": "Poor data leads to regulatory penalties, sanctions on executives and reputational damage, as shown by Citi, CBIRC fines and the FT Companies House story.",
+  "keyTerms": [
+   "CBIRC fines",
+   "EAST inspection system",
+   "Under-reporting",
+   "Inaccurate reporting"
+  ],
+  "cites": [
+   "L1:10",
+   "L1:26",
+   "L6:5"
+  ],
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-bakery-analogy",
+  "conceptId": "bakery-analogy",
+  "kind": "definition",
+  "auto": true,
+  "front": "The bakery analogy",
+  "prompt": "Explain this concept",
+  "back": "A bakery illustrates four components of data management: ingredients (data definition & quality), cookbook (policies & processes), consistent baking (monitoring controls & oversight) and the oven (technology architecture).",
+  "keyTerms": [
+   "Data definition & quality",
+   "Policies & processes",
+   "Monitoring controls & oversight",
+   "Technology architecture",
+   "Golden source",
+   "System hop"
+  ],
+  "cites": [
+   "L1:13",
+   "L1:14",
+   "L1:15"
+  ],
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-dama-dmbok",
+  "conceptId": "dama-dmbok",
+  "kind": "definition",
+  "auto": true,
+  "front": "DAMA-DMBOK",
+  "prompt": "Explain this concept",
+  "back": "DAMA International's Data Management Body of Knowledge (DAMA-DMBOK2), a comprehensive view of the challenges, complexities and value of effective data management.",
+  "keyTerms": [
+   "DAMA International",
+   "DMBOK2"
+  ],
+  "cites": [
+   "L1:20",
+   "L1:24"
+  ],
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-dcam",
+  "conceptId": "dcam",
+  "kind": "definition",
+  "auto": true,
+  "front": "DCAM (Data management Capability Assessment Model)",
+  "prompt": "Explain this concept",
+  "back": "The EDM Council's industry-standard framework defining the capabilities needed to establish, enable and sustain mature data management, in 8 components.",
+  "keyTerms": [
+   "EDM Council",
+   "Capability",
+   "Data Control Environment",
+   "Analytics Management"
+  ],
+  "cites": [
+   "L1:20",
+   "L1:21"
+  ],
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-dg-building-blocks",
+  "conceptId": "dg-building-blocks",
+  "kind": "definition",
+  "auto": true,
+  "front": "Building blocks of good data governance",
+  "prompt": "Explain this concept",
+  "back": "Fundamentals (framework & policies, DQ identification & assessment, controls environment), ongoing controls (monitoring & reporting, remediation) and continuous improvement (independent assessment).",
+  "keyTerms": [
+   "Fundamentals",
+   "Ongoing controls",
+   "Continuous improvement",
+   "Independent assessment"
+  ],
+  "cites": [
+   "L1:22"
+  ],
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-three-lines-of-defence",
+  "conceptId": "three-lines-of-defence",
+  "kind": "definition",
+  "auto": true,
+  "front": "Three lines of defence",
+  "prompt": "Explain this concept",
+  "back": "The DQ governance framework mirrors three lines: businesses (direct responsibility), the Data Management Office (governance & oversight) and Internal Audit (independent assurance).",
+  "keyTerms": [
+   "1st line: business",
+   "2nd line: DMO",
+   "3rd line: Internal Audit",
+   "Data Governance Officers"
+  ],
+  "cites": [
+   "L1:23"
+  ],
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-bcbs239",
+  "conceptId": "bcbs239",
+  "kind": "definition",
+  "auto": true,
+  "front": "BCBS 239 principles",
+  "prompt": "Explain this concept",
+  "back": "Basel Committee principles for effective risk data aggregation and risk reporting, covering governance & infrastructure, risk data aggregation, risk reporting and supervisory review.",
+  "keyTerms": [
+   "Risk data aggregation",
+   "Risk reporting",
+   "Golden sources",
+   "Off-balance sheet",
+   "Adaptability",
+   "Stress/crisis reporting"
+  ],
+  "cites": [
+   "L1:18",
+   "L1:24",
+   "L1:27"
+  ],
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-cbirc",
+  "conceptId": "cbirc",
+  "kind": "definition",
+  "auto": true,
+  "front": "CBIRC data governance guidelines",
+  "prompt": "Explain this concept",
+  "back": "China's banking regulator guidelines in 7 chapters, covering governance structure, data management, DQ & controls, monetisation and supervision, enforced with fines.",
+  "keyTerms": [
+   "CBIRC",
+   "EAST",
+   "Data monetisation",
+   "Central data office"
+  ],
+  "cites": [
+   "L1:24",
+   "L1:25",
+   "L1:26"
+  ],
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-business-challenges",
+  "conceptId": "business-challenges",
+  "kind": "definition",
+  "auto": true,
+  "front": "Business challenges driving data strategy",
+  "prompt": "Explain this concept",
+  "back": "Cross-border competition, innovative products for informed customers, increasing regulation and audit, digitisation to survive, and too much data.",
+  "keyTerms": [
+   "PDPA",
+   "ESG",
+   "Digitisation"
+  ],
+  "cites": [
+   "L2:3"
+  ],
+  "theme": "strategy",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-financial-value-of-data",
+  "conceptId": "financial-value-of-data",
+  "kind": "definition",
+  "auto": true,
+  "front": "Financial values from improved data",
+  "prompt": "Explain this concept",
+  "back": "Improved data creates value by improving revenue, reducing costs and improving social capital (which can be converted into economic capital).",
+  "keyTerms": [
+   "Improving revenue",
+   "Reducing costs",
+   "Social capital",
+   "Economic capital"
+  ],
+  "cites": [
+   "L2:4",
+   "L2:5"
+  ],
+  "theme": "strategy",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-data-strategy",
+  "conceptId": "data-strategy",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data strategy",
+  "prompt": "Explain this concept",
+  "back": "A data strategy is about leveraging data to create business value; data is a competitive advantage and needs a strategy to keep it that way.",
+  "keyTerms": [
+   "Business value",
+   "Competitive advantage",
+   "Identify-Process-Govern-Store-Provision"
+  ],
+  "cites": [
+   "L2:7",
+   "L2:8",
+   "L2:14"
+  ],
+  "theme": "strategy",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-data-strategy-characteristics",
+  "conceptId": "data-strategy-characteristics",
+  "kind": "definition",
+  "auto": true,
+  "front": "Characteristics of a data strategy",
+  "prompt": "Explain this concept",
+  "back": "Aligned to business goals; actionable, measurable and relevant; identifies support, resources & constraints; a living document; adds value. It must be endorsed, routinely revisited and evolve.",
+  "keyTerms": [
+   "Living artifact",
+   "Executive endorsement",
+   "Routinely revisited",
+   "Evolve"
+  ],
+  "cites": [
+   "L2:10",
+   "L2:13"
+  ],
+  "theme": "strategy",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-strategy-document",
+  "conceptId": "strategy-document",
+  "kind": "definition",
+  "auto": true,
+  "front": "The data strategy document",
+  "prompt": "Explain this concept",
+  "back": "A primary 'sales tool' for the data function with four benefits and a defined set of core components (principles, stakeholder analysis, gap analysis, governance framework, roadmap, etc.).",
+  "keyTerms": [
+   "Sales tool",
+   "Roadmap",
+   "Gap analysis",
+   "Business case",
+   "Executive adoption"
+  ],
+  "cites": [
+   "L2:11",
+   "L2:12"
+  ],
+  "theme": "strategy",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-mit-iws",
+  "conceptId": "mit-iws",
+  "kind": "definition",
+  "auto": true,
+  "front": "MIT data monetisation framework (Improve, Wrap, Sell)",
+  "prompt": "Explain this concept",
+  "back": "Three ways to monetise data: Improving (indirect, better processes, lower costs), Wrapping (indirect, analytics bundled into products) and Selling (direct conversion into revenue).",
+  "keyTerms": [
+   "Improving",
+   "Wrapping",
+   "Selling",
+   "Direct vs indirect value"
+  ],
+  "cites": [
+   "L2:16",
+   "L2:22"
+  ],
+  "theme": "strategy",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-data-for-sale",
+  "conceptId": "data-for-sale",
+  "kind": "definition",
+  "auto": true,
+  "front": "Process to prepare data for sale",
+  "prompt": "Explain this concept",
+  "back": "Provider: stock-take → assess data → assess potential for sharing → select valuation approach → value → share. The consumer assesses need for external data, then values.",
+  "keyTerms": [
+   "Stock-take",
+   "Market discovery",
+   "Valuation approach"
+  ],
+  "cites": [
+   "L2:17"
+  ],
+  "theme": "strategy",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-data-valuation",
+  "conceptId": "data-valuation",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data valuation approaches (market, cost, income)",
+  "prompt": "Explain this concept",
+  "back": "Finance helps select the valuation approach for data as an organisational asset: Market (similar asset's value), Cost (reproduction/replacement) or Income (incremental revenue/reduced cost).",
+  "keyTerms": [
+   "Market approach",
+   "Cost approach",
+   "Income approach",
+   "Reproduction cost",
+   "Replacement cost",
+   "Incremental revenue"
+  ],
+  "cites": [
+   "L2:18",
+   "L2:19",
+   "L2:20"
+  ],
+  "theme": "strategy",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-data-office-maturity",
+  "conceptId": "data-office-maturity",
+  "kind": "definition",
+  "auto": true,
+  "front": "Maturity of the data office",
+  "prompt": "Explain this concept",
+  "back": "The 2008 financial crisis gave finance a head start; 56% of programmes have been in place 3+ years (EDM Council 2023 DCAM benchmark).",
+  "keyTerms": [
+   "EDM Council DCAM Benchmarking Report",
+   "2008 Financial Crisis"
+  ],
+  "cites": [
+   "L3:3"
+  ],
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-cdo-reporting-lines",
+  "conceptId": "cdo-reporting-lines",
+  "kind": "definition",
+  "auto": true,
+  "front": "Where the CDO reports",
+  "prompt": "Explain this concept",
+  "back": "CDO reporting varies (CIO, COO, CFO, CRO, strategy); the right line depends on why the CDO role was created: regulatory compliance, business innovation or data quality risk.",
+  "keyTerms": [
+   "CDO",
+   "CIO",
+   "COO",
+   "CRO",
+   "CFO",
+   "G-SIB"
+  ],
+  "cites": [
+   "L3:4",
+   "L3:6",
+   "L3:7"
+  ],
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-cdao",
+  "conceptId": "cdao",
+  "kind": "definition",
+  "auto": true,
+  "front": "CDAO & analytics in the CDO role",
+  "prompt": "Explain this concept",
+  "back": "CDOs increasingly own analytics (Chief Data and Analytics Officers), but firms with inherent data issues may first focus purely on governance.",
+  "keyTerms": [
+   "CDAO",
+   "Data analytics",
+   "AML/KYC"
+  ],
+  "cites": [
+   "L3:5",
+   "L3:8"
+  ],
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-centralised-model",
+  "conceptId": "centralised-model",
+  "kind": "definition",
+  "auto": true,
+  "front": "Centralised data management model",
+  "prompt": "Explain this concept",
+  "back": "Single point of control at enterprise level with BUs selectively engaged; suits less mature organisations needing control and alignment.",
+  "keyTerms": [
+   "Single point of control",
+   "Consistency",
+   "Low agility"
+  ],
+  "cites": [
+   "L3:8",
+   "L3:10"
+  ],
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-federated-model",
+  "conceptId": "federated-model",
+  "kind": "definition",
+  "auto": true,
+  "front": "Federated (hub-and-spoke) model",
+  "prompt": "Explain this concept",
+  "back": "Central plus selectively localised capability with centralised control; the leading practice, suited to more mature organisations.",
+  "keyTerms": [
+   "Hub and spoke",
+   "Leading practice",
+   "BU ownership"
+  ],
+  "cites": [
+   "L3:8",
+   "L3:10"
+  ],
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-decentralised-model",
+  "conceptId": "decentralised-model",
+  "kind": "definition",
+  "auto": true,
+  "front": "Decentralised model",
+  "prompt": "Explain this concept",
+  "back": "BUs operate with complete autonomy and no central control: quick BU-level decisions but duplicated effort and inconsistent quality.",
+  "keyTerms": [
+   "Autonomy",
+   "Duplication",
+   "Inconsistent quality"
+  ],
+  "cites": [
+   "L3:10"
+  ],
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-dg-structure",
+  "conceptId": "dg-structure",
+  "kind": "definition",
+  "auto": true,
+  "front": "Typical data governance structure",
+  "prompt": "Explain this concept",
+  "back": "Strategic: Board → Executive: Data Governance Committee → Management: CDO & DMO (governance, quality, architecture) → Execution: data owners, business data stewards, system owners, technical data stewards.",
+  "keyTerms": [
+   "Strategic level",
+   "Executive level",
+   "Management level",
+   "Execution level"
+  ],
+  "cites": [
+   "L3:11",
+   "L8:3"
+  ],
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-board-dg",
+  "conceptId": "board-dg",
+  "kind": "definition",
+  "auto": true,
+  "front": "Board of Directors' role in DG",
+  "prompt": "Explain this concept",
+  "back": "Sets strategic direction, funds strategic initiatives, directs KPIs/metrics and approves DG policies and DGC-proposed changes.",
+  "keyTerms": [
+   "Strategic direction",
+   "Funding",
+   "Policy approval"
+  ],
+  "cites": [
+   "L3:12",
+   "L1:27"
+  ],
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-dgc",
+  "conceptId": "dgc",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data Governance Committee (DGC)",
+  "prompt": "Explain this concept",
+  "back": "The principal senior management body, accountable to the Board for the effectiveness of data management policies and controls; a forum for deliberation, escalation and approval.",
+  "keyTerms": [
+   "Escalation",
+   "Accountable to the Board",
+   "Senior management forum"
+  ],
+  "cites": [
+   "L3:13"
+  ],
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-cdo-dmo",
+  "conceptId": "cdo-dmo",
+  "kind": "definition",
+  "auto": true,
+  "front": "Chief Data Officer & Data Management Office",
+  "prompt": "Explain this concept",
+  "back": "The CDO is the most senior executive responsible for data management strategy and implementation; with the DMO, oversees bank-wide DG and ensures policies, standards and processes are designed, implemented and enforced.",
+  "keyTerms": [
+   "CDO",
+   "DMO",
+   "Oversight",
+   "2nd line"
+  ],
+  "cites": [
+   "L3:14",
+   "L1:23",
+   "L4:5"
+  ],
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "auto-dg-key-terms",
+  "conceptId": "dg-key-terms",
+  "kind": "definition",
+  "auto": true,
+  "front": "Key data governance terms",
+  "prompt": "Explain this concept",
+  "back": "Lecture 4 defines data controls, data quality, data architecture, data documentation, data stakeholders, metadata and data culture.",
+  "keyTerms": [
+   "Data controls",
+   "Data quality",
+   "Data architecture",
+   "Data documentation",
+   "Data stakeholders",
+   "Metadata"
+  ],
+  "cites": [
+   "L4:4"
+  ],
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "auto-data-owner",
+  "conceptId": "data-owner",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data owner",
+  "prompt": "Explain this concept",
+  "back": "Has a clear understanding of the data they own, sets standards for it and is accountable for data quality.",
+  "keyTerms": [
+   "Accountable for data quality",
+   "Sets standards",
+   "Proximity to data capture"
+  ],
+  "cites": [
+   "L4:5",
+   "L4:6",
+   "L1:23"
+  ],
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "auto-data-stewards",
+  "conceptId": "data-stewards",
+  "kind": "definition",
+  "auto": true,
+  "front": "Business & technical data stewards",
+  "prompt": "Explain this concept",
+  "back": "Business data stewards are department representatives supporting data owners, enforcing standards and responsible for DQ; technical data stewards enable the technology.",
+  "keyTerms": [
+   "Responsible vs accountable",
+   "Enforce standards",
+   "Technical data steward"
+  ],
+  "cites": [
+   "L4:5",
+   "L3:11"
+  ],
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "auto-data-stakeholders",
+  "conceptId": "data-stakeholders",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data stakeholders: providers & consumers",
+  "prompt": "Explain this concept",
+  "back": "Those who use, affect or are affected by data: CDO (oversight), data owners, stewards, data providers and data consumers.",
+  "keyTerms": [
+   "Data provider",
+   "Data consumer",
+   "Consumer and/or provider"
+  ],
+  "cites": [
+   "L4:4",
+   "L4:5"
+  ],
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "auto-data-ownership-principles",
+  "conceptId": "data-ownership-principles",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data ownership principles",
+  "prompt": "Explain this concept",
+  "back": "Owners are chosen by proximity to data capture and authority to initiate change; else assigned by the CDO; ownership passes on reassignment and changes only when data is transformed.",
+  "keyTerms": [
+   "Proximity to data capture",
+   "Authority to initiate changes",
+   "Transformation",
+   "CDO assignment"
+  ],
+  "cites": [
+   "L4:6"
+  ],
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "auto-cde",
+  "conceptId": "cde",
+  "kind": "definition",
+  "auto": true,
+  "front": "Critical data elements (CDEs)",
+  "prompt": "Explain this concept",
+  "back": "The most important data, scoped for heightened control and monitoring with limited resources; CDEs get agreed definitions, data-flow and full lineage documentation and heightened controls.",
+  "keyTerms": [
+   "Heightened controls",
+   "Limited resources",
+   "Full lineage",
+   "EDMC principles"
+  ],
+  "cites": [
+   "L4:7",
+   "L4:17",
+   "L1:22"
+  ],
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "auto-cde-criteria",
+  "conceptId": "cde-criteria",
+  "kind": "definition",
+  "auto": true,
+  "front": "CDE criteria (8)",
+  "prompt": "Explain this concept",
+  "back": "Regulatory usage, information security/privacy, reporting level, reputational impact, financial impact, enterprise performance, operational risk, risk management.",
+  "keyTerms": [
+   "Regulatory",
+   "Information security",
+   "Reporting level",
+   "Reputational",
+   "Financial",
+   "Enterprise performance"
+  ],
+  "cites": [
+   "L4:8",
+   "L4:9"
+  ],
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "auto-cde-fine-revenue",
+  "conceptId": "cde-fine-revenue",
+  "kind": "definition",
+  "auto": true,
+  "front": "Worked example: fine revenue CDEs",
+  "prompt": "Explain this concept",
+  "back": "Data feeding 'Fine revenue' is mapped against the 8 CDE criteria; e.g. 'No of people fined' meets 1, 3, 5 and 'Penalty per fine' meets 1, 4, 5.",
+  "keyTerms": [
+   "Directly derived field",
+   "Criteria mapping"
+  ],
+  "cites": [
+   "L4:11",
+   "L4:12",
+   "L4:13"
+  ],
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "auto-dg-framework",
+  "conceptId": "dg-framework",
+  "kind": "definition",
+  "auto": true,
+  "front": "Components of a data governance framework",
+  "prompt": "Explain this concept",
+  "back": "Data strategy (vision, monetisation); data governance, architecture and quality pillars; DG framework & policies; information lifecycle management; systems & tools; data culture.",
+  "keyTerms": [
+   "Information lifecycle management",
+   "EUC management",
+   "Reference & master data",
+   "Ethical use of data"
+  ],
+  "cites": [
+   "L5:5"
+  ],
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "auto-data-policies",
+  "conceptId": "data-policies",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data policies",
+  "prompt": "Explain this concept",
+  "back": "Three key policies, Data Management, Data Quality and Data Sharing, each created, reviewed and authorised by named parties.",
+  "keyTerms": [
+   "Created / Reviewed / Authorised",
+   "Applicable laws",
+   "Glossary"
+  ],
+  "cites": [
+   "L5:6",
+   "L5:7",
+   "L5:8"
+  ],
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "auto-data-management-policy",
+  "conceptId": "data-management-policy",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data management policy",
+  "prompt": "Explain this concept",
+  "back": "Covers purpose & governance, laws, glossary, data governance (CDEs, ownership, dictionary), data architecture, information lifecycle management and data culture.",
+  "keyTerms": [
+   "Golden source",
+   "Data taxonomy",
+   "Information lifecycle management"
+  ],
+  "cites": [
+   "L5:7",
+   "L1:23"
+  ],
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "auto-data-quality-policy",
+  "conceptId": "data-quality-policy",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data quality policy",
+  "prompt": "Explain this concept",
+  "back": "Covers purpose & governance, laws, glossary, DQ controls (dimensions, rules, thresholds), DQ monitoring & reporting, and remediation & escalation.",
+  "keyTerms": [
+   "DQ rules",
+   "Thresholds",
+   "Escalation",
+   "Operating model"
+  ],
+  "cites": [
+   "L5:8"
+  ],
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "auto-data-sharing-policy",
+  "conceptId": "data-sharing-policy",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data sharing policy",
+  "prompt": "Explain this concept",
+  "back": "Covers purpose & governance, laws, glossary, scope inclusions/exclusions, sharing approach, stages of data sharing and operationalising sharing.",
+  "keyTerms": [
+   "Scope inclusions/exclusions",
+   "Data sharing models",
+   "Provisioning"
+  ],
+  "cites": [
+   "L5:9"
+  ],
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "auto-data-documentation",
+  "conceptId": "data-documentation",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data documentation (business vs technical)",
+  "prompt": "Explain this concept",
+  "back": "Different means by which data is described. Business documentation: business glossary, data flow diagram. Technical documentation: data dictionary, data lineage.",
+  "keyTerms": [
+   "Business documentation",
+   "Technical documentation"
+  ],
+  "cites": [
+   "L5:10",
+   "L5:11",
+   "L4:4"
+  ],
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "auto-business-glossary",
+  "conceptId": "business-glossary",
+  "kind": "definition",
+  "auto": true,
+  "front": "Business glossary",
+  "prompt": "Explain this concept",
+  "back": "A searchable collection of business terms and definitions that gives context; used generically to understand data elements and whom to approach. Maintained by the DMO with data owners.",
+  "keyTerms": [
+   "Business term",
+   "Synonym / broader / narrower term",
+   "Term owner"
+  ],
+  "cites": [
+   "L5:12",
+   "L5:13",
+   "L5:19"
+  ],
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "auto-data-dictionary",
+  "conceptId": "data-dictionary",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data dictionary",
+  "prompt": "Explain this concept",
+  "back": "A centralised repository of metadata (tables, fields, data type, size, source, owners, defaults); used especially in system implementation for golden sources and approvals. Maintained by the DMO with data owners.",
+  "keyTerms": [
+   "Centralised repository of metadata",
+   "T+X timeliness",
+   "Golden source",
+   "CDE flag"
+  ],
+  "cites": [
+   "L5:12",
+   "L5:14",
+   "L5:15"
+  ],
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "auto-data-flow-diagram",
+  "conceptId": "data-flow-diagram",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data flow diagram",
+  "prompt": "Explain this concept",
+  "back": "Shows how information flows through a process/system, from collection to report; used to identify control gaps, streamlining and root causes. Maintained by Technology and business process owners.",
+  "keyTerms": [
+   "Inputs/outputs",
+   "Data stores",
+   "Control gaps",
+   "Forensic investigation"
+  ],
+  "cites": [
+   "L5:12",
+   "L5:16",
+   "L5:19"
+  ],
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "auto-data-lineage",
+  "conceptId": "data-lineage",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data lineage",
+  "prompt": "Explain this concept",
+  "back": "Understanding, recording and visualising data from source to consumption, incl. every transformation (how, what changed and why). Required in full for CDEs.",
+  "keyTerms": [
+   "Source to consumption",
+   "Transformations",
+   "Full lineage"
+  ],
+  "cites": [
+   "L5:12",
+   "L5:17",
+   "L5:19"
+  ],
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "auto-dq-root-causes",
+  "conceptId": "dq-root-causes",
+  "kind": "definition",
+  "auto": true,
+  "front": "Root causes of data quality issues (5)",
+  "prompt": "Explain this concept",
+  "back": "Manual data entry errors; errors from external parties; program/transformation logic; data operational errors; End User Computing (EUC) errors.",
+  "keyTerms": [
+   "Manual entry",
+   "External parties",
+   "Transformation logic",
+   "Operational errors",
+   "EUC",
+   "UAT"
+  ],
+  "cites": [
+   "L6:6",
+   "L7:19",
+   "L9:2"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "auto-dq-dimensions",
+  "conceptId": "dq-dimensions",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data quality dimensions (7)",
+  "prompt": "Explain this concept",
+  "back": "Per EDM Council: accuracy, completeness, conformity, consistency, coverage, timeliness, uniqueness. Rule design in L7 uses six (no coverage).",
+  "keyTerms": [
+   "EDM Council",
+   "Accuracy",
+   "Completeness",
+   "Conformity",
+   "Consistency",
+   "Coverage"
+  ],
+  "cites": [
+   "L6:7",
+   "L6:8",
+   "L7:4"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "auto-dq-accuracy",
+  "conceptId": "dq-accuracy",
+  "kind": "definition",
+  "auto": true,
+  "front": "Accuracy",
+  "prompt": "Explain this concept",
+  "back": "Veracity of data to its authorised source and precision, validated against business rules; the degree to which data correctly reflects the event described.",
+  "keyTerms": [
+   "Veracity",
+   "Precision",
+   "Validity",
+   "Verifiability",
+   "Derivation"
+  ],
+  "cites": [
+   "L6:7",
+   "L6:10",
+   "L7:8"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "auto-dq-completeness",
+  "conceptId": "dq-completeness",
+  "kind": "definition",
+  "auto": true,
+  "front": "Completeness",
+  "prompt": "Explain this concept",
+  "back": "Existence of required attributes across the population; whether data needed by approved users is available (not null, not default values).",
+  "keyTerms": [
+   "Null",
+   "Default values",
+   "Maker-checker",
+   "Record count"
+  ],
+  "cites": [
+   "L6:7",
+   "L6:10",
+   "L7:9"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "auto-dq-conformity",
+  "conceptId": "dq-conformity",
+  "kind": "definition",
+  "auto": true,
+  "front": "Conformity",
+  "prompt": "Explain this concept",
+  "back": "Alignment of content with required standards (internal/external/industry): data type, size and format.",
+  "keyTerms": [
+   "Standards",
+   "Format",
+   "Allowable values",
+   "ISO codes"
+  ],
+  "cites": [
+   "L6:7",
+   "L6:10",
+   "L7:10"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "auto-dq-consistency",
+  "conceptId": "dq-consistency",
+  "kind": "definition",
+  "auto": true,
+  "front": "Consistency",
+  "prompt": "Explain this concept",
+  "back": "Values, formats and definitions in one population agree with another; data across systems is in sync.",
+  "keyTerms": [
+   "Reconciliation",
+   "Synchronisation",
+   "Logical relationships"
+  ],
+  "cites": [
+   "L6:8",
+   "L6:11",
+   "L7:11"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "auto-dq-coverage",
+  "conceptId": "dq-coverage",
+  "kind": "definition",
+  "auto": true,
+  "front": "Coverage",
+  "prompt": "Explain this concept",
+  "back": "Breadth and availability of data, e.g. a required field is missing.",
+  "keyTerms": [
+   "Breadth",
+   "Availability"
+  ],
+  "cites": [
+   "L6:8",
+   "L9:9"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   3
+  ]
+ },
+ {
+  "id": "auto-dq-timeliness",
+  "conceptId": "dq-timeliness",
+  "kind": "definition",
+  "auto": true,
+  "front": "Timeliness",
+  "prompt": "Explain this concept",
+  "back": "How well content represents current conditions and whether data is available when needed / up to date.",
+  "keyTerms": [
+   "SLA",
+   "Currency",
+   "Record history",
+   "Continuity"
+  ],
+  "cites": [
+   "L6:8",
+   "L6:11",
+   "L7:12"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "auto-dq-uniqueness",
+  "conceptId": "dq-uniqueness",
+  "kind": "definition",
+  "auto": true,
+  "front": "Uniqueness",
+  "prompt": "Explain this concept",
+  "back": "Singularity of records and attributes; de-duplication and referential checks.",
+  "keyTerms": [
+   "De-duplication",
+   "Unique identifier"
+  ],
+  "cites": [
+   "L6:8",
+   "L6:11",
+   "L7:13"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "auto-traditional-dq-approach",
+  "conceptId": "traditional-dq-approach",
+  "kind": "definition",
+  "auto": true,
+  "front": "Traditional approach to data quality",
+  "prompt": "Explain this concept",
+  "back": "Profile → build rules & thresholds → implement & execute → measure & report → root cause & remediate → review & refine; long, arduous and costly.",
+  "keyTerms": [
+   "Profiling",
+   "Rules & thresholds",
+   "Delay is costly"
+  ],
+  "cites": [
+   "L6:14"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   3
+  ]
+ },
+ {
+  "id": "auto-ai-ml-dq",
+  "conceptId": "ai-ml-dq",
+  "kind": "definition",
+  "auto": true,
+  "front": "AI/ML as preventive DQ controls",
+  "prompt": "Explain this concept",
+  "back": "A spectrum from rules-based (reactive, high human effort) to statistical reviews, anomaly detection, predictive modelling and self-learning decision making.",
+  "keyTerms": [
+   "Rules-based",
+   "Statistical reviews",
+   "Anomaly detection",
+   "Predictive modelling",
+   "Self-learning"
+  ],
+  "cites": [
+   "L6:15"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   3
+  ]
+ },
+ {
+  "id": "auto-dq-rules-design",
+  "conceptId": "dq-rules-design",
+  "kind": "definition",
+  "auto": true,
+  "front": "Approach to DQ rules design",
+  "prompt": "Explain this concept",
+  "back": "Step 1: understand the CDE & profile data; Step 2: classify the data type; Step 3: design rules per DQ dimension (about 2 per dimension per CDE).",
+  "keyTerms": [
+   "Step 1 profiling",
+   "Step 2 classification",
+   "Step 3 dimensions"
+  ],
+  "cites": [
+   "L7:4",
+   "L9:2"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "auto-data-profiling",
+  "conceptId": "data-profiling",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data profiling",
+  "prompt": "Explain this concept",
+  "back": "The first but most critical step: reviewing the 'state of affairs' of data to build rules that constrain attributes.",
+  "keyTerms": [
+   "State of affairs",
+   "Suspicious default values",
+   "Frequency chart",
+   "Pattern detection"
+  ],
+  "cites": [
+   "L7:5",
+   "L7:6",
+   "L9:2"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "auto-data-type-classification",
+  "conceptId": "data-type-classification",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data type classification",
+  "prompt": "Explain this concept",
+  "back": "Grouping CDEs as external reference values, internal reference tables, unique identifiers, date values, amounts or others, so the right DQ rules apply.",
+  "keyTerms": [
+   "External reference",
+   "Internal reference",
+   "Unique identifiers",
+   "Date values",
+   "Amounts",
+   "Others"
+  ],
+  "cites": [
+   "L7:7"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "auto-dq-measurement-process",
+  "conceptId": "dq-measurement-process",
+  "kind": "definition",
+  "auto": true,
+  "front": "Process for measuring data quality",
+  "prompt": "Explain this concept",
+  "back": "Thresholds → Measure → Dashboard → Remediation.",
+  "keyTerms": [
+   "Thresholds",
+   "Measure",
+   "Dashboard",
+   "Remediation"
+  ],
+  "cites": [
+   "L7:14",
+   "L9:2"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "auto-dq-thresholds",
+  "conceptId": "dq-thresholds",
+  "kind": "definition",
+  "auto": true,
+  "front": "DQ thresholds & DQ result formula",
+  "prompt": "Explain this concept",
+  "back": "DQ result = (records assessed − records failed) / records assessed × 100%. ≥95% very good; 92.5–95% good; <92.5% fair.",
+  "keyTerms": [
+   "Pass rate",
+   "False positives",
+   "Risk tolerance",
+   "Very good / good / fair"
+  ],
+  "cites": [
+   "L7:15",
+   "L7:14",
+   "L9:2"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "auto-dq-manual-vs-automated",
+  "conceptId": "dq-manual-vs-automated",
+  "kind": "definition",
+  "auto": true,
+  "front": "Manual vs automated DQ measurement",
+  "prompt": "Explain this concept",
+  "back": "Manual via Excel (e.g. operational risk control attestation, annual/bi-annual) vs automated via tools like Informatica, IBM, Talend (DQ team testing, monthly/quarterly).",
+  "keyTerms": [
+   "Excel",
+   "Attestation",
+   "Informatica / IBM / Talend",
+   "Frequency"
+  ],
+  "cites": [
+   "L7:16",
+   "L9:2"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "auto-dq-dashboard",
+  "conceptId": "dq-dashboard",
+  "kind": "definition",
+  "auto": true,
+  "front": "DQ dashboards",
+  "prompt": "Explain this concept",
+  "back": "Dashboards highlight DQ issues, root causes, systems/owners and remediation timelines, by CDE, system, report and dimension, with trends.",
+  "keyTerms": [
+   "Issues by CDE/system/report",
+   "Trend",
+   "Drill-down"
+  ],
+  "cites": [
+   "L7:14",
+   "L7:17",
+   "L7:18"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "auto-dq-remediation",
+  "conceptId": "dq-remediation",
+  "kind": "definition",
+  "auto": true,
+  "front": "DQ remediation (tactical vs strategic)",
+  "prompt": "Explain this concept",
+  "back": "One-time (tactical) corrections fix immediate errors; strategic fixes enhance processes/systems to prevent recurrence. Plans are developed, prioritised and actioned.",
+  "keyTerms": [
+   "Tactical / one-time",
+   "Strategic",
+   "Prioritised"
+  ],
+  "cites": [
+   "L7:14",
+   "L7:19",
+   "L9:2"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "auto-data-architecture-components",
+  "conceptId": "data-architecture-components",
+  "kind": "definition",
+  "auto": true,
+  "front": "Components of data architecture (bricks)",
+  "prompt": "Explain this concept",
+  "back": "Individual bricks (CDEs, data dictionary) → sorted bricks (data domain, taxonomy, reference data) → aggregated bricks (data flow, lineage, inventory) → output design (data model).",
+  "keyTerms": [
+   "Individual / sorted / aggregated bricks",
+   "Data model",
+   "Data inventory"
+  ],
+  "cites": [
+   "L8:6"
+  ],
+  "theme": "architecture",
+  "quizzes": [
+   5
+  ]
+ },
+ {
+  "id": "auto-data-domain",
+  "conceptId": "data-domain",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data domains",
+  "prompt": "Explain this concept",
+  "back": "Groupings of data such as Customer, Product master, Collaterals, Risk, Finance, HR and Entity structure.",
+  "keyTerms": [
+   "Customer",
+   "Product master",
+   "Collaterals",
+   "Risk",
+   "Finance",
+   "HR"
+  ],
+  "cites": [
+   "L8:7",
+   "L5:14"
+  ],
+  "theme": "architecture",
+  "quizzes": [
+   5
+  ]
+ },
+ {
+  "id": "auto-data-platform",
+  "conceptId": "data-platform",
+  "kind": "definition",
+  "auto": true,
+  "front": "A data-driven platform",
+  "prompt": "Explain this concept",
+  "back": "Capture → Curate → Consume: sources, a data supply chain (raw, curation, enterprise and for-purpose zones), data services and consumption, underpinned by data governance & management and security.",
+  "keyTerms": [
+   "Capture / Curate / Consume",
+   "Raw zone",
+   "Enterprise zone",
+   "Self-service"
+  ],
+  "cites": [
+   "L8:12"
+  ],
+  "theme": "architecture",
+  "quizzes": [
+   5
+  ]
+ },
+ {
+  "id": "auto-mdm-tools",
+  "conceptId": "mdm-tools",
+  "kind": "definition",
+  "auto": true,
+  "front": "MDM tools",
+  "prompt": "Explain this concept",
+  "back": "Vendors shown for master data management: TIBCO, Informatica, Talend, Ataccama, Collibra, Riversand, SAP, Ab Initio.",
+  "keyTerms": [
+   "Master data management",
+   "Informatica",
+   "Collibra"
+  ],
+  "cites": [
+   "L8:13",
+   "L8:22",
+   "L7:16"
+  ],
+  "theme": "architecture",
+  "quizzes": [
+   5
+  ]
+ },
+ {
+  "id": "auto-metadata-tool",
+  "conceptId": "metadata-tool",
+  "kind": "definition",
+  "auto": true,
+  "front": "Metadata management tool",
+  "prompt": "Explain this concept",
+  "back": "Supports understanding the data (inventory, dictionary, CDE, golden source, owner, lineage), trusting it (auditability, DQ rules, dashboards, exceptions, profiling) and using it (pipelines, preparation, PII integrity, self-service).",
+  "keyTerms": [
+   "Understanding / Trusting / Using",
+   "Data inventory",
+   "DQ passing rate",
+   "Self-service"
+  ],
+  "cites": [
+   "L8:14",
+   "L8:15",
+   "L8:16"
+  ],
+  "theme": "architecture",
+  "quizzes": [
+   5
+  ]
+ },
+ {
+  "id": "auto-common-taxonomies",
+  "conceptId": "common-taxonomies",
+  "kind": "definition",
+  "auto": true,
+  "front": "Industry-wide common taxonomies & ontologies",
+  "prompt": "Explain this concept",
+  "back": "ECB's BIRD, FCA's Digital Regulatory Reporting, the FIBO ontology and the EU ESG climate taxonomy (MAS too).",
+  "keyTerms": [
+   "BIRD",
+   "Digital Regulatory Reporting",
+   "FIBO",
+   "ESG taxonomy",
+   "Ontology"
+  ],
+  "cites": [
+   "L8:21",
+   "L8:4"
+  ],
+  "theme": "architecture",
+  "quizzes": [
+   5
+  ]
+ },
+ {
+  "id": "auto-five-trends",
+  "conceptId": "five-trends",
+  "kind": "definition",
+  "auto": true,
+  "front": "Five latest trends in data management",
+  "prompt": "Explain this concept",
+  "back": "1 Data for AI/ML, 2 Data ethics, 3 Data on cloud, 4 Data sharing, 5 Data as an asset.",
+  "keyTerms": [
+   "AI/ML",
+   "Data ethics",
+   "Cloud",
+   "Data sharing",
+   "Data as an asset"
+  ],
+  "cites": [
+   "L9:5"
+  ],
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "auto-data-for-ai",
+  "conceptId": "data-for-ai",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data for AI/ML & knowledge graphs",
+  "prompt": "Explain this concept",
+  "back": "Singapore banks (DBS, OCBC, UOB) use data and AI; knowledge graphs link entities to find hidden patterns in financial crime, risk, fraud and marketing.",
+  "keyTerms": [
+   "Knowledge graph",
+   "Financial crime",
+   "Mighty Insights"
+  ],
+  "cites": [
+   "L9:6",
+   "L9:7",
+   "L9:8"
+  ],
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "auto-ai-data-characteristics",
+  "conceptId": "ai-data-characteristics",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data characteristics influencing AI",
+  "prompt": "Explain this concept",
+  "back": "Sensitivity, representativeness, accuracy, completeness, accessibility and coverage (GPAI).",
+  "keyTerms": [
+   "Representativeness",
+   "Selection bias",
+   "FAIR data",
+   "Sensitivity"
+  ],
+  "cites": [
+   "L9:9"
+  ],
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "auto-mas-feat",
+  "conceptId": "mas-feat",
+  "kind": "definition",
+  "auto": true,
+  "front": "MAS FEAT principles",
+  "prompt": "Explain this concept",
+  "back": "MAS principles for the use of AI and data analytics (AIDA) in financial decision-making: foundational principles, operationalising governance and public trust.",
+  "keyTerms": [
+   "AIDA",
+   "Data ethics",
+   "Public trust"
+  ],
+  "cites": [
+   "L9:10",
+   "L9:20"
+  ],
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "auto-cdmc-cloud-controls",
+  "conceptId": "cdmc-cloud-controls",
+  "kind": "definition",
+  "auto": true,
+  "front": "CDMC key controls for data in cloud",
+  "prompt": "Explain this concept",
+  "back": "EDMC's 14 key controls in 6 areas: governance & accountability, cataloguing & classification, accessibility & usage, protection & privacy, data lifecycle, data & technical architecture.",
+  "keyTerms": [
+   "CDMC",
+   "Data sovereignty",
+   "Automated classification",
+   "Privacy impact assessment"
+  ],
+  "cites": [
+   "L9:11",
+   "L9:20"
+  ],
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "auto-asean-dmf",
+  "conceptId": "asean-dmf",
+  "kind": "definition",
+  "auto": true,
+  "front": "ASEAN Data Management Framework",
+  "prompt": "Explain this concept",
+  "back": "6 foundational components: governance & oversight, policies & procedures, data inventory, impact/risk assessment (C-I-A), controls, monitoring & continuous improvement.",
+  "keyTerms": [
+   "Data inventory",
+   "Confidentiality-Integrity-Availability",
+   "Continuous improvement"
+  ],
+  "cites": [
+   "L9:12",
+   "L9:20"
+  ],
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "auto-asean-mcc",
+  "conceptId": "asean-mcc",
+  "kind": "definition",
+  "auto": true,
+  "front": "ASEAN Model Contractual Clauses",
+  "prompt": "Explain this concept",
+  "back": "Clauses for cross-border data flows: lawful basis for collection/use/disclosure, baseline data protection clauses and data breach notification.",
+  "keyTerms": [
+   "Data exporter / importer",
+   "Cross-border data flows",
+   "Breach notification"
+  ],
+  "cites": [
+   "L9:13",
+   "L9:20"
+  ],
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "auto-data-value-drivers",
+  "conceptId": "data-value-drivers",
+  "kind": "definition",
+  "auto": true,
+  "front": "When data becomes an asset (value drivers)",
+  "prompt": "Explain this concept",
+  "back": "The value of data lies in its usefulness, driven by completeness, consistency, accuracy, timeliness, exclusivity, usage restrictions, liability & risks and interoperability.",
+  "keyTerms": [
+   "Usefulness",
+   "Exclusivity",
+   "Provenance",
+   "Interoperability"
+  ],
+  "cites": [
+   "L9:14",
+   "L9:5"
+  ],
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "auto-data-distress",
+  "conceptId": "data-distress",
+  "kind": "definition",
+  "auto": true,
+  "front": "Data distress",
+  "prompt": "Explain this concept",
+  "back": "Solidatus survey: data distress prompted 71% of banking/FS data leaders to consider quitting; 64% experience high data-related stress.",
+  "keyTerms": [
+   "Solidatus",
+   "Data-related stress"
+  ],
+  "cites": [
+   "L9:15"
+  ],
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "auto-finance-role",
+  "conceptId": "finance-role",
+  "kind": "definition",
+  "auto": true,
+  "front": "Finance's role in the data lifecycle",
+  "prompt": "Explain this concept",
+  "back": "Robust controls & governance, valuing data as an asset, monitoring DQ, independent validation/assurance and impact analysis of DQ issues.",
+  "keyTerms": [
+   "Valuation",
+   "Independent assurance",
+   "Impact analysis"
+  ],
+  "cites": [
+   "L9:17",
+   "L2:18"
+  ],
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "auto-benefits-dg-finance",
+  "conceptId": "benefits-dg-finance",
+  "kind": "definition",
+  "auto": true,
+  "front": "Benefits of strong data governance to Finance",
+  "prompt": "Explain this concept",
+  "back": "Earlier detection and mitigation of financial risks, visualised trends, smart analysis, lower process costs and better reporting quality.",
+  "keyTerms": [
+   "Risk detection",
+   "Reporting quality"
+  ],
+  "cites": [
+   "L9:18"
+  ],
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "auto-trusted-view",
+  "conceptId": "trusted-view",
+  "kind": "definition",
+  "auto": true,
+  "front": "Building a trusted view of data (recap)",
+  "prompt": "Explain this concept",
+  "back": "Understand our data, strong governance, good quality, data awareness, and innovation & commercialisation together build a trusted view of data.",
+  "keyTerms": [
+   "Data literacy",
+   "Data community",
+   "Trusted view"
+  ],
+  "cites": [
+   "L9:19"
+  ],
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "auto-business-technical-rules",
+  "conceptId": "business-technical-rules",
+  "kind": "definition",
+  "auto": true,
+  "front": "Business rules vs technical rules",
+  "prompt": "Explain this concept",
+  "back": "Not defined in slides. Named in the slides as a Lecture 7 topic, but no slide defines business rules and technical rules or explains how they differ.",
+  "keyTerms": [
+   "Business rules",
+   "Technical rules"
+  ],
+  "cites": [
+   "L7:3",
+   "L6:4",
+   "L6:7"
+  ],
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "f-benefits",
+  "conceptId": "benefits-of-dg",
+  "kind": "list",
+  "front": "List the 5 benefits of data governance & quality (the 'miracle pill').",
+  "back": "1. Improves data quality risks against reputation loss and reduces risk of regulatory fines\n2. Understanding the data processing can lead to streamlining of processes\n3. Improves the overall usability of the data\n4. Improved insights and decision making\n5. Recognising data is an asset",
+  "cites": [
+   "L1:11"
+  ],
+  "auto": false,
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-bakery",
+  "conceptId": "bakery-analogy",
+  "kind": "list",
+  "front": "Bakery analogy: what does each part of the bakery map to in data management?",
+  "back": "Good-quality, clearly specified ingredients → Data Definition and Quality\nStandard cookbook → Policies, Processes\nBakers sift/mix/churn the same way → Monitoring Controls and Oversight\nThe oven → Technology Architecture",
+  "cites": [
+   "L1:13",
+   "L1:14",
+   "L1:15",
+   "L1:16"
+  ],
+  "auto": false,
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-dcam8",
+  "conceptId": "dcam",
+  "kind": "list",
+  "front": "Name the 8 components of DCAM.",
+  "back": "1. Data Strategy & Business Case\n2. Data Management Program & Funding Model\n3. Business & Data Architecture\n4. Data & Technology Architecture\n5. Data Quality Management\n6. Data Governance\n7. Data Control Environment\n8. Analytics Management",
+  "cites": [
+   "L1:21"
+  ],
+  "auto": false,
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-dcam-dqm",
+  "conceptId": "dcam",
+  "kind": "fact",
+  "front": "Which DCAM component covers data profiling, DQ measurement, defect management, root cause analysis and remediation?",
+  "back": "5. Data Quality Management.\n(Data Governance, no. 6, covers structure, lines of authority, roles, escalation, policy & standards, compliance and routines.)",
+  "cites": [
+   "L1:21"
+  ],
+  "auto": false,
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-blocks",
+  "conceptId": "dg-building-blocks",
+  "kind": "list",
+  "front": "Building blocks of good data governance: name the 3 layers and their blocks.",
+  "back": "Fundamentals: Framework & Policies · DQ Identification & Assessment · Controls Environment\nOngoing controls: Monitoring & Reporting · Remediation\nContinuous improvement: Independent Assessment",
+  "cites": [
+   "L1:22"
+  ],
+  "auto": false,
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-3lod",
+  "conceptId": "three-lines-of-defence",
+  "kind": "list",
+  "front": "Three lines of defence: who is each line and what is its role?",
+  "back": "1st: Business Management incl. Operations & Technology; direct responsibility for day-to-day implementation and monitoring of data standards\n2nd: Data Management Office; governance & oversight, ensures compliance with policy, sets priorities, aligns resources\n3rd: Internal Audit; independent assurance, objective review of processes, controls and governance",
+  "cites": [
+   "L1:23"
+  ],
+  "auto": false,
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-3lod-acc",
+  "conceptId": "three-lines-of-defence",
+  "kind": "fact",
+  "front": "Under the three-lines model, who is accountable for the quality of their data?",
+  "back": "The Businesses (1st line). The Group DMO defines the programme structure; Internal Audit validates independently.",
+  "cites": [
+   "L1:23"
+  ],
+  "auto": false,
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-bcbs-agg",
+  "conceptId": "bcbs239",
+  "kind": "list",
+  "front": "BCBS 239: which four principles fall under Risk Data Aggregation?",
+  "back": "3. Accuracy & Integrity\n4. Completeness\n5. Timeliness\n6. Adaptability",
+  "cites": [
+   "L1:27"
+  ],
+  "auto": false,
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-bcbs-rep",
+  "conceptId": "bcbs239",
+  "kind": "list",
+  "front": "BCBS 239: which five principles fall under Risk Reporting?",
+  "back": "7. Reporting Accuracy\n8. Comprehensiveness\n9. Clarity and Usefulness\n10. Frequency\n11. Distribution",
+  "cites": [
+   "L1:28"
+  ],
+  "auto": false,
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-bcbs-gov",
+  "conceptId": "bcbs239",
+  "kind": "fact",
+  "front": "BCBS 239: what are the two 'overarching governance & infrastructure' principles, and what does no. 2 require?",
+  "back": "1. Governance; 2. Data architecture & IT infrastructure.\nNo. 2: integrated data taxonomies and architecture across the bank; data dictionaries and golden sources (single identifiers / unified naming conventions); data ownership roles clearly defined.",
+  "cites": [
+   "L1:27"
+  ],
+  "auto": false,
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-bcbs-acc",
+  "conceptId": "bcbs239",
+  "kind": "fact",
+  "front": "BCBS 239 Accuracy & Integrity: controls on risk data should be as robust as those applied to what?",
+  "back": "Finance data. Risk data should also be reconciled with the bank's sources, including accounting data, with an appropriate balance of automated and manual processes.",
+  "cites": [
+   "L1:27"
+  ],
+  "auto": false,
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-bcbs-sup",
+  "conceptId": "bcbs239",
+  "kind": "list",
+  "front": "BCBS 239: what are principles 12–14 (supervisory review, tools & cooperation)?",
+  "back": "12. Review\n13. Remedial actions and supervisory measures\n14. Home/host cooperation",
+  "cites": [
+   "L1:28"
+  ],
+  "auto": false,
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-cbirc-fines",
+  "conceptId": "cbirc",
+  "kind": "fact",
+  "front": "CBIRC enforcement: in April alone, how many banks were fined and how much in total? What system did CBIRC use for checks?",
+  "back": "8 banks fined, CNY17.7m in total (CNY1.6m–2.7m per bank). Checks used EAST (Examination & Analysis System Technology).",
+  "cites": [
+   "L1:26"
+  ],
+  "auto": false,
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-cbirc-7",
+  "conceptId": "cbirc",
+  "kind": "list",
+  "front": "Name the 7 parts of the CBIRC data governance guidelines.",
+  "back": "1. General\n2. Data Governance\n3. Data Management\n4. Data Quality & Controls\n5. Data Monetisation\n6. Supervision & Management\n7. Supplementary",
+  "cites": [
+   "L1:25"
+  ],
+  "auto": false,
+  "theme": "foundations",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-challenges",
+  "conceptId": "business-challenges",
+  "kind": "list",
+  "front": "List the 5 business challenges organisations face today (Lecture 2).",
+  "back": "1. Cross-border competition (price point pressure)\n2. Innovative products to more informed customers\n3. Increasing regulations and audit (PDPA, ESG…)\n4. Digitisation as a means to survive (not an option)\n5. Too much data (too many obligations)",
+  "cites": [
+   "L2:3"
+  ],
+  "auto": false,
+  "theme": "strategy",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-finvalue",
+  "conceptId": "financial-value-of-data",
+  "kind": "list",
+  "front": "What are the three financial values from improved data?",
+  "back": "Improving revenue (competitive pricing, demographics-based sales, direct conversion of data into revenue)\nReducing costs (streamlining process costs, workforce efficiency)\nImproving social capital (brand loyalty/reputation, proprietary knowledge), which can be converted into economic capital",
+  "cites": [
+   "L2:4"
+  ],
+  "auto": false,
+  "theme": "strategy",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-strat-key",
+  "conceptId": "data-strategy-characteristics",
+  "kind": "fact",
+  "front": "Fill in: The Data Management Strategy must be a ______ that is visibly endorsed by executive management; it should be ______ revisited; it must ______ as priorities change.",
+  "back": "living artifact · routinely · evolve",
+  "cites": [
+   "L2:13"
+  ],
+  "auto": false,
+  "theme": "strategy",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-strat-5",
+  "conceptId": "data-strategy-characteristics",
+  "kind": "list",
+  "front": "Recap: 5 characteristics of a data strategy.",
+  "back": "1. Aligns with business goals and objectives\n2. Is actionable, measurable and relevant\n3. Identifies key support, resources & constraints\n4. Is a living document\n5. Adds value to the organisation",
+  "cites": [
+   "L2:10"
+  ],
+  "auto": false,
+  "theme": "strategy",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-stratdoc-4",
+  "conceptId": "strategy-document",
+  "kind": "list",
+  "front": "What are the four benefits of a good data strategy document?",
+  "back": "1. Defined strategy integrated into enterprise objectives answers the 'why' of data management\n2. Roadmap with clear drivers and triggers gives a tangible vision\n3. Executive-level adoption empowers the data management function\n4. Successful executive adoption sets the culture to propel the programme forward",
+  "cites": [
+   "L2:11"
+  ],
+  "auto": false,
+  "theme": "strategy",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-iws",
+  "conceptId": "mit-iws",
+  "kind": "compare",
+  "front": "MIT data monetisation: Improving vs Wrapping vs Selling.",
+  "back": "Improving: indirect value by improving processes/work tasks with data → lower COGS or overheads\nWrapping: indirect value by bundling core products with analytics features → higher value proposition\nSelling: direct conversion of data or information solutions into revenue",
+  "cites": [
+   "L2:16"
+  ],
+  "auto": false,
+  "theme": "strategy",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-sale",
+  "conceptId": "data-for-sale",
+  "kind": "list",
+  "front": "Process to prepare data for sale: the 6 steps from the data provider's perspective.",
+  "back": "1. Stock-take the data\n2. Assess data\n3. Assess potential for sharing\n4. Select valuation approach\n5. Value the data\n6. Share the data",
+  "cites": [
+   "L2:17"
+  ],
+  "auto": false,
+  "theme": "strategy",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-val-market",
+  "conceptId": "data-valuation",
+  "kind": "fact",
+  "front": "Market approach to data valuation: key question, when used, and its two forms.",
+  "back": "Q: What is the value of a similar data asset on the market?\nUsed if market value for identical or similar data is available.\nForms: actively traded market (traded prices) · market transactions (comparable data transactions)",
+  "cites": [
+   "L2:18"
+  ],
+  "auto": false,
+  "theme": "strategy",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-val-cost",
+  "conceptId": "data-valuation",
+  "kind": "compare",
+  "front": "Cost approach: reproduction cost vs replacement cost.",
+  "back": "Key question: what is the minimum value to cover costs and generate margin? (if the data can be reproduced or replaced)\nReproduction cost: estimated cost of reproducing a replica of the data\nReplacement cost: estimated cost of replicating the utility of the data",
+  "cites": [
+   "L2:19"
+  ],
+  "auto": false,
+  "theme": "strategy",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-val-income",
+  "conceptId": "data-valuation",
+  "kind": "fact",
+  "front": "Income approach to data valuation: key question, when used, and two forms.",
+  "back": "Q: What incremental value can the data consumer generate with the data asset?\nUsed if the net cash flow benefits can be reasonably quantified.\nForms: incremental revenue (after additional costs) · reduced cost (cost savings)",
+  "cites": [
+   "L2:20"
+  ],
+  "auto": false,
+  "theme": "strategy",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-val-who",
+  "conceptId": "data-valuation",
+  "kind": "fact",
+  "front": "Which function plays an integral role in selecting the valuation approach for data?",
+  "back": "Finance.",
+  "cites": [
+   "L2:18",
+   "L9:17"
+  ],
+  "auto": false,
+  "theme": "strategy",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-org-fed-dec",
+  "conceptId": "federated-model",
+  "kind": "compare",
+  "front": "Federated vs decentralised data management: what is the key difference?",
+  "back": "Decentralised: BUs operate with complete autonomy, with NO central control.\nFederated (hub & spoke): central + selective localised capability, WITH centralised control.",
+  "cites": [
+   "L3:10"
+  ],
+  "auto": false,
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-org-cen",
+  "conceptId": "centralised-model",
+  "kind": "compare",
+  "front": "Centralised model: pros and cons.",
+  "back": "Pros: faster decision making; greater data consistency across BUs; better efficiency and minimal duplication\nCons: low agility and collaboration; transactional engagement, strategic misalignment between central and local teams",
+  "cites": [
+   "L3:10"
+  ],
+  "auto": false,
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-org-dec",
+  "conceptId": "decentralised-model",
+  "kind": "compare",
+  "front": "Decentralised model: pros and cons.",
+  "back": "Pros: complete BU autonomy and flexibility; quick decision making at BU level\nCons: disjointed, duplicated efforts; inconsistent quality across BUs; inability to cross-leverage capacity, skills and best practices",
+  "cites": [
+   "L3:10"
+  ],
+  "auto": false,
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-org-lead",
+  "conceptId": "federated-model",
+  "kind": "fact",
+  "front": "Which organisational model is described as the 'leading practice', and what is its main con?",
+  "back": "Federated (hub-and-spoke): consolidate structures into hub-and-spoke, keeping central control with local flexibility and niche talent.\nCon: slower decision making due to distributed ownership and larger stakeholder groups.",
+  "cites": [
+   "L3:10"
+  ],
+  "auto": false,
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-org-maturity",
+  "conceptId": "centralised-model",
+  "kind": "compare",
+  "front": "Central vs federated: which suits less mature vs more mature data organisations?",
+  "back": "Central → less mature organisations (greater control, structure, central alignment and oversight)\nFederated → more mature organisations (greater alignment to BUs, ownership to BUs to manage data for their business purpose)",
+  "cites": [
+   "L3:8"
+  ],
+  "auto": false,
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-cdo-line",
+  "conceptId": "cdo-reporting-lines",
+  "kind": "fact",
+  "front": "What determines whether the CDO should report to the CEO, CRO or CFO?",
+  "back": "The reason for establishing the CDO position: regulatory compliance vs business innovation vs data quality risks.",
+  "cites": [
+   "L3:8"
+  ],
+  "auto": false,
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-cdao",
+  "conceptId": "cdao",
+  "kind": "fact",
+  "front": "What is a CDAO, and when might a CDO focus purely on data governance instead of analytics?",
+  "back": "CDAO = Chief Data and Analytic Officer, leading both data management and analytics.\nFocus purely on governance first if the organisation has inherent data issues, e.g. regulatory push on AML/KYC, regulatory submission errors, new compliance rules.",
+  "cites": [
+   "L3:5",
+   "L3:8"
+  ],
+  "auto": false,
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-maturity",
+  "conceptId": "data-office-maturity",
+  "kind": "fact",
+  "front": "What event gave finance a 'head start' on data management programmes, and what % of programmes have been in place 3+ years?",
+  "back": "The 2008 Financial Crisis. 56% of programmes in place 3+ years (up from 43% in 2020 and 19% in 2017).",
+  "cites": [
+   "L3:3"
+  ],
+  "auto": false,
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-dgs-levels",
+  "conceptId": "dg-structure",
+  "kind": "list",
+  "front": "Typical data governance structure: name the 4 levels and who sits at each.",
+  "back": "Strategic: Board of Directors\nExecutive: Data Governance Committee\nManagement: Chief Data Officer & Data Management Office (Data Governance, Data Quality, Data Architecture)\nExecution: Data Owners, Business Data Stewards, System Owners, Technical Data Stewards",
+  "cites": [
+   "L3:11"
+  ],
+  "auto": false,
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-board",
+  "conceptId": "board-dg",
+  "kind": "list",
+  "front": "What 4 things does the Board of Directors do in data governance?",
+  "back": "1. Provides strategic direction & defines strategic initiatives\n2. Provides strategic initiative funding\n3. Provides direction on KPIs and metrics\n4. Approves DG policies and changes proposed by the DGC",
+  "cites": [
+   "L3:12"
+  ],
+  "auto": false,
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-dgc",
+  "conceptId": "dgc",
+  "kind": "fact",
+  "front": "Data Governance Committee: who sits on it, what does it do, and who heads it?",
+  "back": "Senior management from key business areas, Risk, Finance, Group Technology & Operations.\nPrincipal senior management body accountable to the BoD on effectiveness of DM policies/controls; forum for deliberation, issue escalation and approval; escalates significant issues to the BoD.\nHead: typically the CDO's reporting head or the CDO.",
+  "cites": [
+   "L3:13"
+  ],
+  "auto": false,
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-cdo",
+  "conceptId": "cdo-dmo",
+  "kind": "fact",
+  "front": "What are the CDO's three broad areas of responsibility?",
+  "back": "Data Governance, Data Architecture & Tools, and Data Quality.",
+  "cites": [
+   "L3:14"
+  ],
+  "auto": false,
+  "theme": "organisation",
+  "quizzes": [
+   1
+  ]
+ },
+ {
+  "id": "f-owner-steward",
+  "conceptId": "data-stewards",
+  "kind": "compare",
+  "front": "Data owner vs business data steward.",
+  "back": "Data owner: clear understanding of the data they own; SETS standards; ACCOUNTABLE for data quality.\nBusiness data steward: department representative supporting data owners; ENFORCES standards; RESPONSIBLE for data quality.",
+  "cites": [
+   "L4:5"
+  ],
+  "auto": false,
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-prov-cons",
+  "conceptId": "data-stakeholders",
+  "kind": "compare",
+  "front": "Data provider vs data consumer. When is a consumer also a provider?",
+  "back": "Provider: facilitates, transfers and retains data; ensures availability; responsible for DQ.\nConsumer: receives data; performs reporting/analytics; prepares reports for publication/submission.\nA consumer that provides data to downstream users is also a data provider.",
+  "cites": [
+   "L4:5"
+  ],
+  "auto": false,
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-own-transfer",
+  "conceptId": "data-ownership-principles",
+  "kind": "fact",
+  "front": "Ownership principle: does data ownership change when a data element is transferred WITHOUT transformation? And WITH transformation?",
+  "back": "Without transformation: no change in ownership (no new data element is created).\nWith transformation creating a new element: the stakeholder who defines the transformation criteria becomes the new data owner.",
+  "cites": [
+   "L4:6"
+  ],
+  "auto": false,
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-own-5",
+  "conceptId": "data-ownership-principles",
+  "kind": "list",
+  "front": "List the 5 data ownership principles.",
+  "back": "1. Proximity to data capture\n2. Authority to initiate changes\n3. Assignment by CDO (if owners cannot be determined)\n4. Assignment by previous data owner\n5. Transformation of data element",
+  "cites": [
+   "L4:6"
+  ],
+  "auto": false,
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-cde-why",
+  "conceptId": "cde",
+  "kind": "fact",
+  "front": "Why do organisations identify Critical Data Elements?",
+  "back": "1. To scope the most important data for heightened control and monitoring using the bank's limited resources (finances, effort)\n2. Regulators have mandated improved documentation and control for data 'most critical' to key business processes",
+  "cites": [
+   "L4:7"
+  ],
+  "auto": false,
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-cde-impact",
+  "conceptId": "cde",
+  "kind": "list",
+  "front": "What are the 4 impacts of a data element being identified as a CDE?",
+  "back": "1. Standard definition agreed and documented\n2. Appears in data-flow documentation\n3. Full lineage documentation performed\n4. Subject to heightened controls, quality monitoring and governance",
+  "cites": [
+   "L4:7"
+  ],
+  "auto": false,
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-cde-reg",
+  "conceptId": "cde",
+  "kind": "fact",
+  "front": "Have regulators given guidance on how to identify CDEs?",
+  "back": "No. Regulators expect banks to explain their process and rationale for prioritising data. Due to inconsistency, industry collaborated with the EDMC to develop principles for identifying CDEs.",
+  "cites": [
+   "L4:7"
+  ],
+  "auto": false,
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-cde-8",
+  "conceptId": "cde-criteria",
+  "kind": "list",
+  "front": "List the 8 CDE criteria.",
+  "back": "1. Data attribute usage for regulatory purposes\n2. Information security / privacy\n3. Reporting level\n4. Reputational impact\n5. Financial impact\n6. Enterprise performance\n7. Operational risk\n8. Risk management",
+  "cites": [
+   "L4:8",
+   "L4:9"
+  ],
+  "auto": false,
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-cde-ex1",
+  "conceptId": "cde-criteria",
+  "kind": "fact",
+  "front": "Which CDE criterion: customer profiles (needs access limitations, privacy considerations)?",
+  "back": "2. Information security / privacy.",
+  "cites": [
+   "L4:8"
+  ],
+  "auto": false,
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-cde-ex2",
+  "conceptId": "cde-criteria",
+  "kind": "fact",
+  "front": "Which CDE criterion: capital charge, leverage ratio, earnings per share?",
+  "back": "6. Enterprise performance (data used for key performance measurements).",
+  "cites": [
+   "L4:9"
+  ],
+  "auto": false,
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-cde-ex3",
+  "conceptId": "cde-criteria",
+  "kind": "fact",
+  "front": "Which CDE criterion: number of customer complaints, number of critical system downtime by month?",
+  "back": "7. Operational risk (data that, if incorrect, could cause operational risk losses).",
+  "cites": [
+   "L4:9"
+  ],
+  "auto": false,
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-cde-ex4",
+  "conceptId": "cde-criteria",
+  "kind": "fact",
+  "front": "Which CDE criterion: data used in submissions to ACRA, IRAS, MAS, EDB, Singstat?",
+  "back": "1. Data attribute usage for regulatory purposes (e.g. financial, tax, regulatory reports).",
+  "cites": [
+   "L4:8"
+  ],
+  "auto": false,
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-cde-ex5",
+  "conceptId": "cde-criteria",
+  "kind": "fact",
+  "front": "Which CDE criterion: wrong product type or customer group information relied on by clients/third parties?",
+  "back": "4. Reputational impact.",
+  "cites": [
+   "L4:8"
+  ],
+  "auto": false,
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-cde-ex6",
+  "conceptId": "cde-criteria",
+  "kind": "fact",
+  "front": "Which CDE criterion uses the example 'cost centre (mid-management reporting) vs business unit (Board reporting)'?",
+  "back": "3. Reporting level. Data used by senior management and the Board may be of higher criticality.",
+  "cites": [
+   "L4:8"
+  ],
+  "auto": false,
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-cde-ex7",
+  "conceptId": "cde-criteria",
+  "kind": "fact",
+  "front": "Which CDE criterion uses the example 'taxable number of days'?",
+  "back": "5. Financial impact (data that if incorrect could significantly impact a critical risk measure).",
+  "cites": [
+   "L4:9"
+  ],
+  "auto": false,
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-fine",
+  "conceptId": "cde-fine-revenue",
+  "kind": "fact",
+  "front": "Fine revenue worked example: which CDE criteria do 'No of people fined' and 'Penalty per fine' meet?",
+  "back": "No of people fined: 1 (regulatory), 3 (reporting level), 5 (financial impact)\nPenalty per fine: 1 (regulatory), 4 (reputational), 5 (financial impact)",
+  "cites": [
+   "L4:12"
+  ],
+  "auto": false,
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-culture-def",
+  "conceptId": "data-culture",
+  "kind": "definition",
+  "front": "Define data culture.",
+  "back": "A social norm of using data to drive strategy, decisions and innovation.",
+  "cites": [
+   "L4:4"
+  ],
+  "auto": false,
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-culture-blocks",
+  "conceptId": "data-culture",
+  "kind": "list",
+  "front": "Data culture 'lego blocks': name the three layers and their blocks.",
+  "back": "Tone at the top: KPIs & rewards structure · corporate values · senior communications · long-term sustainability\nEmbedding into operations: decision making · data-enabled processes · capability building · success stories · worker empowerment\nEnabled by: frameworks · policies · procedures · upgrading tools",
+  "cites": [
+   "L4:15"
+  ],
+  "auto": false,
+  "theme": "governance",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-controls-def",
+  "conceptId": "data-controls",
+  "kind": "definition",
+  "front": "Define data controls.",
+  "back": "Controls manage risks through preventing, detecting or correcting activities, and can be automated or procedural.",
+  "cites": [
+   "L4:4"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "f-metadata-def",
+  "conceptId": "metadata",
+  "kind": "definition",
+  "front": "Define metadata and give examples.",
+  "back": "The descriptive characteristics about the data, i.e. 'data about the data'. E.g. 'title', 'creation date', 'author'; column names and data types in a table.",
+  "cites": [
+   "L4:4",
+   "L5:11"
+  ],
+  "auto": false,
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-dq-def",
+  "conceptId": "data-quality",
+  "kind": "definition",
+  "front": "Define data quality, and state the objective of a good DQ initiative.",
+  "back": "A measure of the degree to which the collected data is fit for the intended purpose.\nObjective: deliver data that is trusted and fit-for-purpose, where users trust and have confidence the data is what they need.",
+  "cites": [
+   "L4:4",
+   "L6:4"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3
+  ]
+ },
+ {
+  "id": "f-arch-def",
+  "conceptId": "data-architecture",
+  "kind": "definition",
+  "front": "Define data architecture.",
+  "back": "A bridge between the requirements for data of the business process and the physical execution of that data in technology infrastructure. It defines data models (taxonomies, ontologies), data domains, metadata and business-critical data.\n(L4 short form: a discipline, process and programme focusing on integrating sets of information.)",
+  "cites": [
+   "L8:5",
+   "L4:4"
+  ],
+  "auto": false,
+  "theme": "architecture",
+  "quizzes": [
+   5
+  ]
+ },
+ {
+  "id": "f-fw",
+  "conceptId": "dg-framework",
+  "kind": "list",
+  "front": "Main headings of a typical data governance framework (Lecture 5).",
+  "back": "Data strategy (vision, monetisation)\nData Governance · Data Architecture · Data quality\nData governance framework and policies\nInformation Lifecycle Management\nSystems, tools and technology\nData management and Data culture",
+  "cites": [
+   "L5:5"
+  ],
+  "auto": false,
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-ilm",
+  "conceptId": "dg-framework",
+  "kind": "list",
+  "front": "What sits under Information Lifecycle Management in the DG framework?",
+  "back": "Data acquisition · data security · data usage and access · EUC management · data retention · data sharing",
+  "cites": [
+   "L5:5"
+  ],
+  "auto": false,
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-policies",
+  "conceptId": "data-policies",
+  "kind": "list",
+  "front": "Name the three key data policies and the three core components they all share.",
+  "back": "Data Management Policy · Data Quality Policy · Data Sharing Policy\nShared: Purpose and Governance; Applicable laws and regulations; Key definitions and interpretations (glossary)",
+  "cites": [
+   "L5:6",
+   "L5:7",
+   "L5:8",
+   "L5:9"
+  ],
+  "auto": false,
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-dqpol",
+  "conceptId": "data-quality-policy",
+  "kind": "fact",
+  "front": "In the Data Quality Policy, what does the 'Data Quality Controls' section cover?",
+  "back": "DQ dimensions, rules and thresholds. (Other sections: DQ monitoring & reporting; data remediation & escalation.)",
+  "cites": [
+   "L5:8"
+  ],
+  "auto": false,
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-sharepol",
+  "conceptId": "data-sharing-policy",
+  "kind": "fact",
+  "front": "Which data policy includes 'scope inclusions and exclusions' and 'stages of data sharing'?",
+  "back": "The Data Sharing Policy (also: data sharing approach; operationalising data sharing: models, provisioning, technical solutions).",
+  "cites": [
+   "L5:9"
+  ],
+  "auto": false,
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-dmpol",
+  "conceptId": "data-management-policy",
+  "kind": "fact",
+  "front": "Which data policy covers golden source, metadata, reference/master data, taxonomy and information lifecycle management?",
+  "back": "The Data Management Policy.",
+  "cites": [
+   "L5:7"
+  ],
+  "auto": false,
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-doc-cat",
+  "conceptId": "data-documentation",
+  "kind": "compare",
+  "front": "Which data documentation is 'business' and which is 'technical'?",
+  "back": "Business documentation: business glossary, data flow diagram\nTechnical documentation: data dictionary, data lineage",
+  "cites": [
+   "L5:10"
+  ],
+  "auto": false,
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-gloss-dict",
+  "conceptId": "business-glossary",
+  "kind": "compare",
+  "front": "Business glossary vs data dictionary.",
+  "back": "Glossary: searchable collection of business terms and definitions that gives context. Used generically to understand data elements and whom to approach.\nDictionary: centralised repository of metadata (tables, fields, data type, size, source, owners, defaults). Used especially in system implementation for golden sources and approvals for authorised use.\nBoth maintained by the DMO with data owners.",
+  "cites": [
+   "L5:12",
+   "L5:19"
+  ],
+  "auto": false,
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-dfd-lin",
+  "conceptId": "data-lineage",
+  "kind": "compare",
+  "front": "Data flow diagram vs data lineage.",
+  "back": "DFD: how information flows through a process/system (inputs, outputs, stores, subprocesses, collection → report). Used to see end-to-end flow, identify control gaps and streamlining, forensic RCA.\nLineage: understanding, recording and visualising data from source to consumption incl. ALL transformations (how, what changed, why). Deep understanding of transformation through the life cycle; forensic RCA.\nBoth maintained by Technology and business process owners.",
+  "cites": [
+   "L5:12",
+   "L5:19"
+  ],
+  "auto": false,
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-doc-who",
+  "conceptId": "data-documentation",
+  "kind": "fact",
+  "front": "Who maintains each type of data documentation?",
+  "back": "Business glossary and data dictionary: DMO with data owners\nData flow diagram and data lineage: Technology and business process owners",
+  "cites": [
+   "L5:19"
+  ],
+  "auto": false,
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-dict-tplus",
+  "conceptId": "data-dictionary",
+  "kind": "fact",
+  "front": "In the sample data dictionary, what does a timeliness value of 'T+1' mean?",
+  "back": "Format T+X: X is the age in days between the transaction date and the day the data element is published in the system. T+1 = published one day after the transaction date.",
+  "cites": [
+   "L5:14"
+  ],
+  "auto": false,
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-golden",
+  "conceptId": "golden-source",
+  "kind": "definition",
+  "front": "What is a golden source?",
+  "back": "The authoritative source for a data element: the reliable source of truth (e.g. used in reconciliation for consistency; recorded in the data dictionary, e.g. 'EDW (Core)').",
+  "cites": [
+   "L5:14",
+   "L6:11"
+  ],
+  "auto": false,
+  "theme": "documentation",
+  "quizzes": [
+   2
+  ]
+ },
+ {
+  "id": "f-rc5",
+  "conceptId": "dq-root-causes",
+  "kind": "list",
+  "front": "List the 5 root cause categories of DQ issues.",
+  "back": "1. Manual data entry errors\n2. Data errors from external parties\n3. Program logic / data transformation logic\n4. Data operational errors\n5. End User Computing (EUC) errors",
+  "cites": [
+   "L6:6"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "f-rc-uat",
+  "conceptId": "dq-root-causes",
+  "kind": "fact",
+  "front": "Root cause category: inadequate UAT scenarios; upstream enhancements not in sync with downstream applications?",
+  "back": "3. Program logic / data transformation logic.",
+  "cites": [
+   "L6:6"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "f-rc-batch",
+  "conceptId": "dq-root-causes",
+  "kind": "fact",
+  "front": "Root cause category: batch scheduling errors, code deployment errors, configuration errors in business parameters?",
+  "back": "4. Data operational errors.",
+  "cites": [
+   "L6:6"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "f-rc-euc",
+  "conceptId": "dq-root-causes",
+  "kind": "fact",
+  "front": "Root cause category: incorrect template or data source, transposition errors?",
+  "back": "5. End User Computing (EUC) errors.",
+  "cites": [
+   "L6:6"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "f-rc-ext",
+  "conceptId": "dq-root-causes",
+  "kind": "fact",
+  "front": "Root cause category: delayed arrival of files, inaccuracies in data procured, missing data attributes?",
+  "back": "2. Data errors from external parties.",
+  "cites": [
+   "L6:6"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "f-dim7",
+  "conceptId": "dq-dimensions",
+  "kind": "list",
+  "front": "Name the 7 DQ dimensions (EDM Council) taught in Lecture 6.",
+  "back": "Accuracy · Completeness · Conformity · Consistency · Coverage · Timeliness · Uniqueness\n(Lecture 7 rule design uses six, without Coverage.)",
+  "cites": [
+   "L6:7",
+   "L6:8",
+   "L7:4"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "f-dim-iso",
+  "conceptId": "dq-conformity",
+  "kind": "fact",
+  "front": "Which DQ dimension: invalid ISO currency codes?",
+  "back": "Conformity (alignment with required internal/external/industry standards).",
+  "cites": [
+   "L6:7"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "f-dim-null",
+  "conceptId": "dq-completeness",
+  "kind": "fact",
+  "front": "Which DQ dimension: null maturity date, missing ticker symbol?",
+  "back": "Completeness (existence of required data attributes).",
+  "cites": [
+   "L6:7"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "f-dim-dup",
+  "conceptId": "dq-uniqueness",
+  "kind": "fact",
+  "front": "Which DQ dimension: 2 instances of the same security; a customer with different customer IDs?",
+  "back": "Uniqueness (singularity of records and attributes).",
+  "cites": [
+   "L6:8"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "f-dim-useu",
+  "conceptId": "dq-consistency",
+  "kind": "fact",
+  "front": "Which DQ dimension: US vs European date formats; telephone number formats differing between feeds?",
+  "back": "Consistency (values, format and definitions in one population agree with another).",
+  "cites": [
+   "L6:8"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "f-dim-rating",
+  "conceptId": "dq-timeliness",
+  "kind": "fact",
+  "front": "Which DQ dimension: revised credit rating not updated on the day it was issued; file delivered late?",
+  "back": "Timeliness.",
+  "cites": [
+   "L6:8"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "f-dim-prec",
+  "conceptId": "dq-accuracy",
+  "kind": "fact",
+  "front": "Which DQ dimension: wrong level of precision (decimal places); records not refreshed?",
+  "back": "Accuracy (veracity to authorised source and precision).",
+  "cites": [
+   "L6:7"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "f-dim-cov",
+  "conceptId": "dq-coverage",
+  "kind": "fact",
+  "front": "Which DQ dimension is defined as 'breadth and availability of data'?",
+  "back": "Coverage (example: required field is missing).",
+  "cites": [
+   "L6:8"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3
+  ]
+ },
+ {
+  "id": "f-dim-conf-cons",
+  "conceptId": "dq-conformity",
+  "kind": "compare",
+  "front": "Conformity vs consistency: how do the slides tell them apart?",
+  "back": "Conformity: content aligns with REQUIRED STANDARDS (e.g. invalid ISO currency codes, violation of allowable values, inconsistent date formats).\nConsistency: data in ONE POPULATION AGREES WITH ANOTHER / across systems (e.g. invalid format in some feeds, US vs European dates; control = reconcile two systems to the golden source).",
+  "cites": [
+   "L6:7",
+   "L6:8",
+   "L6:11"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "f-ctrl-map",
+  "conceptId": "data-controls",
+  "kind": "compare",
+  "front": "Match each Customer ID control to its DQ dimension: (a) maker-checker compulsory field (b) system accepts only 2 letters + 6 digits (c) reconcile two systems (d) file to Financial Reporting by Day 3 (e) one ID used for only 1 customer.",
+  "back": "(a) Completeness (b) Conformity (c) Consistency (d) Timeliness (e) Uniqueness\n(Accuracy: Customer ID is a valid code referring to the right customer.)",
+  "cites": [
+   "L6:10",
+   "L6:11"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "f-trad",
+  "conceptId": "traditional-dq-approach",
+  "kind": "fact",
+  "front": "Why is the traditional approach to data quality difficult?",
+  "back": "It is long and arduous: it takes time to build and implement DQ rules, measure, solve for root cause and then remediate. This delay is costly.",
+  "cites": [
+   "L6:14"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3
+  ]
+ },
+ {
+  "id": "f-aiml",
+  "conceptId": "ai-ml-dq",
+  "kind": "list",
+  "front": "AI/ML as preventive DQ controls: name the 5 approaches from rules-based upward.",
+  "back": "Rules-based → Statistical reviews → Anomaly detection → Predictive modelling → Decision making",
+  "cites": [
+   "L6:15"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3
+  ]
+ },
+ {
+  "id": "f-aiml-rules",
+  "conceptId": "ai-ml-dq",
+  "kind": "fact",
+  "front": "What are the characteristics of the rules-based approach to DQ?",
+  "back": "Specific rules and formulas; high human intervention; reactive on an after-event basis; greater efforts to remediate.",
+  "cites": [
+   "L6:15"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3
+  ]
+ },
+ {
+  "id": "f-rd3",
+  "conceptId": "dq-rules-design",
+  "kind": "list",
+  "front": "What are the 3 steps of DQ rules design?",
+  "back": "Step 1: Understand the CDE & conduct data profiling\nStep 2: Classify the CDE to the right data type\nStep 3: Design rules for each DQ dimension",
+  "cites": [
+   "L7:4"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "f-rd-2per",
+  "conceptId": "dq-rules-design",
+  "kind": "fact",
+  "front": "Roughly how many DQ rules per dimension for each CDE (per the Lecture 9 recap)?",
+  "back": "About 2 per dimension for each CDE.",
+  "cites": [
+   "L9:2"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "f-prof",
+  "conceptId": "data-profiling",
+  "kind": "fact",
+  "front": "How do the slides describe data profiling, and what types are performed?",
+  "back": "The first but most critical step to reviewing the 'state of affairs' of the data and building rules that constrain attributes.\nTypes: null/min/max/average values; frequency chart; precision levels; pattern of formats; compare against approved list; suspicious default values; pattern detection (relationships in table).",
+  "cites": [
+   "L7:5"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "f-prof-1900",
+  "conceptId": "data-profiling",
+  "kind": "fact",
+  "front": "Profiling found 10 employees with start date 1/1/1900. What was the conclusion?",
+  "back": "Employees left > 5 years ago. Rule to be fine-tuned only for active employees.",
+  "cites": [
+   "L7:6"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "f-prof-nric",
+  "conceptId": "data-profiling",
+  "kind": "fact",
+  "front": "Profiling found 2 different employee names with the same NRIC, and 10 SG postal codes 'XXXX'. What rules result?",
+  "back": "Same NRIC → uniqueness rule.\nPostal code 'XXXX' instead of 'XXXXXX' → conformity rule.",
+  "cites": [
+   "L7:6"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "f-dtc6",
+  "conceptId": "data-type-classification",
+  "kind": "list",
+  "front": "Name the 6 data type classifications used before designing DQ rules.",
+  "back": "External reference table type values · Internal reference tables · Unique identifiers · Date values · Amounts · Others",
+  "cites": [
+   "L7:7"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "f-dtc-ex",
+  "conceptId": "data-type-classification",
+  "kind": "fact",
+  "front": "Classify: currency code, product type, NRIC, maturity date, notional amount, non-performing loan indicator.",
+  "back": "Currency code → external reference value\nProduct type → internal reference table\nNRIC → unique identifier\nMaturity date → date value\nNotional amount → amount\nNPL indicator → others",
+  "cites": [
+   "L7:7"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "f-acc-rules",
+  "conceptId": "dq-accuracy",
+  "kind": "list",
+  "front": "Accuracy: list the 6 types of rules that can be designed.",
+  "back": "Checking against a list · against a range · precision · validity · verifiability (to an external source) · derivation",
+  "cites": [
+   "L7:8"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "f-acc-verif",
+  "conceptId": "dq-accuracy",
+  "kind": "fact",
+  "front": "Which accuracy rule checks data against Moody's/S&P/Fitch ratings or the ACRA Business File, and which data types suit it?",
+  "back": "Verifiability. Best suited to external reference table type values and unique identifiers.",
+  "cites": [
+   "L7:8"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "f-comp-rules",
+  "conceptId": "dq-completeness",
+  "kind": "list",
+  "front": "Completeness: list the 4 types of rules.",
+  "back": "Field not null · not filled with 'N/A', 'NIL' or default values (e.g. 1, 11111, 99999) · fields needed by users fully collected · total number of records complete",
+  "cites": [
+   "L7:9"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "f-uniq-rule",
+  "conceptId": "dq-uniqueness",
+  "kind": "fact",
+  "front": "Uniqueness rule: what does it check, and which data type is it best suited for?",
+  "back": "Checking the uniqueness of values (no duplicate exists). Best suited to unique identifiers.",
+  "cites": [
+   "L7:13"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "f-cons-rule",
+  "conceptId": "dq-consistency",
+  "kind": "fact",
+  "front": "Consistency rules: give the two rule types.",
+  "back": "1. Data is consistent throughout the various tables it exists in\n2. Logical relationships are present (e.g. loan records should be linked to an existing customer)",
+  "cites": [
+   "L7:11"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "f-time-rules",
+  "conceptId": "dq-timeliness",
+  "kind": "list",
+  "front": "Timeliness: list the rule types in Lecture 7.",
+  "back": "End date later than start date (for accuracy) · check against record history · continuity of a record (for completeness) · timestamp vs expected update frequency · availability vs SLA delivery timeline",
+  "cites": [
+   "L7:12"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "f-meas4",
+  "conceptId": "dq-measurement-process",
+  "kind": "list",
+  "front": "What are the 4 steps of the process for measuring data quality?",
+  "back": "1. Thresholds: agree acceptable quality based on risk tolerance & regulatory requirements\n2. Measure: manually or via systems at agreed frequency\n3. Dashboard: highlight issues, root causes, systems/owners, remediation timelines\n4. Remediation: one-time corrections + strategic process/system enhancements",
+  "cites": [
+   "L7:14"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "f-formula",
+  "conceptId": "dq-thresholds",
+  "kind": "fact",
+  "front": "What is the DQ results formula?",
+  "back": "DQ result = (Total # records assessed − # records that failed the DQ rules) ÷ Total records assessed × 100%",
+  "cites": [
+   "L7:15"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "f-bands",
+  "conceptId": "dq-thresholds",
+  "kind": "fact",
+  "front": "How are DQ results interpreted?",
+  "back": "95% and up → Very good\nBetween 92.5% and 95% → Good\nLess than 92.5% → Fair",
+  "cites": [
+   "L7:15"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "f-formula-notes",
+  "conceptId": "dq-thresholds",
+  "kind": "list",
+  "front": "What three notes accompany the DQ results formula?",
+  "back": "1. It counts data that violated the rules in the entire population\n2. False positives have been removed\n3. It does not represent the actual deviation of the data (e.g. accuracy)",
+  "cites": [
+   "L7:15"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "f-man-auto",
+  "conceptId": "dq-manual-vs-automated",
+  "kind": "compare",
+  "front": "Manual vs automated DQ measurement: tools, examples and typical frequency.",
+  "back": "Manual: e.g. Excel; Operational Risk Controls Attestation; annual / bi-annual\nAutomated: tools e.g. Informatica, IBM, Talend; Data Quality Team testing; monthly / quarterly",
+  "cites": [
+   "L7:16"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "f-remed",
+  "conceptId": "dq-remediation",
+  "kind": "compare",
+  "front": "Tactical vs strategic remediation.",
+  "back": "Tactical (one-time) fixes correct immediate errors.\nStrategic fixes enhance processes/systems to improve controls and prevent errors from further happening.",
+  "cites": [
+   "L7:14",
+   "L9:2"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ },
+ {
+  "id": "f-tech-def",
+  "conceptId": "technology-architecture",
+  "kind": "definition",
+  "front": "Define technology architecture.",
+  "back": "How data, tools and platforms operate in collaboration to satisfy business requirements. Proper alignment dictates application efficiency and processing speed, enabling cost control and infrastructure scalability and elasticity.",
+  "cites": [
+   "L8:5"
+  ],
+  "auto": false,
+  "theme": "architecture",
+  "quizzes": [
+   5
+  ]
+ },
+ {
+  "id": "f-bricks",
+  "conceptId": "data-architecture-components",
+  "kind": "list",
+  "front": "Components of data architecture as 'bricks': name the 4 stages and contents.",
+  "back": "Individual bricks: CDEs, data dictionary\nSorted bricks: data domain, data taxonomy, reference data\nAggregated bricks: data flow diagram, data lineage, data inventory\nOutput design: data model",
+  "cites": [
+   "L8:6"
+  ],
+  "auto": false,
+  "theme": "architecture",
+  "quizzes": [
+   5
+  ]
+ },
+ {
+  "id": "f-domains",
+  "conceptId": "data-domain",
+  "kind": "list",
+  "front": "Name the 7 data domains in Lecture 8.",
+  "back": "Customer · Product master · Collaterals · Risk · Finance · HR · Entity structure",
+  "cites": [
+   "L8:7"
+  ],
+  "auto": false,
+  "theme": "architecture",
+  "quizzes": [
+   5
+  ]
+ },
+ {
+  "id": "f-tax-def",
+  "conceptId": "data-taxonomy",
+  "kind": "definition",
+  "front": "Define data taxonomy.",
+  "back": "The classification of data into hierarchical groups to create structure, standardise terminology and popularise a dataset within an organisation (e.g. a Geography hierarchy).",
+  "cites": [
+   "L8:8"
+  ],
+  "auto": false,
+  "theme": "architecture",
+  "quizzes": [
+   5
+  ]
+ },
+ {
+  "id": "f-ref-def",
+  "conceptId": "reference-data",
+  "kind": "definition",
+  "front": "Define reference data and give public vs private examples.",
+  "back": "Any foundational data that provides the basis to identify, define, classify or aggregate business entities and transactions; it restricts the valid values for each field.\nPublic: country codes, currency codes, external risk rating categories, legal entity identifiers\nPrivate: chart of accounts, product codes, internal risk rating categories, customer classification types",
+  "cites": [
+   "L8:8",
+   "L8:9"
+  ],
+  "auto": false,
+  "theme": "architecture",
+  "quizzes": [
+   5
+  ]
+ },
+ {
+  "id": "f-ref-why",
+  "conceptId": "reference-data",
+  "kind": "list",
+  "front": "Why is reference data important? (3 reasons)",
+  "back": "1. Inconsistent views across applications lead to incorrect, inconsistent metrics and reports\n2. Multiple sources for one reference data class cause confusion and inconsistent representations\n3. Poor understanding of sources leads to multiple enrichment/distribution points, increasing complexity and reducing consistency",
+  "cites": [
+   "L8:11"
+  ],
+  "auto": false,
+  "theme": "architecture",
+  "quizzes": [
+   5
+  ]
+ },
+ {
+  "id": "f-tax-ref",
+  "conceptId": "data-taxonomy",
+  "kind": "compare",
+  "front": "Data taxonomy vs reference data.",
+  "back": "Taxonomy: classification of data into HIERARCHICAL groups (structure, standard terminology).\nReference data: foundational data that RESTRICTS THE SET OF VALID VALUES for each field; managed via reference data tables that update records to enterprise standards.",
+  "cites": [
+   "L8:8",
+   "L8:9",
+   "L8:10"
+  ],
+  "auto": false,
+  "theme": "architecture",
+  "quizzes": [
+   5
+  ]
+ },
+ {
+  "id": "f-mdtool",
+  "conceptId": "metadata-tool",
+  "kind": "list",
+  "front": "Metadata management tool: the three pillars and examples of each.",
+  "back": "Understanding the data: inventory, dictionary, metadata, CDE, golden source, owner, lineage/flow\nTrusting the data: auditability, DQ rules, dashboard, exception management, discovery & profiling\nUsing the data: pipelines, data preparation, preserve referential integrity of PII, self-service access",
+  "cites": [
+   "L8:14"
+  ],
+  "auto": false,
+  "theme": "architecture",
+  "quizzes": [
+   5
+  ]
+ },
+ {
+  "id": "f-taxo4",
+  "conceptId": "common-taxonomies",
+  "kind": "list",
+  "front": "Name the 4 industry developments in common taxonomies.",
+  "back": "1. ECB's Banks' Integrated Reporting Dictionary (BIRD)\n2. FCA's Digital Regulatory Reporting\n3. FIBO ontology\n4. EU's ESG Climate Taxonomy (MAS too)",
+  "cites": [
+   "L8:21"
+  ],
+  "auto": false,
+  "theme": "architecture",
+  "quizzes": [
+   5
+  ]
+ },
+ {
+  "id": "f-fibo",
+  "conceptId": "common-taxonomies",
+  "kind": "fact",
+  "front": "What is FIBO? And what is FCA's Digital Regulatory Reporting?",
+  "back": "FIBO: a global, platform-independent, machine-readable and unambiguous data standard for financial terminology, enabling cross-system federation and aggregation.\nDRR: regulators write machine-readable code as reporting instructions instead of natural language.",
+  "cites": [
+   "L8:21"
+  ],
+  "auto": false,
+  "theme": "architecture",
+  "quizzes": [
+   5
+  ]
+ },
+ {
+  "id": "f-platform",
+  "conceptId": "data-platform",
+  "kind": "fact",
+  "front": "A data-driven platform: what are its three top-level stages?",
+  "back": "Capture → Curate → Consume, underpinned by data governance & management and data security & platform services.",
+  "cites": [
+   "L8:12"
+  ],
+  "auto": false,
+  "theme": "architecture",
+  "quizzes": [
+   5
+  ]
+ },
+ {
+  "id": "f-trends5",
+  "conceptId": "five-trends",
+  "kind": "list",
+  "front": "Name the 5 latest trends in data management (Lecture 9).",
+  "back": "1. Data for AI/ML\n2. Data ethics\n3. Data on cloud\n4. Data sharing\n5. Data as an asset",
+  "cites": [
+   "L9:5"
+  ],
+  "auto": false,
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "f-feat",
+  "conceptId": "mas-feat",
+  "kind": "list",
+  "front": "What are the 3 objectives of the MAS FEAT Principles?",
+  "back": "1. Provide firms with foundational principles to consider when using AIDA in decision-making\n2. Assist firms in contextualising and operationalising governance of AIDA use in their own business models and structures\n3. Promote public confidence and trust in the use of AIDA",
+  "cites": [
+   "L9:10"
+  ],
+  "auto": false,
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "f-aichar",
+  "conceptId": "ai-data-characteristics",
+  "kind": "list",
+  "front": "Name the 6 data characteristics influencing AI (GPAI).",
+  "back": "Sensitivity · Representativeness · Accuracy · Completeness · Accessibility · Coverage",
+  "cites": [
+   "L9:9"
+  ],
+  "auto": false,
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "f-kg",
+  "conceptId": "data-for-ai",
+  "kind": "fact",
+  "front": "What are knowledge graphs used for, per Lecture 9?",
+  "back": "Looking for undetected patterns and discovering superficially unconnected individuals. Use cases: financial crime investigations, risk management, fraud and marketing.",
+  "cites": [
+   "L9:8"
+  ],
+  "auto": false,
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "f-cdmc",
+  "conceptId": "cdmc-cloud-controls",
+  "kind": "list",
+  "front": "CDMC key controls for data in cloud: name the 6 areas.",
+  "back": "1. Governance & Accountability\n2. Cataloguing & Classification\n3. Accessibility & Usage\n4. Protection & Privacy\n5. Data Lifecycle\n6. Data & Technical Architecture",
+  "cites": [
+   "L9:11"
+  ],
+  "auto": false,
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "f-dmf",
+  "conceptId": "asean-dmf",
+  "kind": "list",
+  "front": "ASEAN Data Management Framework: the 6 foundational components.",
+  "back": "1. Governance and oversight\n2. Policies and procedural documents\n3. Data inventory\n4. Impact / risk assessment (confidentiality, integrity, availability)\n5. Controls\n6. Monitoring and continuous improvement",
+  "cites": [
+   "L9:12"
+  ],
+  "auto": false,
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "f-mcc",
+  "conceptId": "asean-mcc",
+  "kind": "list",
+  "front": "ASEAN Model Contractual Clauses: the three clause areas shown.",
+  "back": "1. Lawful/legal basis for collection, use and disclosure\n2. Baseline data protection clauses\n3. Data breach notification",
+  "cites": [
+   "L9:13"
+  ],
+  "auto": false,
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "f-valuedrv",
+  "conceptId": "data-value-drivers",
+  "kind": "list",
+  "front": "When does data become an asset? Name the 8 value drivers.",
+  "back": "Completeness · Consistency · Accuracy · Timeliness · Exclusivity · Usage restrictions · Liability and risks · Interoperability/accessibility\n(The value of data lies in its usefulness.)",
+  "cites": [
+   "L9:14"
+  ],
+  "auto": false,
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "f-finrole",
+  "conceptId": "finance-role",
+  "kind": "list",
+  "front": "What role does Finance play in the data lifecycle? (5)",
+  "back": "1. Implementation of robust controls and governance framework\n2. Valuation of data as an asset\n3. Monitoring of data quality\n4. Independent validation / assurance over data quality and processes\n5. Impact analysis for data quality issues",
+  "cites": [
+   "L9:17"
+  ],
+  "auto": false,
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "f-finben",
+  "conceptId": "benefits-dg-finance",
+  "kind": "list",
+  "front": "Benefits of strong data governance to Finance (5).",
+  "back": "1. Earlier detection of financial risks and mitigation\n2. Visualise trends for insights generation\n3. Smart analysis\n4. Reduce costs of processes\n5. Improve quality of reporting",
+  "cites": [
+   "L9:18"
+  ],
+  "auto": false,
+  "theme": "trends",
+  "quizzes": []
+ },
+ {
+  "id": "f-bt-rules",
+  "conceptId": "business-technical-rules",
+  "kind": "fact",
+  "front": "Do the slides define 'business rules' vs 'technical rules'?",
+  "back": "No. They are named as a Lecture 7 topic (L7 p.3, L6 p.4) but never defined or distinguished. Don't rely on a definition from these materials.",
+  "cites": [
+   "L7:3",
+   "L6:4"
+  ],
+  "auto": false,
+  "theme": "quality",
+  "quizzes": [
+   4
+  ]
+ }
+]

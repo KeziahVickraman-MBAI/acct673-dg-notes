@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@custom-variant dark (@media (prefers-color-scheme: dark));
+
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+}
+@media (prefers-color-scheme: dark) {
+  body { background: #020617; color: #e2e8f0; }
+  .react-flow { --xy-background-color: #020617; --xy-edge-label-background-color: #0f172a; --xy-controls-button-background-color: #1e293b; --xy-controls-button-color: #e2e8f0; --xy-minimap-background-color: #0f172a; }
+}
+
+/* level transitions */
+.graph-in { animation: graphIn 450ms ease-out; }
+@keyframes graphIn { from { opacity: 0; transform: scale(0.97); } to { opacity: 1; transform: none; } }
+.panel-in { animation: panelIn 280ms ease-out; }
+@keyframes panelIn { from { opacity: 0; transform: translateX(24px); } to { opacity: 1; transform: none; } }
+
+.react-flow__edge-textbg { fill: var(--xy-edge-label-background-color, #fff); }
+
+@media (prefers-reduced-motion: reduce) { .graph-in, .panel-in { animation: none; } }
+
+/* flashcard flip */
+.flip-card { perspective: 1400px; }
+.flip-inner { display: grid; transition: transform 550ms cubic-bezier(.2,.7,.2,1); transform-style: preserve-3d; }
+.flip-inner.is-flipped { transform: rotateY(180deg); }
+.flip-face { grid-area: 1 / 1; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.flip-back { transform: rotateY(180deg); }
+@media (prefers-reduced-motion: reduce) { .flip-inner { transition: none; } }
+
+/* Ask a Question: rendered markdown answer */
+.answer p { margin: 0.5rem 0; }
+.answer ul, .answer ol { margin: 0.4rem 0 0.4rem 1.25rem; }
+.answer ul { list-style: disc; }
+.answer ol { list-style: decimal; }
+.answer li { margin: 0.2rem 0; }
+.answer strong { font-weight: 600; }
+.answer h1, .answer h2, .answer h3 { font-weight: 600; margin: 0.8rem 0 0.3rem; }
+.answer table { border-collapse: collapse; margin: 0.5rem 0; font-size: 0.9em; }
+.answer th, .answer td { border: 1px solid #cbd5e1; padding: 0.25rem 0.5rem; }
