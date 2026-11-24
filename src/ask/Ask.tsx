@@ -193,7 +193,8 @@ export default function Ask() {
 
         {healthErr && (
           <Banner tone="rose">
-            The answer server isn't running. Start everything with <code>npm run dev</code> (it runs the website and the server together).
+            The answer server isn't running. Ask a Question works only when you run the site on your own computer: start everything with{' '}
+            <code>npm run dev</code> (it runs the website and the server together). The online version has no answer server.
           </Banner>
         )}
         {health && !health.hasKey && (

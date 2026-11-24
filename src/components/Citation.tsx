@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { parseCite } from '../data'
+import { HAS_PDFS, parseCite } from '../data'
 
 /** A clickable source chip. Click to see the extracted slide text and open the PDF at that page. */
 export function Citation({ cite, marker }: { cite: string; marker?: string }) {
@@ -39,6 +39,7 @@ export function Citation({ cite, marker }: { cite: string; marker?: string }) {
                 <div className="text-xs text-slate-500">{c.file}</div>
               </div>
               <div className="flex gap-2">
+                {HAS_PDFS && (
                 <a
                   href={c.url}
                   target="_blank"
@@ -47,13 +48,17 @@ export function Citation({ cite, marker }: { cite: string; marker?: string }) {
                 >
                   Open PDF at page
                 </a>
+                )}
                 <button onClick={() => setOpen(false)} className="rounded-md px-2 text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800">
                   ✕
                 </button>
               </div>
             </div>
             <pre className="max-h-[60vh] overflow-auto whitespace-pre-wrap px-4 py-3 font-mono text-xs leading-relaxed text-slate-700 dark:text-slate-300">
-              {c.text || '(no extractable text on this page)'}
+              {c.text ||
+                (HAS_PDFS
+                  ? '(no extractable text on this page)'
+                  : `Slide text isn't included in the online version. Look up ${c.label} in your lecture PDF.`)}
             </pre>
           </div>
         </div>

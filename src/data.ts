@@ -1,6 +1,5 @@
 import knowledgeJson from '../data/knowledge.json'
 import diagramsJson from '../data/diagrams.json'
-import rawIndex from '../data/raw/_index.json'
 
 export type Relation = { id: string; type: string }
 export type Flags = {
@@ -85,6 +84,12 @@ export function quizBadge(c: Concept) {
 }
 
 /* ---------- Citations ---------- */
+// data/raw/ (extracted slide text) is git-ignored so the public repo doesn't redistribute the slides.
+// The glob is empty when the folder is missing, so deployed builds still work, just without slide text.
+const rawGlob = import.meta.glob('../data/raw/_index.json', { eager: true, import: 'default' })
+const rawIndex = Object.values(rawGlob)[0] ?? []
+/** True only when running locally with the lecture PDFs available (the dev server serves them). */
+export const HAS_PDFS = import.meta.env.DEV
 const pages = new Map<string, string>()
 for (const r of rawIndex as { file: string; pages: { n: number; text: string }[] }[]) {
   for (const p of r.pages) pages.set(`${r.file}#${p.n}`, p.text)
