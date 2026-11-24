@@ -58,7 +58,7 @@ export function Citation({ cite, marker }: { cite: string; marker?: string }) {
               {c.text ||
                 (HAS_PDFS
                   ? '(no extractable text on this page)'
-                  : `Slide text isn't included in the online version. Look up ${c.label} in your lecture PDF.`)}
+                  : `Slide text isn't available. Look up ${c.label} in your lecture PDF.`)}
             </pre>
           </div>
         </div>

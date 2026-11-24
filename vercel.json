@@ -4,5 +4,12 @@
   "installCommand": "ONNXRUNTIME_NODE_INSTALL_CUDA=skip npm install",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "functions": {
+    "api/*.ts": {
+      "maxDuration": 300,
+      "includeFiles": "data/{raw/_index.json,knowledge.json}",
+      "excludeFiles": "{node_modules/@huggingface/**,node_modules/onnxruntime-node/**,node_modules/onnxruntime-web/**,node_modules/onnxruntime-common/**,node_modules/sharp/**,node_modules/@img/**}"
+    }
+  },
+  "rewrites": [{ "source": "/((?!api/).*)", "destination": "/index.html" }]
 }

@@ -6,9 +6,11 @@ import { useStored } from '../hooks'
 
 type Health = {
   hasKey: boolean
+  needsPassword?: boolean
+  hosted?: boolean
   model: string
   effort: string
-  retrieval: { pages: number; embeddings: 'loading' | 'ready' | 'unavailable'; embeddingModel: string; embeddingError?: string }
+  retrieval: { pages: number; embeddings: 'loading' | 'ready' | 'unavailable' | 'off'; embeddingModel: string; embeddingError?: string }
 }
 type Hit = { cite: string; label: string; title: string; score: number; via: string[]; text: string }
 type Segment = { text: string; cites: string[] }
@@ -43,6 +45,9 @@ export default function Ask() {
   const [drag, setDrag] = useState(false)
   const [run, setRun] = useState<Run | null>(null)
   const [history, setHistory] = useStored<Run[]>('acct673.ask.history', [])
+  const [pw, setPw] = useStored<string>('acct673.ask.password', '')
+  const [pwDraft, setPwDraft] = useState('')
+  const [pwErr, setPwErr] = useState('')
   const abortRef = useRef<AbortController | null>(null)
   const fileRef = useRef<HTMLInputElement>(null)
 
@@ -102,10 +107,16 @@ export default function Ask() {
     try {
       const res = await fetch('/api/ask', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/json', 'x-ask-password': pw },
         body: JSON.stringify({ question, image: img ? { mediaType: img.mediaType, data: img.data } : undefined }),
         signal: ctrl.signal,
       })
+      if (res.status === 401) {
+        setPw('')
+        setPwErr('That password was wrong. Enter it again.')
+        throw new Error('Password needed: enter the Ask password above.')
+      }
+      if (res.status === 413) throw new Error('That screenshot is too large to upload. Try a smaller crop.')
       if (!res.ok || !res.body) {
         const j = await res.json().catch(() => ({}))
         throw new Error(j.error ?? `Server error ${res.status}`)
@@ -193,11 +204,43 @@ export default function Ask() {
 
         {healthErr && (
           <Banner tone="rose">
-            The answer server isn't running. Ask a Question works only when you run the site on your own computer: start everything with{' '}
-            <code>npm run dev</code> (it runs the website and the server together). The online version has no answer server.
+            The answer server isn't responding. On your own computer, start everything with <code>npm run dev</code> (it runs the website and the
+            server together). On the online site, refresh in a moment.
           </Banner>
         )}
-        {health && !health.hasKey && (
+        {health?.needsPassword && !pw && (
+          <Banner tone="amber">
+            <form
+              className="flex flex-wrap items-center gap-2"
+              onSubmit={(e) => {
+                e.preventDefault()
+                if (!pwDraft.trim()) return
+                setPw(pwDraft.trim())
+                setPwDraft('')
+                setPwErr('')
+              }}
+            >
+              <span>
+                <b>Password needed.</b> {pwErr || 'Ask a Question is password-protected online. You only need to enter it once in this browser.'}
+              </span>
+              <input
+                type="password"
+                value={pwDraft}
+                onChange={(e) => setPwDraft(e.target.value)}
+                placeholder="Ask password"
+                className="rounded-md border border-amber-300 bg-white px-2 py-1 text-sm text-slate-900 outline-none dark:bg-slate-900 dark:text-slate-100"
+              />
+              <button className="rounded-md bg-amber-600 px-3 py-1 text-sm text-white hover:bg-amber-700">Unlock</button>
+            </form>
+          </Banner>
+        )}
+        {health && !health.hasKey && health.hosted && (
+          <Banner tone="amber">
+            <b>No Claude API key on the server: retrieval-only mode.</b> Add <code>ANTHROPIC_API_KEY</code> in Vercel → Project → Settings → Environment
+            Variables, then redeploy.
+          </Banner>
+        )}
+        {health && !health.hasKey && !health.hosted && (
           <Banner tone="amber">
             <b>No Claude API key yet: retrieval-only mode.</b> You'll see the most relevant slides, but no written answer. To enable answers: copy{' '}
             <code>.env.example</code> to <code>.env</code> in the project folder, paste your key after <code>ANTHROPIC_API_KEY=</code> and save. No restart needed: this page picks it up within a few seconds. The key stays on your machine and is never sent to the browser.
@@ -429,10 +472,11 @@ function StatusPill({ health, err }: { health: Health | null; err: boolean }) {
         {health.hasKey ? `${health.model} ready` : 'no API key'}
       </span>
       <span
-        className={`rounded-full px-2 py-0.5 ${health.retrieval.embeddings === 'ready' ? 'bg-slate-100 text-slate-600' : 'bg-amber-100 text-amber-800'}`}
+        className={`rounded-full px-2 py-0.5 ${['ready', 'off'].includes(health.retrieval.embeddings) ? 'bg-slate-100 text-slate-600' : 'bg-amber-100 text-amber-800'}`}
         title={health.retrieval.embeddingError}
       >
-        {health.retrieval.pages} slides indexed · semantic search {health.retrieval.embeddings}
+        {health.retrieval.pages} slides indexed ·{' '}
+        {health.retrieval.embeddings === 'off' ? 'keyword + concept search' : `semantic search ${health.retrieval.embeddings}`}
       </span>
     </span>
   )
@@ -446,7 +490,7 @@ function Banner({ tone, children }: { tone: 'amber' | 'rose'; children: React.Re
   return <div className={`mt-3 rounded-lg border px-3 py-2 text-sm ${cls}`}>{children}</div>
 }
 
-/** Read an image file; downscale large screenshots so they stay under the API's 5 MB image limit. */
+/** Read an image file; downscale large screenshots so the upload stays under Vercel's 4.5 MB request limit. */
 async function prepareImage(file: File): Promise<Img> {
   const url = await new Promise<string>((res, rej) => {
     const r = new FileReader()
@@ -461,7 +505,7 @@ async function prepareImage(file: File): Promise<Img> {
     i.src = url
   })
   const MAX = 2000
-  if (file.size < 3.5 * 1024 * 1024 && el.width <= MAX && el.height <= MAX && file.type !== 'image/gif') {
+  if (file.size < 2.4 * 1024 * 1024 && el.width <= MAX && el.height <= MAX && file.type !== 'image/gif') {
     return { mediaType: file.type, data: url.split(',')[1], url }
   }
   const scale = Math.min(1, MAX / Math.max(el.width, el.height))
@@ -469,6 +513,7 @@ async function prepareImage(file: File): Promise<Img> {
   c.width = Math.round(el.width * scale)
   c.height = Math.round(el.height * scale)
   c.getContext('2d')!.drawImage(el, 0, 0, c.width, c.height)
-  const out = c.toDataURL('image/jpeg', 0.9)
+  let out = c.toDataURL('image/jpeg', 0.9)
+  for (let q = 0.8; out.length > 3.2e6 && q >= 0.4; q -= 0.1) out = c.toDataURL('image/jpeg', q)
   return { mediaType: 'image/jpeg', data: out.split(',')[1], url: out }
 }

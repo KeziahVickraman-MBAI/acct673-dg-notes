@@ -106,7 +106,7 @@ export class SlideIndex {
   private concepts: Concept[] = []
   private blockOwner: number[] = []
   private blockVecs: Float32Array[] = []
-  embedStatus: 'loading' | 'ready' | 'unavailable' = 'loading'
+  embedStatus: 'loading' | 'ready' | 'unavailable' | 'off' = 'loading'
   embedError = ''
   readonly embedModel = 'Xenova/all-MiniLM-L6-v2'
   private embedder: ((texts: string[]) => Promise<number[][]>) | null = null
@@ -148,6 +148,11 @@ export class SlideIndex {
 
   /** Load the embedding model and embed every block (cached on disk by content hash). */
   async initEmbeddings() {
+    if (process.env.VERCEL || process.env.ASK_EMBEDDINGS === 'off') {
+      // Serverless: the embedding model is too heavy to load per request, so use keyword + concept search.
+      this.embedStatus = 'off'
+      return
+    }
     try {
       const { pipeline, env } = await import('@huggingface/transformers')
       env.cacheDir = path.join(this.root, 'server/.cache/models')

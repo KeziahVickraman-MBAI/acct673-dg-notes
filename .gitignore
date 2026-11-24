@@ -9,4 +9,7 @@ server/.cache/
 # Course lecture PDFs (not for public redistribution)
 materials /
 *.pdf
-data/raw/
+# Extracted slide text: only the combined index is committed (needed by the site and the online Ask server).
+data/raw/*
+!data/raw/_index.json
+.vercel
