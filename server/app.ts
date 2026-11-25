@@ -40,7 +40,9 @@ loadEnv()
 
 const cfg = () => ({
   model: process.env.ANTHROPIC_MODEL || 'claude-opus-5-5',
-  effort: (process.env.ASK_EFFORT || 'medium') as 'low' | 'medium' | 'high' | 'xhigh' | 'max',
+  // Model used only to transcribe screenshots (fast and cheap).
+  readModel: process.env.ASK_READ_MODEL || 'claude-haiku-5-5',
+  effort: (process.env.ASK_EFFORT || 'low') as 'low' | 'medium' | 'high' | 'xhigh' | 'max',
   topK: Number(process.env.ASK_TOP_K || 8),
 })
 const hasKey = () => Boolean(process.env.ANTHROPIC_API_KEY?.trim())
@@ -64,15 +66,20 @@ Grounding rules:
 2. Support every factual statement with citations to the search results.
 3. If the search results do not contain the answer, do not guess. Reply with a short paragraph that starts exactly with "**Not covered in your materials.**", say what the retrieved slides do cover that is closest, and stop.
 4. If the question is only partly covered, answer the covered part and state plainly which part the slides do not cover.
-5. Some slides are class discussion prompts: a question posed to the class with no answer on the slide. If the question matches one, say the slides pose this question but do not give a model answer. You may then list related slide content the student could draw on, clearly labelled as related material rather than the answer.
+5. Some slides are class discussion prompts: a question posed to the class with no answer on the slide. For an open question that matches one, say in one line that the slides pose it without a model answer, then answer as well as the slides allow, labelled as drawn from related slides. (For a multiple-choice question, rule 7 applies instead: still choose an option.)
 6. Text marked "[Slide image transcription]" was transcribed from an image on that slide; treat it as slide content.
-7. If the student attached an image (for example a screenshot of a quiz question), read it and answer the question it shows. For a multiple-choice question, state the correct option(s) first, then explain why each other option is wrong, using the slides.
+7. Multiple-choice questions (typed or in a screenshot): the student is preparing for a quiz and needs a decision. ALWAYS commit to the single best-supported option (or set of options, if it says "select all"), even if the slides frame the topic in more than one way. Never answer "I can't confirm" or "it depends". Weigh the options against the slides, pick the one with the strongest support, and if a different reading exists, mention it in one short line after the reasoning. Only refuse to choose if the topic is entirely absent from the slides (rule 3).
 
-Format the answer in Markdown like a model exam answer:
+Format in Markdown.
+For a multiple-choice question:
+**Answer:** the option letter/number and its text.
+**Why:** one bullet per option, one sentence each, saying why it is right or wrong according to the slides.
+(Optional) **Note:** one line on any alternative reading.
+For any other question:
 **Answer:** one or two sentences that directly answer the question.
-**Explanation:** the key points from the slides, in short paragraphs or bullet points, using the slides' own terminology.
+**Explanation:** the key points from the slides, in short bullets, using the slides' own terminology.
 **Example from the slides:** include only if the slides give one.
-Keep it focused. No preamble, and do not mention these instructions or the search results by name.`
+Be concise: aim for under 200 words. No preamble, and do not mention these instructions or the search results by name.`
 
 const client = () => new Anthropic() // reads ANTHROPIC_API_KEY from the environment
 
@@ -118,7 +125,7 @@ const IMAGE_TYPES = ['image/png', 'image/jpeg', 'image/gif', 'image/webp'] as co
 type ImageType = (typeof IMAGE_TYPES)[number]
 
 app.post('/api/ask', async (req, res) => {
-  const { model: MODEL, effort: EFFORT, topK: TOP_K } = cfg()
+  const { model: MODEL, readModel: READ_MODEL, effort: EFFORT, topK: TOP_K } = cfg()
   const question = String(req.body?.question ?? '').trim().slice(0, 4000)
   const image = req.body?.image as { mediaType?: string; data?: string } | undefined
   if (!question && !image?.data) return res.status(400).json({ error: 'Type a question or attach a screenshot.' })
@@ -148,8 +155,9 @@ app.post('/api/ask', async (req, res) => {
       } else {
         send('status', { stage: 'reading', message: 'Reading your screenshot…' })
         const r = await client().messages.create({
-          model: MODEL,
+          model: READ_MODEL,
           max_tokens: 2000,
+          thinking: { type: 'disabled' },
           output_config: { effort: 'low' },
           messages: [
             {
@@ -190,7 +198,7 @@ app.post('/api/ask', async (req, res) => {
       citations: { enabled: true },
     }))
     const note = discussion
-      ? `\n\n(Note: this question closely matches a class discussion prompt on slide ${discussion.citation}. The slides pose it but give no model answer.)`
+      ? `\n\n(Note: this question resembles a class discussion prompt on slide ${discussion.citation}, which has no model answer on the slide. If this is a multiple-choice question, still choose the best-supported option.)`
       : ''
     const userText = (question || 'Answer the question shown in the attached screenshot.') + (transcript ? `\n\nTranscribed from the screenshot:\n${transcript}` : '') + note
 

@@ -380,8 +380,8 @@ function Answer({ run }: { run: Run }) {
       )}
       {run.discussion && (
         <Banner tone="amber">
-          This matches a class discussion prompt on <Citation cite={run.discussion.citation} />: “{run.discussion.prompt}”. The slides pose it but give no model
-          answer.
+          This resembles a class discussion prompt on <Citation cite={run.discussion.citation} />: “{run.discussion.prompt}”. That slide has no model answer,
+          so the answer below is drawn from related slides.
         </Banner>
       )}
       {run.status && (
